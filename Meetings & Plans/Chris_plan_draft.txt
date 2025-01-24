@@ -9,14 +9,31 @@ Broad Steps:
 12/12/24 -> 01/25
 - Research stage, commit to a country and actively looking at data 
 Create research proposal at end of it
+- Install OONI probe.
+- Gather research and background on Israel, Ireland, censorship, +the internet, etc.
 
 January
 - Literature Review.
 - Outline of Research Methodology
 
 February
+- Start writing report in LaTex
+- More serious analysis of OONI probe.
+
+March
+- Set up VM in Israel to acquire ground truth.
 - Data collection & analysis
-- Start writing report
+- Formalise results in Tex.
+- Presentation on the project.
+Presentation Period: March 17-21, 2025
+
+April
+- First draft ready for feedback.
+- Report/Dissertation Submission Deadline: (Friday, April 18, 2025)
+
+
+May 2025
+    final draft formalized and ready for submission
 
 
 Key Dates:
