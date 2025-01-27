@@ -11,11 +11,18 @@ Below is my own work, this doc contains background on:
     - Goals of IC. (illegality, propaganda, cultural takes)
     - 
 
-
-
-
-
+Background and conclusions TBC
     
 References:
+
+[] https://www.howtogeek.com/162092/htg-explains-how-the-great-firewall-of-china-works/
+[] https://opennet.net/emergence-open-and-organized-pro-government-cyber-attacks-middle-east-case-syrian-electronic-army
+[] https://web.archive.org/web/20130128195629/http://www.guardian.co.uk/commentisfree/2008/nov/17/censorship-internet
+[] https://web.archive.org/web/20130831072750/http://surveillance.rsf.org/en/
+[] https://en.wikipedia.org/wiki/Internet_censorship_and_surveillance_by_country
+[] https://en.wikipedia.org/wiki/World_Press_Freedom_Index
+[] https://en.wikipedia.org/wiki/OONI
+[]
+[] XueyuanThesis.pdf
 
 
