@@ -1,0 +1,20 @@
+Research 1: Ireland & Internet Censorship
+27/01/25
+Chris
+
+Below is my own work, this doc contains concise background on:
+
+    - Free press, free journalism in Ireland.
+    - Notable examples of IC, failures of the Irish Government.
+    - Impression of up to date OONI data.
+    - Methods, prominence, effectiveness.
+    - Importance to Ireland.
+    - Surveillance.
+    - Personal impression prior to data analysis.
+
+
+
+
+
+References:
+
