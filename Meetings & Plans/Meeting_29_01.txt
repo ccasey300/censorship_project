@@ -1,0 +1,13 @@
+Meeting Notes for 29/01 1pm
+
+- Using 2 separate VMs.
+- VM tests.
+- Autonomous systems VMs.
+- Stretch goal: add something to OONI probe. Git
+- 
+
+TODO for next meeting:
+- Come up with tests for this, finding grounod truth.
+- Clean the git repo, get rid of redundant template
+- Look into using makefile & pdf instead of overleaf. Stephen emailed this
+- Finish background research and lit review over the next 2 weeks, move on to ooni after

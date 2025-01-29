@@ -1,0 +1,25 @@
+Below are tests I want to conduct using VM to collect ground truth.
+
+Basic web pings:
+Whatsapp
+Youtube
+Gmail
+TikTok
+
+
+Cultural:
+Drugs
+Alcohol
+Gambling
+Western vs Muslim vs Israeli influence
+
+Foreign Affairs:
+Terrorism
+War
+Hacking
+WikiLeaks (or similar website)
+
+
+Local News Publications:
+Middle East (Palestine, Syria, Jordan)
+Ireland (UK, Russia, USA, China)
