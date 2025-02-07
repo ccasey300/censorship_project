@@ -1,7 +1,7 @@
 \chapter{State of the Art}
 \section{Censorship Mechanisms \& Circumvention Techniques}
 
-
+\subsection{Deep Packet Inspection (DPI)}
 
 \section{Ireland}
 
@@ -51,6 +51,10 @@ TECHNICAL INFO
 
 Internet traffic sent over the Tor network is encapsulated in multiple layers of encryption. Think of your data as a letter that is placed inside several envelopes. Each node in the network removes one envelope, revealing only the information necessary to pass the message along to the next node. To do this, the Tor browsers sends your data through at least three nodes, and the pathway of these nodes are randomly constructed and reconstructed during your session \cite{dingledine2004tor}.
 
-Tor is a great tool to combat censorship. Tor's distributed architecture of nodes makes it resilient against localized censorship efforts. In countries where the Tor network is blocked, users are able to use "Bridges", which are Tor nodes that are not listed publicly. Using a bridge address allows for the user to connect to the network covertly \cite{torprojectBRIDGESProject}. Users can also avail of "Pluggable transports", which transforms Tor traffic to look like regular network traffic. This method can help circumvent censorship in regions that use \textit{Deep Packet Inspection} and other forms of advanced internet censorship \cite{torprojectCIRCUMVENTIONProject}.
+\centerline{\includegraphics[width=480pt]{Griff/Latex/TCD SCSS CAPSTONE/Literature Review/How tor works.jpg}}
+
+\centerline{\textit{Figure 1.4, How the Tor Network Works}}
+
+Tor is a great tool to combat censorship. Tor's distributed architecture of nodes makes it resilient against localized censorship efforts. In countries where the Tor network is blocked, users are able to use "Bridges", which are Tor nodes that are not listed publicly. Using a bridge address allows for the user to connect to the network covertly \cite{torprojectBRIDGESProject}. Users can also avail of "Pluggable transports", which transforms Tor traffic to look like regular network traffic. This method can help circumvent censorship in regions that use \textit{Deep Packet Inspection} (DPI) and other forms of advanced internet censorship \cite{torprojectCIRCUMVENTIONProject}.
 
 \subsection{VPNs}
