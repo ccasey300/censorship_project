@@ -1,0 +1,9 @@
+Meeting 19/02. All present
+
+TODO before next meeting:
+    * Work on state of the art before next meeting, go through it then.
+    * Run OONI locally, install command line tool, check JSON dumps
+    * VMs will use Ubuntu
+    * 
+    * 
+
