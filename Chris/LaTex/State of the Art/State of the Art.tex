@@ -1,0 +1,103 @@
+\chapter{State of the Art}
+\section{Introduction}
+
+In order to quantify internet censorship conducted across the globe it is important to 
+
+\subsection{Overt vs. Covert Censorship }
+ICLab, a censorship measurement tool very similar to OONI, released a paper in 2020 describing the need for their contribution. In this paper, the author highlights an important distinction between covert and overt censorship: 'In overt censorship, the censor sends the user a 'block page' instead of the material that was censored. In covert censorship, the censor causes a network error that could have occurred for other reasons, and thus avoids informing the user that the material was censored.” [6] This is a concerning capability as it alludes to the potential for censorship to go unchecked. 
+
+
+
+
+
+
+
+
+
+\section{Censorship Techniques and Mechanisms} 
+
+\subsection{Points of Control}
+Key control points are nodes in the internet’s architecture that connect a large userbase to the wider network, making them attractive targets for censorship enforcement. Governments and institutions use leverage these points in order to restrict user access. Some points of control include ISPs, IXPs, VPNs, national gateways and local networks. Institutions will typically use a combination of legislative pressure, technological and economic means to snuff out content. ISPs and VPNs face significant and constant pressure from legal arms to expose user data and manipulate the content available to a user.
+
+MORE HERE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Network-Level Filtering }
+\subsection{IP and DNS Blocking}
+Prevents access to certain websites by blocking their addresses. This was originally used to prevent email spam but is now used broadly as a censorship technique. DNS tampering falls into a similar category and involves rerouting requests to block domains.  
+ 
+\subsection{Deep Packet Inspection}
+This involves looking into payloads and data within packets, beyond its header. This is usually done as part of a firewall defence and involves making real time decisions about the nature of each packet. DPI functions at the application level and can be used to identify both the sender and recipient of the packet.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Content Manipulation}
+\subsection{Keyword Filtering}
+Keyword filtering involves detecting flagged words in messages and searches dealing with these as appropriate.  
+ 
+\subsection{Search Engine Manipulation}
+Altering the ranking of websites or totally removing them from search results. This is done by companies like Google to incentivise paying for exposure, to censor content for compliance reasons, improve user experience and more. 
+
+\subsection{MITM Attacks}
+A man-in-the-middle attack involves intercepting encrypted packets (potentially at a point of control), to potentially alter or block internet traffic. Governments have been seen to pressure VPNs into routing traffic through designated MITM servers. Inevitably this allows for selective content manipulation, deep packet inspection and surveillance. MITM attacks are particularly concerning due to their covert and intrusive nature. 
+ 
+\subsection{DNS Hijacking/ Injection}
+As previously touched upon, DNS manipulation involves redirecting users by returning incorrect IP addresses. This is used to route users to controlled versions of websites or block access entirely. 
+
+\subsection{Legal and Economic Pressure}
+Governments can enforce censorship directly through ISPs, tech companies and social media platforms by creating new legislation or simply mandating content be removed. This is used to de-platform individuals and movements during periods of unrest. This is also done in app stores, shutting down entire platforms that are deemed problematic.
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Surveillance and Deanonymisation}
+
+In discussing internet user rights it is crucial to touch upon privacy and anonymity...
+
+Efforts to identify users based on their traffic range from trivial to extremely complex based upon the protections employed by the user. Operational security, the collection of measures taken by an individual to protect their online anonymity, is often overlooked by internet users. Projects like Tor, Tails OS (an amnesiac Linux distribution), and Briar (secure off-grid communication) as well as VPNs aim to protect users’ identity. However, we have seen they are prone to failing. Though it is expected that a VPN service provider is vulnerable to the scrutiny of the jurisdiction they operate within, and thus it is likely they will comply with demands, issues 
+within Tor’s anonymity claim are significantly more impactful to user rights. See below section for more information on Tor. 
+
+Previously, it was touched on that German authorities managed to de anonymise Tor users by deploying timing attacks. This was a concerning development in 2022 as basic internet privacy was called into question. Users assume taking measures like using Tor would provide robust privacy guarantees; however, as of late this has been undermined by several tactics used by adversaries around the globe. 
+ 
+\subsection{Timing Attacks}
+ 
+ 
+\subsection{Side Channel Attacks}
+ 
+ 
+\subsection{Machine Learning}
+It has been shown that deep learning models can be used to analyse network fingerprints to infer user identities.
