@@ -1,0 +1,29 @@
+Here is a comprehensive list of references for my thesis.
+
+
+From Literature_Review_Chris doc 
+
+[1] https://securityaffairs.com/168667/security/tor-project-commented-on-deanonymizing-
+technique.html 
+[2] https://rsf.org/en/2023-world-press-freedom-index-journalism-threatened-fake-content-
+industry 
+[3] https://explorer.ooni.org/ 
+[4] Zittrain, J., Faris, R., Noman, H., Clark, J., Tilton, C., & Morrison-Westphal, R. (2017). The 
+Shifting Landscape of Global Internet Censorship. Harvard Law School. 
+https://doi.org/10.2139/ssrn.2993485. 
+[5] https://rsf.org/sites/default/files/2014-rsf-rapport-enemies-of-the-internet.pdf 
+[6] Niaki, A., Cho, S., Weinberg, Z., Hoang, N., Razaghpanah, A., Christin, N., & Gill, P. (2019). 
+ICLab: A Global, Longitudinal Internet Censorship Measurement Platform. 2020 IEEE 
+Symposium on Security and Privacy (SP), 135-151. 
+https://doi.org/10.1109/SP40000.2020.00014. 
+[]  
+[] Warf, B. (2011). Geographies of global Internet censorship. GeoJournal, 76, 1-23. 
+https://doi.org/10.1007/S10708-010-9393-3. 
+ 
+ 
+[] Liang, B., & Lu, H. (2010). Internet Development, Censorship, and Cyber Crimes in China. 
+Journal of Contemporary Criminal Justice, 26, 103 - 120. 
+https://doi.org/10.1177/1043986209350437. 
+ 
+
+
