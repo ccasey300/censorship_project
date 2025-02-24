@@ -1,3 +1,3 @@
-[submodule "Chris/LaTex/Chris/LaTex/Thesis_Latex"]
-	path = Chris/LaTex/Chris/LaTex/Thesis_Latex
+[submodule "Chris/LaTex/Thesis_Latex"]
+	path = Chris/LaTex/Thesis_Latex
 	url = https://github.com/ccasey300/Thesis_Latex.git
