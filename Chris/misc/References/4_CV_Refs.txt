@@ -1,0 +1,18 @@
+Here is a list of references from Chapter 4 Circumvention Methods
+
+VPNs
+
+[]
+Shehab, M., & Alzabin, L. (2024). Evaluating the Effectiveness of Stealth Protocols and Proxying in Hiding VPN Usage. Journal of Computational and Cognitive Engineering. 
+https://doi.org/10.47852/bonviewjcce42023642.
+
+
+[] TOR
+Dingledine, Roger, Nick Mathewson, and Paul F. Syverson. 
+"Tor: The second-generation onion router." USENIX security symposium. Vol. 4. 2004.
+
+[] TOR not secure
+[] https://securityaffairs.com/168667/security/tor-project-commented-on-deanonymizing-
+technique.html 
+
+
