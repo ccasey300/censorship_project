@@ -1,4 +1,12 @@
 Here is a list of references from Chapter 3 State of the Art
 
-
+DPI
+[]
+@inproceedings{sherry2015blindbox,
+  title={Blindbox: Deep packet inspection over encrypted traffic},
+  author={Sherry, Justine and Lan, Chang and Popa, Raluca Ada and Ratnasamy, Sylvia},
+  booktitle={Proceedings of the 2015 ACM conference on special interest group on data communication},
+  pages={213--226},
+  year={2015}
+}
 

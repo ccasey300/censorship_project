@@ -4,7 +4,7 @@
 In order to quantify internet censorship conducted across the globe it is important to 
 
 \subsection{Overt vs. Covert Censorship }
-ICLab, a censorship measurement tool very similar to OONI, released a paper in 2020 describing the need for their contribution. In this paper, the author highlights an important distinction between covert and overt censorship: 'In overt censorship, the censor sends the user a 'block page' instead of the material that was censored. In covert censorship, the censor causes a network error that could have occurred for other reasons, and thus avoids informing the user that the material was censored.” [6] This is a concerning capability as it alludes to the potential for censorship to go unchecked. 
+ICLab, a censorship measurement tool very similar to OONI, released a paper in 2020 describing the need for their contribution. In this paper, the author highlights an important distinction between covert and overt censorship: 'In overt censorship, the censor sends the user a 'block page' instead of the material that was censored. In covert censorship, the censor causes a network error that could have occurred for other reasons, and thus avoids informing the user that the material was censored.” \cite{9152784} This is a concerning capability as it alludes to the potential for censorship to go unchecked. 
 
 
 
@@ -17,9 +17,9 @@ ICLab, a censorship measurement tool very similar to OONI, released a paper in 2
 \section{Censorship Techniques and Mechanisms} 
 
 \subsection{Points of Control}
-Key control points are nodes in the internet’s architecture that connect a large userbase to the wider network, making them attractive targets for censorship enforcement. Governments and institutions use leverage these points in order to restrict user access. Some points of control include ISPs, IXPs, VPNs, national gateways and local networks. Institutions will typically use a combination of legislative pressure, technological and economic means to snuff out content. ISPs and VPNs face significant and constant pressure from legal arms to expose user data and manipulate the content available to a user.
+Key control points are nodes in the Internet’s architecture that connect a large user base to the wider network, making them attractive targets for censorship enforcement. Governments and institutions use leverage these points in order to restrict user access. Some points of control include ISPs, IXPs, VPNs, national gateways and local networks. Institutions will typically use a combination of legislative pressure, technological and economic means to snuff out content. ISPs and VPNs face significant and constant pressure from legal arms to expose user data and manipulate the content available to a user.
 
-MORE HERE
+These locations in the internet infrastructure are invaluable to those wishing to conduct internet censorship. Though security considerations such as HTTPS and TLS can protect users from MITM attacks, points of control are a physical reality which cannot be avoided. At some point, packets coming from the user will inevitably pass some point of control and thus will be prone to surveillance. In this way, points of control are a consideration for all internet users.
 
 
 
@@ -40,15 +40,12 @@ MORE HERE
 Prevents access to certain websites by blocking their addresses. This was originally used to prevent email spam but is now used broadly as a censorship technique. DNS tampering falls into a similar category and involves rerouting requests to block domains.  
  
 \subsection{Deep Packet Inspection}
-This involves looking into payloads and data within packets, beyond its header. This is usually done as part of a firewall defence and involves making real time decisions about the nature of each packet. DPI functions at the application level and can be used to identify both the sender and recipient of the packet.
+Deep packet inspection involves looking into payloads and data within packets, beyond its header. It is a sophisticated technique usually performed as part of a firewall defense and involves making real time decisions about the nature of each packet. DPI functions at the application level and can be used to identify both the sender and recipient of the packet by examining its payload. Compared to regular packet inspection which is only concerned with basic header information, it is considerably more costly. 
 
+Deep packet inspection is used in specific cases where a higher level of scrutiny is required. This includes packets carrying malware, content that has been blocked and intrusion efforts. DPI is usually performed by network middle boxes, devices that lie between end points. One of the these middle boxes is BlindBox, a system that accommodates DPI while preserving privacy and encryption. The creators of this system highlight the potential risks to user privacy with other black boxes. "To enable middlebox processing, some currently deployed middlebox systems support HTTPS in
+an insecure way: they mount a man-in-the-middle attack on SSL and decrypt the traffic at the middlebox." \cite{sherry2015blindbox}
 
-
-
-
-
-
-
+Though its deployment is limited, DPI represents a significant risk to user privacy. Not all middle box providers offer the protections and guarantees that BlindBox offer. Forecasts for the market show a troubling trend, with no guarantees of user privacy. "Global deep packet inspection (DPI) market size was anticipated to be worth USD 10.63 billion in 2024 and is expected to reach USD 79.26 billion by 2033 at a CAGR of 25\% during the forecast period." \cite{DPIMarketInfo}
 
 
 
