@@ -7,15 +7,25 @@ Internet Protocol (IP) blocking is one of the most straightforward censorship te
 
 IP blocking can either be implemented at a centralized level or at an ISP level. In Ireland, IP blocking is done at an ISP level to block certain illegal websites. In Iraq, the government has complete control of all internet traffic entering the country, which allows them to implement IP blocking at a central level.
 
-DNS blocking
+DNS blocking refers to the altering of responses from the DNS to block or filter access to certain content. This is usually done by either blocking the response, replying with an error message, or responding with an incorrect address. \textit{DNS Mangling} is a network-level technique of on-path interceptioon where an incorrect IP address is returned in response to a DNS query to a censored destination. 
+
+\textit{DNS Cache Poisoning} is an off-path technique in which a censor intercepts and replaces the legitimate response from an authoritative DNS name server with a spoofed IP address. Instead of allowing the real IP address of a site to reach the user, the censor replies faster than the real server, and that spoofed IP gets cached (perhaps by numerous recursive resolvers). Subsequent requests will then be redirected to an incorrect IP, normally leading to a warning page or an meaningless domain. In other cases, such as in Iran, the censor can merely block the response of the upstream resolver, so the accurate IP address is never transmitted.
+
+\textit{DNS Lying} is the most authoritative approach, where a censor mandates that the DNS responses provided are to be different that what would actually be returned by the DNS server \cite{rfc9505}.
 
 \subsection{Deep Packet Inspection (DPI)}
 
-Deep Packet Inspection consists of any kind of packet analysis beyond IP address and port number. DPI reassembles network flows to examine the application data section, and is often implemented using Middleboxes. DPI is often used for keyword identification, but this method can also determine packet size and flow timings to detect other forms of content, such as the difference between text or video packets. Despite DPI having trouble against encrypted data and being the most expensive form of censorship to implement, it is still the most powerful identification method and is widely used in practice.
+Deep Packet Inspection consists of any kind of packet analysis beyond IP address and port number. DPI reassembles network flows to examine the application data section, and is often implemented using Middleboxes. DPI is often used for keyword identification, but this method can also determine packet size and flow timings to detect other forms of content, such as the difference between text or video packets. Despite DPI having trouble against encrypted data and being the most expensive form of censorship to implement, it is still the most powerful identification method and is widely used in practice \cite{rfc9505}.
 
 \subsection{Transport Layer Security (TLS)}
 
+Transport Layer Security (TLS) may be censored by mechanisms similar to those against plain HTTP, particularly through the Server Name Indication (SNI) field. In the case of TLS over TCP, the SNI value is seen in the non-encrypted ClientHello message so that censors can inspect the field and exclude connections to those domains they disapprove of. While QUIC encrypts ClientHello, the initial encryption keys are visible to network observers, and therefore it is possible, though more complex, to decrypt and observe the SNI. Governments in most nations use SNI-based filtering, occasionally leading to over-blocking when important domains or second-level domains are inadvertently ensnared.
 
+Attempts to encrypt SNI have resulted in Encrypted SNI (ESNI), which embeds the SNI field in encrypted traffic but can induce blanket blocking by censors who blindly terminate all ESNI connections. Even more comprehensive security improvements, such as Encrypted Client Hello (ECH) for TLS 1.3, aim to encrypt the whole ClientHello rather than merely the SNI, though these enhancements are still under way in standardization and deployment.
+
+Another way is to not include the SNI at all. However, non-SNI connections can be blocked as well, since censors can deploy policies that will drop any TLS traffic that does not have an SNI. This can again lead to overblocking, since clients that are able to handle older SSL-only configurations, or are deliberately configured not to have an SNI, can get blocked even when they are going to otherwise acceptable sites.
+
+Censors also have the option to examine the server certificate field within the TLS handshake, which contains information on the requested domain. In TLS 1.3, however, certificates are encrypted by default, and thus such censorship is not possible. Certificate-inspecting censors must therefore employ more computation-intensive deep packet inspection techniques and can even be forced to track connections deeper into the handshake process, especially when SNI-based approaches fail or bypassed \cite{rfc9505}.
 
 \section{Ireland}
 
