@@ -11,3 +11,8 @@ Presentation (17th March)
 * 10 mins of presenting, heres what we did, what were doing, what well have done.
 * They should know what to expect in April
 * Prepare approx 10 slides
+
+
+Come back to these references (Stephen)
+* OONI, what we want to replicate https://ooni.org/post/2025-france-report/
+* CloudFlare DNS dashboard https://blog.cloudflare.com/new-dns-section-on-cloudflare-radar/

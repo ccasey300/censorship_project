@@ -3,24 +3,36 @@
 
 In order to quantify internet censorship conducted across the globe it is important to understand the different methods used by censors to achieve their aims. Censors engage in a range of steps at various layers of the OSI model in order to either stop the publication of information or make it more difficult for the user to attain. Ultimately, a censors choice of how they detect and interrupt the flow of undesirable information is based on a number of factors such as cost, scalability, and whether the censor wishes to be transparent.
 
+Finding comprehensive and credible resources on censorship mechanisms proved challenging due to the depth of the research area. One resource that proved particularly useful in this way were Requests for Comments (RFCs). These documents highlight internet standards placed by the Internet Engineering Task Force and thus provide the accurate technical specifications needed. RFC 9505 proved invaluable in highlighting the majority of censorship methods used today. It was last updated by the Internet Research Task Force in late 2023 and provides the technical basis for this section of the thesis. The document "describes technical mechanisms employed in network censorship that regimes around the world use for blocking or impairing Internet traffic."\cite{rfc9505} In combination with relevant academic papers, other RFCs like 2818 (HTTPS) \cite{rfc2818} and 8446 (TLS 1.3) \cite{rfc8446} were examined.
+
 \subsection{Overt vs. Covert Censorship }
 ICLab, a censorship measurement tool very similar to OONI, released a paper in 2020 describing the need for their contribution. In this paper, the author highlights an important distinction between covert and overt censorship: 'In overt censorship, the censor sends the user a 'block page' instead of the material that was censored. In covert censorship, the censor causes a network error that could have occurred for other reasons, and thus avoids informing the user that the material was censored.” \cite{9152784} This is a concerning capability as it alludes to the potential for censorship to go unchecked. 
-
-
-
-
-
-
-
 
 
 \section{Censorship Techniques and Mechanisms} 
 
 \subsection{Points of Control}
-Key control points are nodes in the Internet’s architecture that connect a large user base to the wider network, making them attractive targets for censorship enforcement. Governments and institutions use leverage these points in order to restrict user access. Some points of control include ISPs, IXPs, VPNs, national gateways and local networks. Institutions will typically use a combination of legislative pressure, technological and economic means to snuff out content. ISPs and VPNs face significant and constant pressure from legal arms to expose user data and manipulate the content available to a user.
+Key control points are nodes in the Internet’s architecture that connect a large user base to the wider network, making them attractive targets for censorship enforcement. RFC 9505 explains points of control in great detail. It states "internet censorship takes place in all parts of the network topology," however, "There are various logical and physical points of control that censors may use for interception mechanism."\cite{rfc9505}. Below are some notable points of control explained.
 
-These locations in the internet infrastructure are invaluable to those wishing to conduct internet censorship. Though security considerations such as HTTPS and TLS can protect users from MITM attacks, points of control are a physical reality to be contended with. At some point, user packets will route through state owned infrastructure and thus could be subject to inspection. In this way, points of control are a key consideration for all internet users. 
+Some points of control include ISPs, IXPs, VPNs, national gateways and local networks. These are noteworthy locations where censors likely operate.
+Internet Service Providers (ISPs)
 
+Internet Exchange Points (IXPs)
+
+National Gateways
+
+Services
+
+Institutions and Content Sites
+
+Governments and institutions leverage these nodes in the network's topology to restrict user access to undesirable content.  Institutions will typically use a combination of legislative pressure, technological and economic means to snuff out content. ISPs and VPNs face significant and constant pressure from legal arms to expose user data and manipulate the content available to a user. 
+
+
+In his research paper from 2003, Zittrain gives a solid overview of points of control. He discusses varying reasons to be concerned about points of control and how they are used. One argument he makes is the violation of the end-to-end principle. Simply, this refers to keeping the middle of the network simple and pushing complexity out towards the edge of the network to hosts. 
+
+"The technical aspect of the end-to-end argument suggests a warning against blocking data transmissions at any point [other than endpoints]." \cite{Zittrain_Internet_Points_of_Control}
+
+These locations in the internet infrastructure are invaluable to those wishing to conduct internet censorship. Though security considerations such as HTTPS and TLS can protect users from MITM attacks, points of control are a physical reality to be contended with. At some point, user packets will route through state owned infrastructure and thus could be subject to inspection. In this way, points of control are a key consideration for all internet users. Zittrain concludes his research with a word of warning regarding points of control and their potential for abuse. He highlights the need for "a comprehensive framework where sovereigns’ actions to block material are thoroughly documented and open to challenge." \cite{Zittrain_Internet_Points_of_Control} Unfortunately, we are yet to see this in action since 2003.
 
 \section{Network-Level Filtering }
 \subsection{IP and DNS Blocking (GRIFF)}
@@ -55,9 +67,15 @@ Another way is to not include the SNI at all. However, non-SNI connections can b
 Censors also have the option to examine the server certificate field within the TLS handshake, which contains information on the requested domain. In TLS 1.3, however, certificates are encrypted by default, and thus such censorship is not possible. Certificate-inspecting censors must therefore employ more computation-intensive deep packet inspection techniques and can even be forced to track connections deeper into the handshake process, especially when SNI-based approaches fail or bypassed \cite{rfc9505}.
 
 \subsection{MITM Attacks}
-A man-in-the-middle attack involves intercepting encrypted packets (potentially at a point of control), to potentially alter or block internet traffic. Governments have been seen to pressure VPNs into routing traffic through designated MITM servers. Inevitably this allows for selective content manipulation, deep packet inspection and surveillance. MITM attacks are particularly concerning due to their covert and intrusive nature.
+Kampourakis, Kambourakis, Chatzoglou, and Zaroliagis wrote an academic paper in 2022 arguing the effectiveness of MITM attacks against HTTPS in certain circumstance. They describe a MITM attack as follows. 
+"A man-in-the-middle (MitM) attack enables threat actors to position themselves in a conversation between two parties. It can be used to eavesdrop on, or impersonate, either of the parties and may enable the perpetrator to steal personal information, including login credentials, payment card data and account details."\cite{MITMvHTTPS}
 
-\section{Application Layer Filtering}
+A man-in-the-middle attack involves intercepting encrypted packets (potentially at a point of control), to alter or block internet traffic. Governments have been seen to pressure VPNs into routing traffic through designated MITM servers. Inevitably this allows for selective content manipulation, deep packet inspection and surveillance. MITM attacks are particularly concerning due to their covert and intrusive nature. 
+
+RFC 2818, released in 2000, describes "how to use TLS to secure HTTP connections over the Internet," \cite{rfc2818}known as HTTPS. This was designed to mitigate the effects of MITM attacks. Recent research suggests deployments of HTTPS in most browsers is insecure, at least in certain circumstance. Kampourakis and his colleagues went on to say "some insidious variants of MitM against HTTPS remain quite realistic across all popular Internet browser types irrespective of the underlying platform." \cite{MITMvHTTPS} 
+They mention how "both of the attack variations were successful against all the browser types and versions..." except the latest versions of Firefox that they tested.
+
+\section{Content Manipulation}
 Beyond IP and DNS manipulation, censors can examine the contents within packets to make decisions regarding their accessibility. This refers to the concept of application layer filtering or blocking; monitoring a communication channel and detecting offensive keywords. This is seen in more cultivated censorship models. Upon detecting a sensitive keyword, the communication will be disrupted, perhaps by sending TCP reset packets to both sides.
 
 \subsection{Keyword Filtering}
@@ -65,7 +83,6 @@ Keyword filtering involves
 
 \subsection{Deep Packet Inspection}
 
-This is at the application layer, right?
 Deep packet inspection involves looking into payloads and data within packets, beyond its header. It is a sophisticated technique usually performed as part of a firewall defense and involves making real time decisions about the nature of each packet. DPI functions at the application level and can be used to identify both the sender and recipient of the packet by examining its payload. Compared to regular packet inspection which is only concerned with basic header information, it is considerably more costly. 
 
 Deep packet inspection is used in specific cases where a higher level of audit is required. This includes packets carrying malware, content that has been blocked and intrusion efforts. DPI is usually performed by network middle boxes, devices that lie between end points. One of the these middle boxes is BlindBox, a system that accommodates DPI while preserving privacy and encryption. The creators of this system highlight the potential risks to user privacy with other black boxes. "To enable middlebox processing, some currently deployed middlebox systems support HTTPS in
@@ -93,9 +110,4 @@ VPN providers are subject to the scrutiny of the jurisdiction within which it op
 Previously, it was touched on that German authorities managed to de anonymise Tor users by deploying timing attacks. This was a concerning development in 2022 as basic internet privacy was called into question. Users assume taking measures like using Tor would provide robust privacy guarantees; however, as of late this has been undermined by several tactics used by adversaries around the globe. Side-channel attacks, for example, are are used and are quite costly. One example of this is timing attacks. This involves correlating the time taken for a computer to perform a task or perhaps how much energy was used, with what that task might be. These attacks are based on physical phenomena experienced by electronic parts such as power consumption in CMOS devices. These attacks are typically used to crack keys, voiding unprotected implementations of cryptographic primitives such as DES (Data Encryption Standard).
 
 Standaert, when discussing side channel attacks mentions two ways of looking at a cryptographic primitive. One could view it as a black box, some mathematical functions that translates inputs to outputs. However, another approach could be to consider how this black box will "have to be implemented in a program that will run on a given processor, in a given environment, and will therefore present specific characteristic." \cite{standaert2005introduction} 
- 
- 
-\subsection{Machine Learning}
-It has been shown that deep learning models can be used to analyse network fingerprints to infer user identities.
 
-INSERT SHORT SECTION
