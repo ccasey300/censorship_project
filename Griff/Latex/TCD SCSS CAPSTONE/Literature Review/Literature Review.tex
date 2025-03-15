@@ -1,4 +1,11 @@
 \chapter{State of the Art}
+
+\section{Introduction}
+
+The purpose of this section is to give a high-level overview of common internet censorship mechanisms, the past and present landscapes of internet censorship in Ireland and Iraq, and a brief description of some circumvention tools. This review was conducted using publicly available information and data published on the internet....
+
+(Stephen do you think this section needs to be expanded or is even necessary?)
+
 \section{Censorship Mechanisms}
 
 The following section is based primarily on information from the source \textit{RFC 9505
@@ -6,19 +13,29 @@ A Survey of Worldwide Censorship Techniques} \cite{rfc9505}. Any other informati
 
 \subsection{IP Blocking}
 
-Internet Protocol (IP) blocking is one of the most straightforward censorship techniques. Each device connected to the internet is assigned a unique numeric label called an IP Address, which serves as an identifier that allows data to travel across the internet to the correct destination. When a government or ISP wants to censor a specific website it can be implemented in either incoming or outgoing traffic. ISP controlled firewalls can be configured so that any outgoing or incoming requests to a selected IP address are dropped. ISPs can also adjust routing tables in their network to remove an IP address, making it unreachable for the user. 
+\subsubsection{Shallow Packet Inspection}
+
+Shallow packet inspection refers to the action of looking at the transport layer segment (packet) headers to implement censorship based on the transparent source and destination IP addresses and port numbers. The information visible in the headers allows a censor to block content via IP blocklisting.
+
+This method is easy to implement in some routers, but difficult to implement in backbone or ISP routers at scale. It is usually implemented alongside Deep Packet Inspection using middleboxes.
+
+Internet Protocol (IP) blocking is one of the most straightforward censorship techniques, but it is also very crude. To implement an IP blocklist, the censor will create a route in a router's flow table that instructs the router to drop any packets matching a set IP address. In IPv4, this is done as a /32 route, and in IPv6 as a /128. However, due to the limited amount of space in router flow tables, this means that only a limited number of IPs can be blocked at a time, making it difficult to scale.
+
+IP blocking can also cause content over-blocking. Because many websites share the same IP address, blocking one IP address can lead to multiple websites getting blocked within a network. Censors also sometimes block a range of IP addresses, which can lead to more over-blocking.
+
+IP blocking is often ineffective against Content Distribution Networks (CDNs) and services that are hosted using multiple load-balanced IP addresses. This is because when the server hosting the content being sent changes its IP addresses, the block list may not include this new IP address, and the packets are not dropped. VPNs are an excellent tool to circumvent IP blocking as it routes the packets through different servers, changing the source and destination IP addresses along the way. This makes it nearly impossible to stop IP blocked content from getting through, as the source and destination IP addresses can be different for every packet coming from the original blocked source.
 
 IP blocking can either be implemented at a centralized level or at an ISP level. In Ireland, IP blocking is done at an ISP level to block certain illegal websites in accordance with court orders (see section 2.2 for more information). In Iraq, IP blocking is implemented at the ISP level under the directive of the Ministry of Communications \cite{freedomhouseIraqFreedom} (see section 2.3 for more details).
 
-\subsection{DNS Blocking}
+\subsection{DNS Interference}
 
-DNS blocking refers to the altering of responses from the DNS to block or filter access to certain content. This is usually done by either blocking the response, replying with an error message, or responding with an incorrect address. \textit{DNS Mangling} is a network-level technique of on-path interception where an incorrect IP address is returned in response to a DNS query to a censored destination. 
+DNS interference refers to the altering of responses from the DNS to block or filter access to certain content. This is usually done by either blocking the response, replying with an error message, or responding with an incorrect address. \textit{DNS Mangling} is a network-level technique of on-path interception where an incorrect IP address is returned in response to a DNS query to a censored destination. 
 
 \textit{DNS Cache Poisoning} is an off-path technique in which a censor intercepts and replaces the legitimate response from an authoritative DNS name server with a spoofed IP address. Instead of allowing the real IP address of a site to reach the user, the censor replies faster than the real server, and that spoofed IP gets cached (perhaps by numerous recursive resolvers). Subsequent requests will then be redirected to an incorrect IP, normally leading to a warning page or a meaningless domain. In other cases, such as in Iran, the censor can merely block the response of the upstream resolver, so the accurate IP address is never transmitted.
 
 \textit{DNS Lying} is the most authoritative approach, where a censor mandates that the DNS responses provided are to be different from what would actually be returned by the DNS server \cite{rfc9505}.
 
-(add more detail)
+The above DNS interference methods require the censor to traverse a controlled DNS hierarchy for this mechanism to be effective. This mechanism can be circumvented by using a different publicly known DNS resolver that is not controlled by the censor. This mechanism can also lead to unintentional blocking in area's not controlled by the censor. For example, sometimes a user outside of the censor's region will be directed through DNS servers controlled by the censor, causing the request to fail. Considering all of this, DNS interference is not a very effective censorship mechanism.
 
 \subsection{Deep Packet Inspection (DPI)}
 
@@ -32,28 +49,13 @@ Attempts to encrypt SNI have resulted in Encrypted SNI (ESNI), which embeds the 
 
 Another way is to not include the SNI at all. However, non-SNI connections can be blocked as well, since censors can deploy policies that will drop any TLS traffic that does not have an SNI. This can again lead to overblocking, since clients that are able to handle older SSL-only configurations, or are deliberately configured not to have an SNI, can get blocked even when they are going to otherwise acceptable sites.
 
-Censors also have the option to examine the server certificate field within the TLS handshake, which contains information on the requested domain. In TLS 1.3, however, certificates are encrypted by default, and thus such censorship is not possible. Certificate-inspecting censors must therefore employ more computation-intensive deep packet inspection techniques and can even be forced to track connections deeper into the handshake process, especially when SNI-based approaches fail or bypassed \cite{rfc9505}.
+Censors also have the option to examine the server certificate field within the TLS handshake, which contains information on the requested domain. In TLS 1.3, however, certificates are encrypted by default, and thus such censorship is not possible. Certificate-inspecting censors must therefore employ more computation-intensive deep packet inspection techniques and can even be forced to track connections deeper into the handshake process, especially when SNI-based approaches fail or are bypassed \cite{rfc9505}.
 
 \subsection{Network Blackouts}
 
-\subsection{TEMP NAME TABLE}
+A very straightforward, wholistic, and blunt form of censorship is network blackouts. This method involves a large governing body of an area or region completely shutting off internet access for all content. This method is becoming more and more common across areas in the Middle East and Asia. According to a report from \textit{Access Now}, there were a total of 296 different internet shutdowns across 54 countries. This is a 35\% increase from the previous high in 2022 \cite{inetenetBlackouts}. This form of censorship is very extreme and is often implemented in times of conflict, protest and instability, exams, and elections. 
 
-\begin{table}[h!]
-\centering
-\begin{tabular}{ |p{3cm}|p{3cm}|p{3cm}|  }
-\hline
-Censorship Mechanism & Ireland & Iraq \\
-\hline
-Afghanistan & AF &AFG \\
-Aland Islands & AX   & ALA \\
-Albania &AL & ALB \\
-Algeria    &DZ & DZA \\
-American Samoa & AS & ASM \\
-Andorra & AD & AND   \\
-Angola & AO & AGO \\
-\hline
-\end{tabular}
-\end{table}
+\subsection{TEMP NAME TABLE}
 
 \section{Ireland}
 
@@ -87,9 +89,9 @@ Iraqi internet censorship has been radically reshaped over the years. Under Sadd
 
 \subsection{Current Censorship}
 
-Iraq's internet growth progressed from state-controlled limitations during Saddam Hussein's era, where limited citizens used the internet. After 2003, many private ISPs were formed, but primary fiber routes and gateways that link Iraq to international submarine cable networks via adjacent countries are still controlled by the Ministry of Communications \cite{IraqCMC}. Baghdad, the country's capital and commercial center, is a hub of national connectivity, and other large cities (like Basra and Mosul) typically have local backbones that connect into the national fiber network. The Kurdistan Region of Iraq (KRI) also has standalone network configurations, with cross-border fiber routes—particularly to Turkey—creating a semi-independent internet ecosystem \cite{freedomhouseIraqFreedom}. 
+Iraq's internet growth has progressed from state-controlled limitations during Saddam Hussein's era, where limited citizens used the internet. After 2003, many private ISPs were formed, but primary fiber routes and gateways that link Iraq to international submarine cable networks via adjacent countries are still controlled by the Ministry of Communications \cite{IraqCMC}. Baghdad, the country's capital and commercial center, is a hub of national connectivity, and other large cities (like Basra and Mosul) typically have local backbones that connect into the national fiber network. The Kurdistan Region of Iraq (KRI) also has standalone network configurations, with cross-border fiber routes—particularly to Turkey—creating a semi-independent internet ecosystem \cite{freedomhouseIraqFreedom}. 
 
-In a 2023 report from the United States Department of State, it was found that the government of Iraq restricted or disrupted access to the internet and censored online content, in conjunction with monitoring private online communications without appropriate legal authority \cite{USDoSIraq2023}. The Iraqi government and the Kurdistan Regional Government (KRG) consistently engage in implementing internet outages during protests or times of unrest \cite{freedomhouseIraqFreedom}. In 2023, Iraqi officials implemented 66 internet outages, more than any other country in the world. 
+In a 2023 report from the United States Department of State, it was found that the government of Iraq restricted or disrupted access to the internet and censored online content, in conjunction with monitoring private online communications without appropriate legal authority \cite{USDoSIraq2023}. The Iraqi government and the Kurdistan Regional Government (KRG) consistently engage in implementing internet outages during protests or times of unrest \cite{freedomhouseIraqFreedom}. In 2023, Iraqi officials implemented 66 internet outages, more than any other country in the world. It is worthy to note that another organization, \textit{Access Now} \cite{accessnowBlackoutReport2023}, reports a different number for Iraq in this year, and their data often conflicts with the data from \textit{FreedomHouse}.  
 
 After the fall off Saddam Hussein's Regime in 2003, the internet became much more accessible and the information landscape was opened. However, the current-day Iraqi government occasionally blocks websites, and more often social media websites in order to maintain stability and control during times of unrest \cite{freedomhouseIraqFreedom}. During anti-government protests in 2019, the Iraqi government blocked access to Facebook, X (Formerly Twitter), WhatsApp, and Instagram. In protests in 2018, some users in Iraq found that they were unable to use VPNs to circumvent website blocking. The government routinely engages in the censoring and blocking of Pornography and Gambling websites on the guise of protecting their citizens from harmful content. 
 
