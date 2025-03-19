@@ -1,6 +1,6 @@
 OONI Code Contribution
 
-I think I've found a great issue to address for our stretch goal. It ties into your lectures about bad random number generation and is low priority and realistic.
+This issue ties into your S & P lectures about bad random number generation and is low priority and realistic.
 
 They use Gosec to test for vulnerabilities in Go code. It has thrown an error regarding the RNG used. They use crypto/rand currently, known to be cryptographically secure. 
 crypto/rand is better than math/rand using system-level entropy source.
