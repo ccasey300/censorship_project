@@ -1,0 +1,23 @@
+OONI Code Contribution
+
+I think I've found a great issue to address for our stretch goal. It ties into your lectures about bad random number generation and is low priority and realistic.
+
+They use Gosec to test for vulnerabilities in Go code. It has thrown an error regarding the RNG used. They use crypto/rand currently, known to be cryptographically secure. 
+crypto/rand is better than math/rand using system-level entropy source.
+
+Solution:
+* Improve entropy (entropy pooling)
+
+
+* Better RNG (??? AES?)
+
+
+Risks:
+* Making the randomness worse. How to ensure? Detecting bad randomness is difficult.
+
+
+"
+We currently use crypto/rand random number generator. However gosec throws a warning indicating that we should be using a stronger one. We should investigate on replacing the current one with something more powerful like math/rand.
+"
+
+https://github.com/ooni/probe/issues/2789
