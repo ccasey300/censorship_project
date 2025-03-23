@@ -5,3 +5,22 @@ Below is my public key.
         ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDpiZqdZ4gA8rykzZztuyIh0yGcy7GZBP3Zk/iIGv2B6fPqNI1XFSi+/VGQZk5fqYCHKo8V3orJyezvNgeFgOh6asLUM+mydURgCfp9jxMl2yyuRPcu7hHqEnYxz4QbRbSCm2FSL6tBQkOMFs+DVBYcQ5XpT380keHfZrSPH3VXwMHNd6HvfHMnUCqXh6QzGqmAhalcvgtRj4FSRCm8/JTbnJs0wsV6zDwUqH2uZVnTjlIlgthq4uWbSqLwykY65RWCqUgvHYJoPG4jj1K6GXXMgUKiiXqprabrlhGrI5qD5Y+YPyKeBrd6ECBDQpMRUtFIM++rK11HcE+KgWVFLBQa7d9bWR6kN8ubyu+EEvWgHgtPOwntTkxn2vJ5tEZpk4yCEIcCP3Bi9aVWTshrbQeyxCmd8VqkOBeDw0GahcTIllnq+KfgGGD8B+0rygDoc2QHp9x8lpKOhtZJ6TEvCgLl5Hkaabf/u8TGNR/McNH8QwUeA+VU5agP2e2LtmIqKIwsqapZMkui0MypZc+RTs6MXVdBjGcD+CM2HoyUol0tApJc1I9rnBwGuAO+8wwGcxWZuF/evA+Vj7mdIerkT/VxWRwi5AeS9klRt5ENZ1BCQr3iGWC0YswmKwrm6q2CFtIYn+Nxrz50l74e33DtRvP4mxhO1ZrruH56nbeDDSMdAw== ccasey3@tcd.ie
 
 ccasey3 ; ccasey3@tcd.ie
+
+vps4chris, ccasey3@91.226.72.52, telaviv, 24.04, 20Gb
+
+You have to use
+your SSH private to login and should have sudo access when
+you get there with no password required for sudo. They're
+just the most basic setup so far, i.e. no OONI or other
+packages other than what I needed to set 'em up.
+
+My SSH is setup to login as root, so please don't break
+that:-)
+
+Helpful OONI commands dump 
+
+ooniprobe run websites --input []
+...             [im/performance/circumvention/middlebox/experimental/unattended]
+
+ooniprobe list
+sudo OONI_HOME=/var/lib/ooniprobe -u ooniprobe ooniprobe list
