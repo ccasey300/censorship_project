@@ -1,5 +1,6 @@
-* Work on Literature review
-* Work on State of the Art
-* Continue formatting, get a long list of numbered references together
-* Upload an up to date PDF
-* SSH details
+* Finish Chapter 2, Ireland vs Israel
+* Work on State of the Art, IP/DNS/Blackouts/KF
+* Build my-websites.txt
+* Circumvention Chapter
+* Finish Introduction
+* Stretch goal
