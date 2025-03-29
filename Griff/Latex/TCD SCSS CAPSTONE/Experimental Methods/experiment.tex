@@ -11,8 +11,6 @@ The Open Observatory of Network Interference (OONI) project was started in 2012 
 
 \subsection{Data-Collection}
 
-
-
 \subsubsection{Web Connectivity Test}
 
 The Web Connectivity test determines if, and how, access to a specific website may be blocked. To do this, OONI Probe performs several checks from the network where the test is run and compares the results with measurements collected from a control network where censorship is not expected. If the measurements differ significantly, censorship techniques are likely used on the local network. This test is designed to perform the four different actions: Resolver Identification, DNS Lookup, TCP Connect, HTTP GET Request.
@@ -48,6 +46,19 @@ A Middlebox is a computer networking device that transforms, filters, and manipu
 The OONI Middlebox test consists of two main operations: HTTP Header Field Manipulation and HTTP Invalid Request Line. The HTTP header field manipulation test emulates an HTTP request towards a server, but sends HTTP headers that have variations in capitalization. These requests are sent to a backend control server which send back any data it receives, and if these requests return exactly as we sent them, it is assumed there is no middlebox present. If the alterations of the headers come back normalized, it can be assumed that there was packet manipulation of some kind, leading to the confirmation of presence of Middleboxes It is worthy to note that false negatives can happen in this test, as some ISPs use highly sophisticated software that can disguise the presence of Middleboxes \cite{ooniHTTPHeader}.  
 
 The HTTP Invalid request line test sends an invalid HTTP request to an echo service listening on the standard HTTP port, rather than a valid one. If the request is returned to the user exactly as it was sent, it can be concluded that there is no evidence of the presence of a Middlebox. However, it is possible that this invalid request can be intercepted by a Middlebox that triggers an error that is sent back to the probe. This is evidence that there is a Middlebox present in the network. It is worthy to note that false negatives are possible as some ISPs use highly sophisticated software that is designed not to trigger such errors \cite{ooniHTTPInvalid}. 
+
+
+\section{Iraq Data Collection}
+
+To collect network data in Iraq, a Virtual Machine was set up using the provider \textit{LightNode} \cite{lightnodeLightNodeGlobal} on a cloud server located in Baghdad. The cloud server was running Linux Ubuntu version ...PUT VERSION HERE...
+
+The OONI probe was installed using the CLI instructions available on the OONI website \cite{OONISCLI}. By default, the OONI probe runs censorship tests in the background once per day, and saves that data in a specific directory, as well as publishes the data publicly. 
+
+In addition to these automated tests, manual tests were conducted once per day to collect data. The first and second day of data collection period used the comprehensive OONI test suite, which ran every test available, including 2200 websites. This broad test suite was used to identify blocked websites that could be added to a smaller test set of websites.
+
+Following the initial testing, only specialized test sets were run. This included a specific list of websites...
+
+\section{Ireland Data Collection}
 
 \section{Challenges \& Limitations}
 
