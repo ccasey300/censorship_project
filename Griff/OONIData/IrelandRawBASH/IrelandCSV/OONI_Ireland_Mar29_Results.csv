@@ -1,0 +1,69 @@
+Date,Country,Website URL,Blocked?,Blocking Method,Category,OONI URL
+2025/03/29,Ireland,https://www.pc2call.com/,Yes,dns,VoIP / Communication,https://explorer.ooni.org/m/20250329140348.694125_IE_webconnectivity_e82a83fb036eaec9
+2025/03/29,Ireland,http://www.eurogrand.com/,Yes,dns,Gambling,https://explorer.ooni.org/m/20250329140350.985370_IE_webconnectivity_ba95a56333a8c1fe
+2025/03/29,Ireland,http://www.socom.mil/,Yes,tcp_ip,General / National Services,https://explorer.ooni.org/m/20250329140421.103337_IE_webconnectivity_5e880c94e3621dbc
+2025/03/29,Ireland,https://www.mp3.com/,Yes,tcp_ip,Unknown,https://explorer.ooni.org/m/20250329140506.639579_IE_webconnectivity_f326849fe20890ff
+2025/03/29,Ireland,http://www.bitcomet.com/,Yes,http-failure,Piracy / Streaming / File Sharing,https://explorer.ooni.org/m/20250329140552.471815_IE_webconnectivity_912727d71600e491
+2025/03/29,Ireland,https://libgen.me/,Yes,dns,Piracy / Streaming / File Sharing,https://explorer.ooni.org/m/20250329140553.836931_IE_webconnectivity_965e762b4153276a
+2025/03/29,Ireland,https://kickasstorrents.to/,Yes,http-failure,Piracy / Streaming / File Sharing,https://explorer.ooni.org/m/20250329140639.925659_IE_webconnectivity_e3f1ae876f907e8b
+2025/03/29,Ireland,http://www.oic-oci.org/,Yes,tcp_ip,Religious,https://explorer.ooni.org/m/20250329140710.838223_IE_webconnectivity_0d0b8ff1cb5a5425
+2025/03/29,Ireland,https://doh.centraleu.pi-dns.com/dns-query?dns=q80BAAABAAAAAAAAA3d3dwdleGFtcGxlA2NvbQAAAQAB,Yes,tcp_ip,Unknown,https://explorer.ooni.org/m/20250329140756.511709_IE_webconnectivity_10d854816f38e547
+2025/03/29,Ireland,https://www.iconnecthere.com/,No,nil,VoIP / Communication,https://explorer.ooni.org/m/20250329140827.839943_IE_webconnectivity_0e0b64299f9728a7
+2025/03/29,Ireland,https://im0-tub-com.yandex.net/i?id=462f375c96139f1e41d919b44be2d780&n=13&exp=1,Yes,tcp_ip,News / Media,https://explorer.ooni.org/m/20250329140928.316002_IE_webconnectivity_85c03cacc7595c24
+2025/03/29,Ireland,http://abpr2.railfan.net/,Yes,nil,Unknown,https://explorer.ooni.org/m/20250329141017.792456_IE_webconnectivity_4c1cf6d620c558be
+2025/03/29,Ireland,http://www.queernet.org/,Yes,tcp_ip,LGBTQ+,https://explorer.ooni.org/m/20250329141051.061071_IE_webconnectivity_7aa26dfe5cca1beb
+2025/03/29,Ireland,https://1.1.1.1/,Yes,tcp_ip,Unknown,https://explorer.ooni.org/m/20250329141121.716111_IE_webconnectivity_ceca1bd60ed22202
+2025/03/29,Ireland,https://www.onlinearabiccasino.com/,Yes,tcp_ip,Gambling,https://explorer.ooni.org/m/20250329141307.050222_IE_webconnectivity_c8bc8e8bcb350aeb
+2025/03/29,Ireland,https://www.literotica.com/,No,nil,Adult / Alcohol,https://explorer.ooni.org/m/20250329141308.679801_IE_webconnectivity_b335d2293a27eb28
+2025/03/29,Ireland,https://nazarene.org/,No,nil,Religious,https://explorer.ooni.org/m/20250329141313.677500_IE_webconnectivity_97f2b0d1637835e4
+2025/03/29,Ireland,http://www.mailinator.com/,No,nil,Email/Privacy Tools,https://explorer.ooni.org/m/20250329141315.870996_IE_webconnectivity_a4bc31fb7ad9cf12
+2025/03/29,Ireland,http://www.blogeasy.com/,No,nil,Unknown,https://explorer.ooni.org/m/20250329141320.240720_IE_webconnectivity_bdfb3cf7ca4cdaa1
+2025/03/29,Ireland,https://www.jsf.mil/,No,nil,General / National Services,https://explorer.ooni.org/m/20250329141338.323883_IE_webconnectivity_0f6ccbe2f2af47cf
+2025/03/29,Ireland,https://www.chatgpt.com/,No,nil,AI / Technology,https://explorer.ooni.org/m/20250329141339.342690_IE_webconnectivity_197e403a62d3cac9
+2025/03/29,Ireland,https://www.dailymail.co.uk/,No,nil,News / Media,https://explorer.ooni.org/m/20250329141343.129397_IE_webconnectivity_b59a959d9d217194
+2025/03/29,Ireland,https://www.donedeal.ie/,No,nil,General / National Services,https://explorer.ooni.org/m/20250329141345.177980_IE_webconnectivity_5153f0ba60c06b5a
+2025/03/29,Ireland,https://www.daft.ie/,No,nil,General / National Services,https://explorer.ooni.org/m/20250329141346.861318_IE_webconnectivity_d75d34d1f1c4eab1
+2025/03/29,Ireland,https://www.irishtimes.com/,No,nil,News / Media,https://explorer.ooni.org/m/20250329141350.387503_IE_webconnectivity_9a3a52bff1275452
+2025/03/29,Ireland,https://www.irishexaminer.com/,No,nil,News / Media,https://explorer.ooni.org/m/20250329141352.732942_IE_webconnectivity_79bc66452629fe60
+2025/03/29,Ireland,https://www.aib.ie/,No,nil,General / National Services,https://explorer.ooni.org/m/20250329141354.791208_IE_webconnectivity_b87669adcda01cdf
+2025/03/29,Ireland,https://www.thejournal.ie/,No,nil,General / National Services,https://explorer.ooni.org/m/20250329141356.380941_IE_webconnectivity_0a55f727b1fd8340
+2025/03/29,Ireland,https://www.nytimes.com/,No,nil,News / Media,https://explorer.ooni.org/m/20250329141357.365615_IE_webconnectivity_eb3287169d1bc56f
+2025/03/29,Ireland,https://www.met.ie/,No,nil,General / National Services,https://explorer.ooni.org/m/20250329141359.327247_IE_webconnectivity_a59c8638d9945ae4
+2025/03/29,Ireland,https://www.dublinlive.ie/,No,nil,News / Media,https://explorer.ooni.org/m/20250329141400.860998_IE_webconnectivity_c41cb9df09a1f241
+2025/03/29,Ireland,https://www.bbc.co.uk/,No,nil,News / Media,https://explorer.ooni.org/m/20250329141402.018236_IE_webconnectivity_759650676a94fbaf
+2025/03/29,Ireland,https://www.xvideos.com/,No,nil,Adult Content,https://explorer.ooni.org/m/20250329141404.701473_IE_webconnectivity_2987c1d096de2422
+2025/03/29,Ireland,https://www.breakingnews.ie/,No,nil,News / Media,https://explorer.ooni.org/m/20250329141409.295272_IE_webconnectivity_bdfc6cf071bf856f
+2025/03/29,Ireland,https://www.lekmanga.net/,No,nil,Piracy / Streaming / File Sharing,https://explorer.ooni.org/m/20250329141411.837008_IE_webconnectivity_f2b363d8ff7f44eb
+2025/03/29,Ireland,https://www.kurdcinama.com/,No,nil,Piracy / Streaming / File Sharing,https://explorer.ooni.org/m/20250329141457.781742_IE_webconnectivity_ebdd30f2bc0433fc
+2025/03/29,Ireland,https://www.reddit.com/,No,nil,Streaming / Social Media,https://explorer.ooni.org/m/20250329141501.066862_IE_webconnectivity_9963e06630b2a96b
+2025/03/29,Ireland,https://www.kurdsubtitle.net/,No,nil,Piracy / Streaming / File Sharing,https://explorer.ooni.org/m/20250329141502.468413_IE_webconnectivity_cb8cde10eca915d3
+2025/03/29,Ireland,https://www.topcinema.cam/,No,nil,Piracy / Streaming / File Sharing,https://explorer.ooni.org/m/20250329141516.149158_IE_webconnectivity_6170c06828051483
+2025/03/29,Ireland,https://www.egydead.fyi/,No,nil,Piracy / Streaming / File Sharing,https://explorer.ooni.org/m/20250329141518.375653_IE_webconnectivity_f1b6725244e44ebc
+2025/03/29,Ireland,https://www.uptodown.com/,No,nil,Unknown,https://explorer.ooni.org/m/20250329141519.422342_IE_webconnectivity_4e7ec5fac0cb24bc
+2025/03/29,Ireland,https://www.xnxx-arabic.com/,No,nil,Adult Content,https://explorer.ooni.org/m/20250329141520.594348_IE_webconnectivity_260e29848faa8018
+2025/03/29,Ireland,https://www.dailymotion.com/,No,nil,Streaming / Social Media,https://explorer.ooni.org/m/20250329141522.252935_IE_webconnectivity_26826bf222c3e5d0
+2025/03/29,Ireland,https://www.weather.com/,No,nil,Unknown,https://explorer.ooni.org/m/20250329141525.933769_IE_webconnectivity_55fd4747eb7aeb44
+2025/03/29,Ireland,https://www.live.com/,No,nil,Streaming / Social Media,https://explorer.ooni.org/m/20250329141528.609361_IE_webconnectivity_6e6f2f1cf3c6235a
+2025/03/29,Ireland,https://www.theporndude.com/,No,nil,Adult Content,https://explorer.ooni.org/m/20250329141531.761337_IE_webconnectivity_e0069edffad75fe2
+2025/03/29,Ireland,https://www.azoramoon.com/,No,nil,Unknown,https://explorer.ooni.org/m/20250329141535.135707_IE_webconnectivity_5954feeec7a50c69
+2025/03/29,Ireland,https://www.kurdfilm.krd/,No,nil,Piracy / Streaming / File Sharing,https://explorer.ooni.org/m/20250329141536.902872_IE_webconnectivity_0d6e6d130fcecdb1
+2025/03/29,Ireland,https://www.sexalarab.com/,No,nil,Adult Content,https://explorer.ooni.org/m/20250329141539.346645_IE_webconnectivity_c8d3aac34fc84844
+2025/03/29,Ireland,https://www.discord.com/,No,nil,Streaming / Social Media,https://explorer.ooni.org/m/20250329141542.348446_IE_webconnectivity_17c7e4c4af5acaa9
+2025/03/29,Ireland,https://www.chess.com/,No,nil,Creative / Educational / Misc,https://explorer.ooni.org/m/20250329141543.913361_IE_webconnectivity_1ac1860e7ba061a0
+2025/03/29,Ireland,https://www.deviantart.com/,No,nil,News / Media,https://explorer.ooni.org/m/20250329141550.218417_IE_webconnectivity_137483f6ebdfeccb
+2025/03/29,Ireland,https://www.omegle.com/,No,nil,Streaming / Social Media,https://explorer.ooni.org/m/20250329141552.133104_IE_webconnectivity_25b3ee8be7feaecc
+2025/03/29,Ireland,https://www.spankbang.com/,No,nil,Adult Content,https://explorer.ooni.org/m/20250329141554.099414_IE_webconnectivity_ac3591dd7befcf57
+2025/03/29,Ireland,https://www.redtube.com/,No,nil,Adult Content,https://explorer.ooni.org/m/20250329141559.937572_IE_webconnectivity_4444dc09d3dd0468
+2025/03/29,Ireland,https://www.onlyfans.com/,No,nil,Adult Content,https://explorer.ooni.org/m/20250329141603.101504_IE_webconnectivity_ffce315a9c8ccc3a
+2025/03/29,Ireland,https://www.artstation.com/,No,nil,Creative / Educational / Misc,https://explorer.ooni.org/m/20250329141604.034163_IE_webconnectivity_e931edc213d48bea
+2025/03/29,Ireland,https://www.poki.com/,No,nil,Creative / Educational / Misc,https://explorer.ooni.org/m/20250329141606.467243_IE_webconnectivity_c8b0bfa4990a1cbb
+2025/03/29,Ireland,https://www.creepypasta.com/,No,nil,Creative / Educational / Misc,https://explorer.ooni.org/m/20250329141610.565786_IE_webconnectivity_f3af2ac989b49a37
+2025/03/29,Ireland,https://www.youporn.com/,No,nil,Adult Content,https://explorer.ooni.org/m/20250329141613.107782_IE_webconnectivity_8f12cfb81a564281
+2025/03/29,Ireland,https://www.vimeo.com/,No,nil,Creative / Educational / Misc,https://explorer.ooni.org/m/20250329141615.919718_IE_webconnectivity_1222a6e8db237b91
+2025/03/29,Ireland,https://www.rule34.xxx/,No,nil,Adult Content,https://explorer.ooni.org/m/20250329141618.967544_IE_webconnectivity_35f6e7bca21b9530
+2025/03/29,Ireland,https://www.stripchat.com/,No,nil,Adult Content,https://explorer.ooni.org/m/20250329141620.781293_IE_webconnectivity_436255c488bb7ab3
+2025/03/29,Ireland,https://www.wikipedia.com/,No,nil,Creative / Educational / Misc,https://explorer.ooni.org/m/20250329141623.550824_IE_webconnectivity_a1c0a0f858611b01
+2025/03/29,Ireland,https://www.porn.com/,No,nil,Adult Content,https://explorer.ooni.org/m/20250329141626.378085_IE_webconnectivity_05278b99c3ee026f
+2025/03/29,Ireland,https://www.rt.com/,No,nil,News / Media,https://explorer.ooni.org/m/20250329141644.183202_IE_webconnectivity_cc01cccfbbf3ed42
+2025/03/29,Ireland,https://www.4chan.org/,No,nil,Unknown,https://explorer.ooni.org/m/20250329141645.438916_IE_webconnectivity_e44bddeac943af68
+2025/03/29,Ireland,https://www.mozilla.org/,No,nil,Creative / Educational / Misc,https://explorer.ooni.org/m/20250329141646.629715_IE_webconnectivity_79982f73cdcb4d4e
