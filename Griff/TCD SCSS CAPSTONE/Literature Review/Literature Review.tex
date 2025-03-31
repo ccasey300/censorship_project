@@ -43,13 +43,17 @@ Deep Packet Inspection consists of any kind of packet analysis beyond IP address
 
 \subsection{Transport Layer Security (TLS)}
 
-Transport Layer Security (TLS) may be censored by mechanisms similar to those against plain HTTP, particularly through the Server Name Indication (SNI) field. In the case of TLS over TCP, the SNI value is seen in the non-encrypted ClientHello message so that censors can inspect the field and exclude connections to those domains they disapprove of. While QUIC encrypts ClientHello, the initial encryption keys are visible to network observers, and therefore it is possible, though more complex, to decrypt and observe the SNI. Since 2018, the governments of China, Egypt, Iran, Qatar, South Korea, Turkey, Turkmenistan, and the United Arab Emirates have implemented widespread SNI filtering or blocking \cite{rfc9505SNIBlocking}. 
+Transport Layer Security (TLS) is a protocol that secures most web traffic in our modern day internet. As more internet traffic has become encrypted, the way censorship is implemented had to adapt. When users use circumvention tools such as VPN's or proxy solutions, more common censorship techniques (such as IP blocking or DNS interference) are often unable to sufficiently block undesired content. As a result, TLS-based censorship became more common as this mechanism is able to deny access to specific sites or services without decrypting the actual TLS content. 
 
-Attempts to encrypt SNI have resulted in Encrypted SNI (ESNI), which embeds the SNI field in encrypted traffic but can induce blanket blocking by censors who blindly terminate all ESNI connections. Even more comprehensive security improvements, such as Encrypted Client Hello (ECH) for TLS 1.3, aim to encrypt the whole ClientHello rather than merely the SNI, though these enhancements are still underway in standardization and deployment.
+\subsubsection{Server Name Indication (SNI) Filtering}
 
-Another way is to not include the SNI at all. However, non-SNI connections can be blocked as well, since censors can deploy policies that will drop any TLS traffic that does not have an SNI. This can again lead to overblocking, since clients that are able to handle older SSL-only configurations, or are deliberately configured not to have an SNI, can get blocked even when they are going to otherwise acceptable sites.
+SNI Filtering is a widely used form of TLS-based censorship. The SNI is a TLS extension in the client's handshake (ClientHello) that indicates the hostname of the server the client wants to reach. In instances of anything up to TLS version 1.3 (assuming no additional encryption extensions are used), the ClientHello is sent in unencrypted plaintext. This allows a censor to read the requested hostname and block the connection if it is on a blocklist \cite{SNIUnencryptedCloudFlare}. This technique is implemented by many countries and since 2018, the governments of China, Egypt, Iran, Qatar, South Korea, Turkey, Turkmenistan, and the United Arab Emirates have implemented widespread SNI filtering or blocking \cite{rfc9505SNIBlocking}. The Great Firewall of China has \textit{"Long been censoring HTTPS in this manner"} by blocking connections that match forbidden hostnames in the SNI field \cite{GreatFirewallSNI}. 
 
-Censors also have the option to examine the server certificate field within the TLS handshake, which contains information on the requested domain. In TLS 1.3, however, certificates are encrypted by default, and thus such censorship is not possible. Certificate-inspecting censors must therefore employ more computation-intensive deep packet inspection techniques and can even be forced to track connections deeper into the handshake process, especially when SNI-based approaches fail or are bypassed \cite{rfc9505}.
+The obvious way to circumvent SNI filtering is to encrypt the SNI. In TLS 1.3, this is introduced as encrypted ClientHello (ECH). Before ECH, there was an extension that allowed for the SNI to be encrypted, aptly named Encrypted Server Name Indication (ESNI). But using ECH or ESNI has led to overclocking as censors simply block all traffic using them. An example of this can be found again in China, where all ESNI or ECH traffic is blocked.
+
+\subsubsection{TLS Fingerprinting}
+
+TLS Fingerprinting is used to identify and block tools or protocols that a censor might want to block. The way a TLS ClientHello is structured is like a digital fingerprint that is unique to an application or library. Censors will collect known fingerprints and deploy Deep Packet Inspection rules to block or flag those TLS connections \cite{TLSFingerprinting}. For example, a regime might recognize the unique CLientHello packet of Tor's TLS and configure the network to drop any matching packets. This technique, which is known to be used in China and Iran, prompted Tor to develop more mimicry in its TLS handshake. Many other circumvention tools followed this example, and have since tried to camouflage their TLS handshakes to look more like those of a common browser \cite{TLSFingerprinting}.
 
 \subsection{Network Blackouts}
 
@@ -77,7 +81,7 @@ As a whole, Ireland's censorship efforts are limited and specific. The governmen
 
 It seems that Ireland has also rolled back blocks on some websites, such as Russian News outlets. Previously, the domain russia.tv, was blocked in Ireland. But as of 2025, it is able to be partially accessed. Based on data from the OONI project, there is evidence of TCP/IP blocking of this domain in Ireland. Based on the findings from OONI, this domain is able to be accessed when EIRCOM's root DNS server (AS5466, IP: 86.47.80.38) is used, but is blocked when accessed through Cloudflare's DNS server (AS14593, IP: 172.69.193.80).
 
-\centerline{\includegraphics[width=480pt]{Griff/Latex/TCD SCSS CAPSTONE/Literature Review/RussiaTV search OONI.jpg}}
+\centerline{\includegraphics[width=480pt]{Griff/TCD SCSS CAPSTONE/Literature Review/RussiaTV search OONI.jpg}}
 
 \centerline{\textit{Figure 1.3, Russia.tv domain search on OONI}}
 
@@ -109,7 +113,7 @@ To stop this from happening, the US Government released Tor to the public in the
 
 Internet traffic sent over the Tor network is encapsulated in multiple layers of encryption. Think of your data as a letter that is placed inside several envelopes. Each node in the network removes one envelope, revealing only the information necessary to pass the message along to the next node. To do this, the Tor browsers sends your data through at least three nodes, and the pathway of these nodes are randomly constructed and reconstructed during your session \cite{dingledine2004tor}.
 
-\centerline{\includegraphics[width=480pt]{Griff/Latex/TCD SCSS CAPSTONE/Literature Review/How tor works.jpg}}
+\centerline{\includegraphics[width=480pt]{Griff/TCD SCSS CAPSTONE/Literature Review/How tor works.jpg}}
 
 \centerline{\textit{Figure 1.4, How the Tor Network Works}}
 
