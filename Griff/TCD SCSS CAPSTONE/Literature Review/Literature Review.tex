@@ -125,4 +125,14 @@ Tor is a great tool to combat censorship. Tor's distributed architecture of node
 
 \subsection{VPNs}
 
-Virtual Private Networks (VPNs) broadly speaking provide an end-to-end encrypted connection between your device and a VPN server. This method hides your IP address and grants the user anonymity while browsing over the network. This allows users to bypass censorship by connecting to servers outside of their location while masking your IP address \cite{TomsGuideVPN}. 
+Virtual Private Networks (VPNs) broadly speaking provide an end-to-end encrypted connection between your device and a VPN server. This method hides your IP address and grants the user anonymity while browsing over the network. This allows users to bypass censorship by connecting to servers outside of their location while masking their IP address \cite{TomsGuideVPN}.
+
+\subsection{Proxies}
+
+A proxy server is similar to a VPN as it fetches content on behalf of a user. When using a proxy, a user can request blocked content via a server in a non-censored region. From the perspective of the censor, the user is only connecting to the proxy server (which is ideally not blocked) and not the actual blocked content. For example, when \textit{The Pirate Bay} was blocked by EIRCOM in Ireland in 2009 by court order, the website was still accessible via proxy servers \cite{PirateBayBlocked2009}.
+
+\subsection{Psiphon VPN}
+
+Psiphon is an open-source internet censorship circumvention tools developed at the Citizen Lab at the University of Toronto. Psiphon uses a combination of VPN, SSH, and Proxy techniques to gives users unfiltered access to the internet. The tool works by attempting to establish a secure tunnel though its distributed network of servers. Once a connection is established, internet traffic is routed through the Psiphon infrastructure. This method circumvents network-level censorship mechanisms such as IP Blocking, DNS Interference, and some forms of Deep Packet Inspection. 
+
+The Open Observatory of Network Interference (OONI) Probe has a built in function to test if the Psiphon tool is blocked within a given network.
