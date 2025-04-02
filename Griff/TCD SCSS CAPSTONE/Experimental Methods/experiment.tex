@@ -1,7 +1,4 @@
 \chapter{Methodology}
-\section{Introduction}
-
-
 
 \section{The OONI Probe}
 
@@ -53,17 +50,23 @@ All results from OONI Probe tests are automatically sent to OONI's servers and p
 
 The OONI team also work to release comparative analysis and real-time alerts for significant internet censorship related events. This would include events such as a sudden surge in social media blockage, or a complete drop off of internet traffic in certain areas. The OONI Mesaurement Aggregation Toolkit (MAT) can be used to visualize these events and potentially identify emerging trends. 
 
-\section{Iraq Data Collection}
+\section{Data Collection}
 
-To collect network data in Iraq, a Virtual Machine was set up using the provider \textit{LightNode} \cite{lightnodeLightNodeGlobal} on a cloud server located in Baghdad. The cloud server was running Linux Ubuntu version ...PUT VERSION HERE...
+\subsubsection{Ireland}
 
-The OONI probe was installed using the CLI instructions available on the OONI website \cite{OONISCLI}. By default, the OONI probe runs censorship tests in the background once per day, and saves that data in a specific directory, as well as publishes the data publicly. 
+To collect network data in Ireland, the OONI CLI was installed on a MacBook Air M2 located in Ireland. The OONI probe was installed based on the CLI instructions found on the OONI website \cite{OONISCLI}. The OONI probe by default does not run automatic tests on the Mac version of the CLI, and this was manually enabled during the installation process.
 
-In addition to these automated tests, manual tests were conducted once per day to collect data. The first and second day of data collection period used the comprehensive OONI test suite, which ran every test available, including 2200 websites. This broad test suite was used to identify blocked websites that could be added to a smaller test set of websites.
+\subsubsection{Iraq}
 
-Following the initial testing, only specialized test sets were run. This included a specific list of websites...
+To collect network data in Iraq, a Virtual Machine was set up using the provider \textit{LightNode} \cite{lightnodeLightNodeGlobal} on a cloud server located in Baghdad. The cloud server was running Linux Ubuntu version ...PUT VERSION HERE...The OONI probe was installed using the CLI instructions available on the OONI website \cite{OONISCLI}. By default, the OONI probe runs censorship tests in the background once per day, and saves that data in a specific directory, as well as publishes the data publicly.
 
-\section{Ireland Data Collection}
+\subsubsection{Overlapping Information}
+
+In addition to these automated tests, manual tests were conducted once per day to collect data. The OONI CLI user guide provided the specific commands to carry out these tests as well as how to run tests on specific files or test sets\cite{ooniUserGuideCLI}. The first and second day of data collection period used the comprehensive OONI test suite, which ran every test available, including 2200 websites. This broad test suite was used to identify blocked websites that could be added to a smaller test set of websites.
+
+Following the initial testing, a set of 127 websites was collected. This test set included blocked websites from the broad OONI test set, some websites from the most known blocked websites worldwide\cite{blocksiteMostBlocked}, the top 50 most visited websites in Ireland\cite{top50irishwebsites}, and the top 50 most visited websites in Iraq\cite{top50IraqWebsites}. This test set was used in both countries for a span of 15 days.
+
+To parse the OONI data, a python script was written that took in the raw bash/cmd output and organized the results of the test into a neatly formatted CSV file. This made data analysis much easier to complete. Each of the four main tests were recorded as raw bash/cmd output and parsed into CSV files for analysis. All results and OONI links are available on this project's public GitHub Repository, which can be found in the appendix of this report.
 
 \section{Challenges \& Limitations}
 

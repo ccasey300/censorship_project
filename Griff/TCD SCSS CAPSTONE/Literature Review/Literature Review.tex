@@ -2,9 +2,7 @@
 
 \section{Introduction}
 
-The purpose of this section is to give a high-level overview of common internet censorship mechanisms, the past and present landscapes of internet censorship in Ireland and Iraq, and a brief description of some circumvention tools. This review was conducted using publicly available information and data published on the internet....
-
-(Stephen do you think this section needs to be expanded or is even necessary?)
+The purpose of this section is to give a high-level overview of common internet censorship mechanisms, the past and present landscapes of internet censorship in Ireland and Iraq, and a brief description of some circumvention tools. This review was conducted using publicly available information and data published on the internet.
 
 \section{Censorship Mechanisms}
 
@@ -43,11 +41,11 @@ Deep Packet Inspection consists of any kind of packet analysis beyond IP address
 
 \subsection{Transport Layer Security (TLS)}
 
-Transport Layer Security (TLS) is a protocol that secures most web traffic in our modern day internet. As more internet traffic has become encrypted, the way censorship is implemented had to adapt. When users use circumvention tools such as VPN's or proxy solutions, more common censorship techniques (such as IP blocking or DNS interference) are often unable to sufficiently block undesired content. As a result, TLS-based censorship became more common as this mechanism is able to deny access to specific sites or services without decrypting the actual TLS content. 
+Transport Layer Security (TLS) is a protocol that secures most web traffic in our modern-day internet. As more internet traffic has become encrypted, the way censorship is implemented had to adapt. When users use circumvention tools such as VPN's or proxy solutions, more common censorship techniques (such as IP blocking or DNS interference) are often unable to sufficiently block undesired content. As a result, TLS-based censorship became more common as this mechanism is able to deny access to specific sites or services without decrypting the actual TLS content. 
 
 \subsubsection{Server Name Indication (SNI) Filtering}
 
-SNI Filtering is a widely used form of TLS-based censorship. The SNI is a TLS extension in the client's handshake (ClientHello) that indicates the hostname of the server the client wants to reach. In instances of anything up to TLS version 1.3 (assuming no additional encryption extensions are used), the ClientHello is sent in unencrypted plaintext. This allows a censor to read the requested hostname and block the connection if it is on a blocklist \cite{SNIUnencryptedCloudFlare}. This technique is implemented by many countries and since 2018, the governments of China, Egypt, Iran, Qatar, South Korea, Turkey, Turkmenistan, and the United Arab Emirates have implemented widespread SNI filtering or blocking \cite{rfc9505SNIBlocking}. The Great Firewall of China has \textit{"Long been censoring HTTPS in this manner"} by blocking connections that match forbidden hostnames in the SNI field \cite{GreatFirewallSNI}. 
+SNI Filtering is a widely used form of TLS-based censorship. The SNI is a TLS extension in the client's handshake (ClientHello) that indicates the hostname of the server the client wants to reach. In instances of anything up to TLS version 1.3 (assuming no additional encryption extensions are used), the ClientHello is sent in unencrypted plaintext. This allows a censor to read the requested hostname and block the connection if it is on a blocklist \cite{SNIUnencryptedCloudFlare}. This technique is implemented by many countries, and since 2018, the governments of China, Egypt, Iran, Qatar, South Korea, Turkey, Turkmenistan, and the United Arab Emirates have implemented widespread SNI filtering or blocking \cite{rfc9505SNIBlocking}. The Great Firewall of China has \textit{"Long been censoring HTTPS in this manner"} by blocking connections that match forbidden hostnames in the SNI field \cite{GreatFirewallSNI}. 
 
 The obvious way to circumvent SNI filtering is to encrypt the SNI. In TLS 1.3, this is introduced as encrypted ClientHello (ECH). Before ECH, there was an extension that allowed for the SNI to be encrypted, aptly named Encrypted Server Name Indication (ESNI). But using ECH or ESNI has led to overclocking as censors simply block all traffic using them. An example of this can be found again in China, where all ESNI or ECH traffic is blocked.
 
