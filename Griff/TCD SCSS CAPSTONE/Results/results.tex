@@ -1,10 +1,95 @@
 \chapter{Results and Discussion}
 
-\section{Overview of Data Collection}
-
 \section{Summary of Test Results}
 
-\section{Website Accessibility Comparison}
+The tested results yielded expected results - Ireland primarily blocked pirated and illegal content, while Iraq blocked a wider range of content.
+
+[expanded stuff will go here]
+
+\subsection{Website Accessibility Results}
+
+\begin{table}[H]
+\centering
+\caption{Summary of Blocked vs. Unblocked Websites by Country}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Country} & \textbf{Unblocked} & \textbf{Blocked} \\
+\midrule
+Ireland & X & Y \\
+Iraq    & A & B \\
+\bottomrule
+\end{tabular}
+\label{tab:blocked_summary}
+\end{table}
+
+Talk about each blocking method and how OONI detects which is which (potentially can go in methodology)
+
+\begin{table}[H]
+\centering
+\caption{Distribution of Blocking Methods Detected in Iraq}
+\begin{tabular}{lc}
+\toprule
+\textbf{Blocking Method} & \textbf{Frequency} \\
+\midrule
+TCP/IP          & N1 \\
+DNS & N2 \\
+HTTP & N3 \\
+Unidentified & N3 \\
+% Add more if applicable
+\bottomrule
+\end{tabular}
+\label{tab:iraq_blocking_methods}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Distribution of Blocking Methods Detected in Ireland}
+\begin{tabular}{lc}
+\toprule
+\textbf{Blocking Method} & \textbf{Frequency} \\
+\midrule
+TCP/IP          & N1 \\
+DNS & N2 \\
+HTTP & N3 \\
+Unidentified & N3 \\
+% Add more if applicable
+\bottomrule
+\end{tabular}
+\label{tab:ireland_blocking_methods}
+\end{table}
+
+Talk about each category, and how many websites were in each category. Maybe another chart of this, or an appendix part that can be referenced here
+
+\begin{table}[H]
+\centering
+\caption{Blocked Websites by Category and Country}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Category} & \textbf{Ireland} & \textbf{Iraq} \\
+\midrule
+VoIP / Communication        & V1 & V2 \\
+Gambling                    & G1 & G2 \\
+Piracy / File Sharing       & P1 & P2 \\
+General / National Services & N1 & N2 \\
+Religious                   & R1 & R2 \\
+Unknown                     & U1 & U2 \\
+% Add more rows as needed
+\bottomrule
+\end{tabular}
+\label{tab:category_block}
+\end{table}
+
+\subsection{Circumvention Test Results}
+
+
+
+\subsection{Instant Messaging Test Results}
+
+
+
+\subsection{Middlebox Test Results}
+
+
 
 \section{Observed Patterns and Anomalies}
 
