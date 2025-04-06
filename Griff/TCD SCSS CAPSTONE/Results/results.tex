@@ -2,15 +2,15 @@
 
 The data and discussion of results below come in a combination of data gathered using the OONI probe in Ireland and Iraq, as well as published OONI data from the OONI Measurement Aggregation Toolkit (MAT).
 
-\section{Summary of Test Results}
-
-The tested results yielded expected results - Ireland primarily blocked pirated and illegal content, while Iraq blocked a wider range of content.
-
-[expanded stuff will go here]
+\section{Test Results}
 
 \subsection{Website Accessibility Results}
 
-The results below are an average of the number of websites blocked each day over the testing period of 15 days.
+\subsubsection{Collected Data}
+
+The first part of this section is an analysis of the data collected by the OONI probe locally in Ireland and through the VM in Iraq.
+
+The results below are an average of the number of websites blocked each day over the testing period of 9 days.
 
 \begin{table}[H]
 \centering
@@ -19,8 +19,8 @@ The results below are an average of the number of websites blocked each day over
 \toprule
 \textbf{Country} & \textbf{Unblocked} & \textbf{Blocked} \\
 \midrule
-Ireland & X & Y \\
-Iraq    & A & B \\
+Ireland & 105 & 32 \\
+Iraq    & 108 & 29 \\   
 \bottomrule
 \end{tabular}
 \label{tab:blocked_summary}
@@ -35,9 +35,10 @@ The table below shows the frequency of block methods found in Iraq.
 \toprule
 \textbf{Blocking Method} & \textbf{Frequency} \\
 \midrule
-TCP/IP          & N1 \\
-DNS & N2 \\
-HTTP & N3 \\
+TCP/IP & 18 \\
+DNS & 1 \\
+HTTP & 3\\
+Error/Failure & 8 \\
 \bottomrule
 \end{tabular}
 \label{tab:iraq_blocking_methods}
@@ -52,10 +53,10 @@ The table below shows the frequency of block methods found in Ireland.
 \toprule
 \textbf{Blocking Method} & \textbf{Frequency} \\
 \midrule
-TCP/IP          & N1 \\
-DNS & N2 \\
-HTTP & N3 \\
-Unidentified & N3 \\
+TCP/IP  & 15 \\
+DNS & 6 \\
+HTTP & 1 \\
+Error/Failure & 5 \\
 \bottomrule
 \end{tabular}
 \label{tab:ireland_blocking_methods}
@@ -66,28 +67,63 @@ The table below shows the number of websites blocked in each category in both co
 \begin{table}[H]
 \centering
 \caption{Blocked Websites by Category and Country}
-\begin{tabular}{lcc}
+\begin{tabular}{lccc}
 \toprule
-\textbf{Category} & \textbf{Ireland} & \textbf{Iraq} \\
+\textbf{Category} & \textbf{Total Websites Tested} & \textbf{Ireland} & \textbf{Iraq} \\
 \midrule
-Uncategorized                       & -- & -- \\
-Piracy / Streaming / File Sharing   & -- & -- \\
-News / Media                        & -- & -- \\
-Adult Content                       & -- & -- \\
-Creative / Educational / Misc       & -- & -- \\
-General / National Services         & -- & -- \\
-Streaming / Social Media            & -- & -- \\
-Religious                           & -- & -- \\
-VoIP / Communication                & -- & -- \\
-Gambling                            & -- & -- \\
-Email/Privacy Tools                 & -- & -- \\
-Adult / Alcohol                     & -- & -- \\
-LGBTQ+                              & -- & -- \\
-AI / Technology                     & -- & -- \\
+Uncategorized                      & 30 & 12 & 10 \\
+Piracy / Streaming / File Sharing  & 20 & 10 & 4 \\
+News / Media                       & 20 & 2 & 2 \\
+Adult Content                      & 20 & 0 & 0 \\
+Creative / Educational / Misc      & 15 & 0 & 0 \\
+General / National Services        & 9 & 1 & 2 \\
+Streaming / Social Media           & 9 & 1 & 1 \\
+Religious                          & 4 & 2 & 3 \\
+VoIP / Communication               & 2 & 1 & 1 \\
+Gambling                           & 2 & 2 & 2 \\
+Email/Privacy Tools                & 2 & 0 & 1 \\
+Adult / Alcohol                    & 2 & 0 & 2 \\
+LGBTQ+                             & 1 & 1 & 1 \\
+AI / Technology                    & 1 & 0 & 0 \\
 \bottomrule
 \end{tabular}
 \label{tab:category_block}
 \end{table}
+
+\subsubsection{Public OONI Data}
+
+This section is an analysis of publicly available OONI data over the previous 30 day period in Ireland and Iraq. The data in table 4.5 is the average over the 30-day period.
+
+\begin{table}[H]
+\centering
+\caption{Website Blocking based on Public OONI Data}
+\begin{tabular}{lcc}
+\toprule
+\textbf{} & \textbf{Ireland} & \textbf{Iraq} \\
+\midrule
+Number of Websites Tested           & 1695 & 3703 \\
+Number of Successful Connections    & 1628 & 3353 \\
+Number of Anomalies                 & 43 & 262 \\
+Number of Failures                  & 24 & 88 \\
+\bottomrule
+Percentage of Total Blocked         & 2.5\% & 7\% \\
+\end{tabular}
+\label{tab:category_block}
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Griff/TCD SCSS CAPSTONE/Results/IrelandWebsiteTest.png}
+    \caption{Ireland Web Connectivity Test: March 6, 2025 -- April 6, 2025}
+    \label{fig:iraq-middlebox-HTTP-manipulation}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Griff/TCD SCSS CAPSTONE/Results/IraqWebsiteTest.png}
+    \caption{Iraq Web Connectivity Test: March 6, 2025 -- April 6, 2025}
+    \label{fig:iraq-middlebox-HTTP-manipulation}
+\end{figure}
 
 \subsection{Circumvention Test Results}
 
@@ -237,12 +273,12 @@ The table below lists the ASNs that were suspected to have Middleboxes present u
 \toprule
 \textbf{ASN} & \textbf{Anomaly} & \textbf{Total Measurement Count} & \textbf{Percentage} \\
 \midrule
-AS13335   & 8 & 10 & 80\% \\
-AS59588   & 13 & 53 & 24.5\% \\
-AS48492   & 2 & 4 & 50\% \\
-AS50710   & 1 & 1 & 100\% \\
 AS198589  & 68 & 70 & 97\% \\
 AS203214  & 32 & 158 & 20.25\% \\
+AS59588   & 13 & 53 & 24.5\% \\
+AS13335   & 8 & 10 & 80\% \\
+AS48492   & 2 & 4 & 50\% \\
+AS50710   & 1 & 1 & 100\% \\
 \bottomrule
 \end{tabular}
 \label{tab:category_block}
