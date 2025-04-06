@@ -1,0 +1,138 @@
+Date,Country,Website URL,Blocked?,Blocking Method,Category,OONI URL
+2025/04/06,Iraq,http://www.phenoelit.org/,Yes,nil,Unknown,https://explorer.ooni.org/m/20250406090549.839830_IQ_webconnectivity_e48fa68fda84895e
+2025/04/06,Iraq,https://www.pc2call.com/,Yes,nil,VoIP / Communication,https://explorer.ooni.org/m/20250406090555.503778_IQ_webconnectivity_7c381af1cdd35c34
+2025/04/06,Iraq,https://dnsleaktest.com/,No,nil,Unknown,https://explorer.ooni.org/m/20250406090557.830371_IQ_webconnectivity_8f6ace2d9cb8ac72
+2025/04/06,Iraq,http://www.eurogrand.com/,Yes,nil,Gambling,https://explorer.ooni.org/m/20250406090558.102137_IQ_webconnectivity_925200a024281c4f
+2025/04/06,Iraq,http://www.utorrent.com/,No,nil,Piracy / Streaming / File Sharing,https://explorer.ooni.org/m/20250406090559.646609_IQ_webconnectivity_7298a8af9e9c1e3f
+2025/04/06,Iraq,http://www.socom.mil/,Yes,tcp_ip,General / National Services,https://explorer.ooni.org/m/20250406090633.929345_IQ_webconnectivity_20123976b1fc275f
+2025/04/06,Iraq,https://www.rarbg.to/,No,nil,Piracy / Streaming / File Sharing,https://explorer.ooni.org/m/20250406090635.017634_IQ_webconnectivity_9d696a13b9f9efc1
+2025/04/06,Iraq,https://www.mp3.com/,Yes,tcp_ip,Unknown,https://explorer.ooni.org/m/20250406090720.334895_IQ_webconnectivity_ad429f9bc88da715
+2025/04/06,Iraq,http://www.bittornado.com/,Yes,tcp_ip,Unknown,https://explorer.ooni.org/m/20250406090805.773991_IQ_webconnectivity_f40888f120c01098
+2025/04/06,Iraq,http://www.bitcomet.com/,No,nil,Piracy / Streaming / File Sharing,https://explorer.ooni.org/m/20250406090806.561474_IQ_webconnectivity_7782df3e757fe692
+2025/04/06,Iraq,https://thepiratebay.org/,No,nil,Piracy / Streaming / File Sharing,https://explorer.ooni.org/m/20250406090809.115830_IQ_webconnectivity_f3dff7a52e8b28e5
+2025/04/06,Iraq,https://libgen.me/,Yes,nil,Piracy / Streaming / File Sharing,https://explorer.ooni.org/m/20250406090809.424821_IQ_webconnectivity_76362f07e9cdc556
+2025/04/06,Iraq,https://libgen.life/,Yes,tcp_ip,Piracy / Streaming / File Sharing,https://explorer.ooni.org/m/20250406090854.748441_IQ_webconnectivity_9669c560d307791a
+2025/04/06,Iraq,https://kickasstorrents.to/,No,nil,Piracy / Streaming / File Sharing,https://explorer.ooni.org/m/20250406090857.107617_IQ_webconnectivity_e0100f04982f9911
+2025/04/06,Iraq,https://kat.am/,No,nil,Piracy / Streaming / File Sharing,https://explorer.ooni.org/m/20250406090858.921467_IQ_webconnectivity_850587789a071d90
+2025/04/06,Iraq,http://www.oic-oci.org/,Yes,tcp_ip,Religious,https://explorer.ooni.org/m/20250406090944.206619_IQ_webconnectivity_3386d6dd2529d3fd
+2025/04/06,Iraq,http://www.islamdoor.com/,Yes,nil,Religious,https://explorer.ooni.org/m/20250406090949.504466_IQ_webconnectivity_d74896f2accf0385
+2025/04/06,Iraq,https://doh.centraleu.pi-dns.com/dns-query?dns=q80BAAABAAAAAAAAA3d3dwdleGFtcGxlA2NvbQAAAQAB,Yes,tcp_ip,Unknown,https://explorer.ooni.org/m/20250406091019.771312_IQ_webconnectivity_1d500f5369f4d91e
+2025/04/06,Iraq,https://1.1.1.1/dns-query?dns=q80BAAABAAAAAAAAA3d3dwdleGFtcGxlA2NvbQAAAQAB,No,nil,Unknown,https://explorer.ooni.org/m/20250406091020.263228_IQ_webconnectivity_4b2af67e1bc9cbdd
+2025/04/06,Iraq,https://www.iconnecthere.com/,No,nil,VoIP / Communication,https://explorer.ooni.org/m/20250406091021.989422_IQ_webconnectivity_8b83b5c73227c6bb
+2025/04/06,Iraq,https://www.bittorrent.com/,No,nil,Piracy / Streaming / File Sharing,https://explorer.ooni.org/m/20250406091023.815041_IQ_webconnectivity_3834ed2af3614d4f
+2025/04/06,Iraq,https://im0-tub-com.yandex.net/i?id=462f375c96139f1e41d919b44be2d780&n=13&exp=1,Yes,tcp_ip,News / Media,https://explorer.ooni.org/m/20250406091123.909929_IQ_webconnectivity_73a2433438e6f712
+2025/04/06,Iraq,https://app.simplelogin.io/,No,nil,Email/Privacy Tools,https://explorer.ooni.org/m/20250406091125.186223_IQ_webconnectivity_6c6c520cc60cce7c
+2025/04/06,Iraq,http://abpr2.railfan.net/,Yes,http-diff,Unknown,https://explorer.ooni.org/m/20250406091128.394177_IQ_webconnectivity_30988c2e4b55d09f
+2025/04/06,Iraq,https://www.xroxy.com/,Yes,tcp_ip,Unknown,https://explorer.ooni.org/m/20250406091228.500756_IQ_webconnectivity_a398927741e24486
+2025/04/06,Iraq,https://www.secfirst.org/,No,nil,Unknown,https://explorer.ooni.org/m/20250406091230.542504_IQ_webconnectivity_62f9aa6dd0345669
+2025/04/06,Iraq,http://www.queernet.org/,Yes,tcp_ip,LGBTQ+,https://explorer.ooni.org/m/20250406091240.626342_IQ_webconnectivity_bf9fef83ee030a9e
+2025/04/06,Iraq,https://secfirst.org/,No,nil,Unknown,https://explorer.ooni.org/m/20250406091241.903617_IQ_webconnectivity_4bf547d944264607
+2025/04/06,Iraq,https://1.1.1.1/,No,nil,Unknown,https://explorer.ooni.org/m/20250406091242.929263_IQ_webconnectivity_9ee1e48b2b232363
+2025/04/06,Iraq,https://www.gamku.com/,Yes,tcp_ip,Unknown,https://explorer.ooni.org/m/20250406091343.023261_IQ_webconnectivity_3cc204f28fb3ccbe
+2025/04/06,Iraq,https://www.onlinearabiccasino.com/,Yes,tcp_ip,Gambling,https://explorer.ooni.org/m/20250406091428.358579_IQ_webconnectivity_9021d9c73c67b3a1
+2025/04/06,Iraq,http://www.absinth.com/,Yes,tcp_ip,Adult / Alcohol,https://explorer.ooni.org/m/20250406091458.725225_IQ_webconnectivity_aecdf557a476814d
+2025/04/06,Iraq,https://www.literotica.com/,Yes,tcp_ip,Adult / Alcohol,https://explorer.ooni.org/m/20250406091544.328905_IQ_webconnectivity_393acce3876d8513
+2025/04/06,Iraq,https://www.iasj.net/,Yes,tcp_ip,Unknown,https://explorer.ooni.org/m/20250406091544.917173_IQ_webconnectivity_1a8c26964e0550cf
+2025/04/06,Iraq,https://nazarene.org/,Yes,tcp_ip,Religious,https://explorer.ooni.org/m/20250406091615.312845_IQ_webconnectivity_a7840e1dc603055d
+2025/04/06,Iraq,http://www.on-instant.com/,No,nil,Unknown,https://explorer.ooni.org/m/20250406091616.082759_IQ_webconnectivity_1518f2b31bdff8d8
+2025/04/06,Iraq,http://www.mailinator.com/,Yes,http-diff,Email/Privacy Tools,https://explorer.ooni.org/m/20250406091617.074256_IQ_webconnectivity_d62e32ebdfc5405f
+2025/04/06,Iraq,http://www.euthanasia.cc/,Yes,http-diff,Unknown,https://explorer.ooni.org/m/20250406091620.869937_IQ_webconnectivity_8c338c8db84a24d4
+2025/04/06,Iraq,http://www.blogeasy.com/,No,nil,Unknown,https://explorer.ooni.org/m/20250406091621.924932_IQ_webconnectivity_17ba3c39048ed274
+2025/04/06,Iraq,http://alhikmae.com/,Yes,tcp_ip,Religious,https://explorer.ooni.org/m/20250406091707.226735_IQ_webconnectivity_df90c5396010fa70
+2025/04/06,Iraq,https://www.jsf.mil/,Yes,tcp_ip,General / National Services,https://explorer.ooni.org/m/20250406091752.550339_IQ_webconnectivity_37b15b66c0871979
+2025/04/06,Iraq,https://www.rte.ie/,No,nil,News / Media,https://explorer.ooni.org/m/20250406091753.798616_IQ_webconnectivity_08b4344c0cdda767
+2025/04/06,Iraq,https://www.chatgpt.com/,No,nil,AI / Technology,https://explorer.ooni.org/m/20250406091754.771081_IQ_webconnectivity_59cbb35f91288a2f
+2025/04/06,Iraq,https://www.independent.ie/,No,nil,News / Media,https://explorer.ooni.org/m/20250406091756.299805_IQ_webconnectivity_6649b08d127322b9
+2025/04/06,Iraq,https://www.dailymail.co.uk/,No,nil,News / Media,https://explorer.ooni.org/m/20250406091800.653826_IQ_webconnectivity_a624a6a11f12b770
+2025/04/06,Iraq,https://www.bbc.com/,No,nil,News / Media,https://explorer.ooni.org/m/20250406091802.072032_IQ_webconnectivity_19a8d5267e46e9cb
+2025/04/06,Iraq,https://www.donedeal.ie/,No,nil,General / National Services,https://explorer.ooni.org/m/20250406091803.086985_IQ_webconnectivity_199ad03bc241b686
+2025/04/06,Iraq,https://www.yahoo.com/,No,nil,Unknown,https://explorer.ooni.org/m/20250406091805.439589_IQ_webconnectivity_2d171e9b5b3d1222
+2025/04/06,Iraq,https://www.daft.ie/,No,nil,General / National Services,https://explorer.ooni.org/m/20250406091807.019523_IQ_webconnectivity_350915c23f0f209a
+2025/04/06,Iraq,https://www.rip.ie/,No,nil,General / National Services,https://explorer.ooni.org/m/20250406091809.413139_IQ_webconnectivity_5a608dd27a82bba9
+2025/04/06,Iraq,https://www.irishtimes.com/,No,nil,News / Media,https://explorer.ooni.org/m/20250406091813.681327_IQ_webconnectivity_1f82606d325000a6
+2025/04/06,Iraq,https://www.tiktok.com/,No,nil,Unknown,https://explorer.ooni.org/m/20250406091816.824120_IQ_webconnectivity_173cf747a0c27918
+2025/04/06,Iraq,https://www.irishexaminer.com/,No,nil,News / Media,https://explorer.ooni.org/m/20250406091818.361760_IQ_webconnectivity_0b699b4bcda6cfd5
+2025/04/06,Iraq,https://www.theguardian.com/,No,nil,News / Media,https://explorer.ooni.org/m/20250406091820.569504_IQ_webconnectivity_f3c554503e692459
+2025/04/06,Iraq,https://www.aib.ie/,No,nil,General / National Services,https://explorer.ooni.org/m/20250406091823.903839_IQ_webconnectivity_6359647fc3052c42
+2025/04/06,Iraq,https://www.sky.com/,No,nil,General / National Services,https://explorer.ooni.org/m/20250406091825.477878_IQ_webconnectivity_c8f351df7721c07a
+2025/04/06,Iraq,https://www.thejournal.ie/,No,nil,General / National Services,https://explorer.ooni.org/m/20250406091827.775063_IQ_webconnectivity_cb539b85b0709d59
+2025/04/06,Iraq,https://www.news.sky.com/,No,nil,News / Media,https://explorer.ooni.org/m/20250406091828.082742_IQ_webconnectivity_2a5e809c54c20714
+2025/04/06,Iraq,https://www.nytimes.com/,No,nil,News / Media,https://explorer.ooni.org/m/20250406091829.623242_IQ_webconnectivity_e4e25ff376994827
+2025/04/06,Iraq,https://www.thesun.ie/,No,nil,News / Media,https://explorer.ooni.org/m/20250406091831.795988_IQ_webconnectivity_601a8b08930a7bf6
+2025/04/06,Iraq,https://www.met.ie/,No,nil,General / National Services,https://explorer.ooni.org/m/20250406091833.550373_IQ_webconnectivity_2defa2078edc35f0
+2025/04/06,Iraq,https://www.skysports.com/,No,nil,Unknown,https://explorer.ooni.org/m/20250406091835.246802_IQ_webconnectivity_d287faffec768720
+2025/04/06,Iraq,https://www.dublinlive.ie/,No,nil,News / Media,https://explorer.ooni.org/m/20250406091838.661278_IQ_webconnectivity_1bf390f3dfb73c81
+2025/04/06,Iraq,https://www.boards.ie/,No,nil,Unknown,https://explorer.ooni.org/m/20250406091839.853841_IQ_webconnectivity_a8228c7b8b87af8f
+2025/04/06,Iraq,https://www.bbc.co.uk/,No,nil,News / Media,https://explorer.ooni.org/m/20250406091841.496018_IQ_webconnectivity_50f6f46410985a3b
+2025/04/06,Iraq,https://www.irishmirror.ie/,No,nil,News / Media,https://explorer.ooni.org/m/20250406091843.804461_IQ_webconnectivity_bbc4f3a7c79da615
+2025/04/06,Iraq,https://www.xvideos.com/,No,nil,Adult Content,https://explorer.ooni.org/m/20250406091846.665320_IQ_webconnectivity_bdb26fe8613c6e4e
+2025/04/06,Iraq,https://www.imdb.com/,No,nil,Unknown,https://explorer.ooni.org/m/20250406091850.520112_IQ_webconnectivity_7a75d99554f9e455
+2025/04/06,Iraq,https://www.breakingnews.ie/,No,nil,News / Media,https://explorer.ooni.org/m/20250406091851.922983_IQ_webconnectivity_6d98c5cc488a8e1c
+2025/04/06,Iraq,https://www.galwaybeo.ie/,No,nil,News / Media,https://explorer.ooni.org/m/20250406091854.687983_IQ_webconnectivity_4e5d52591c3a2bf0
+2025/04/06,Iraq,https://www.lekmanga.net/,No,nil,Piracy / Streaming / File Sharing,https://explorer.ooni.org/m/20250406091856.656071_IQ_webconnectivity_0540a7d2ca1df7ac
+2025/04/06,Iraq,https://www.shabakaty.com/,Yes,tcp_ip,Piracy / Streaming / File Sharing,https://explorer.ooni.org/m/20250406091941.952075_IQ_webconnectivity_078ca4082b910328
+2025/04/06,Iraq,https://www.kurdcinama.com/,No,nil,Piracy / Streaming / File Sharing,https://explorer.ooni.org/m/20250406091943.319763_IQ_webconnectivity_afa67c90c43ad4ff
+2025/04/06,Iraq,https://www.xhamster.com/,No,nil,Adult Content,https://explorer.ooni.org/m/20250406091945.543816_IQ_webconnectivity_dc724c5e9577d63f
+2025/04/06,Iraq,https://www.reddit.com/,No,nil,Streaming / Social Media,https://explorer.ooni.org/m/20250406091946.816516_IQ_webconnectivity_37fc0309e66ec385
+2025/04/06,Iraq,https://www.xnxx.com/,No,nil,Adult Content,https://explorer.ooni.org/m/20250406091949.167573_IQ_webconnectivity_79a60c86ac95afe8
+2025/04/06,Iraq,https://www.kurdsubtitle.net/,No,nil,Piracy / Streaming / File Sharing,https://explorer.ooni.org/m/20250406091951.005744_IQ_webconnectivity_8e59caae54bcf85f
+2025/04/06,Iraq,https://www.like-manga.net/,No,nil,Piracy / Streaming / File Sharing,https://explorer.ooni.org/m/20250406091953.063083_IQ_webconnectivity_180ec101d835138e
+2025/04/06,Iraq,https://www.topcinema.cam/,No,nil,Piracy / Streaming / File Sharing,https://explorer.ooni.org/m/20250406092006.739910_IQ_webconnectivity_29f981e4e356ed4d
+2025/04/06,Iraq,https://www.telegram.org/,No,nil,Unknown,https://explorer.ooni.org/m/20250406092007.929972_IQ_webconnectivity_e7956f49460736ed
+2025/04/06,Iraq,https://www.egydead.fyi/,No,nil,Piracy / Streaming / File Sharing,https://explorer.ooni.org/m/20250406092010.041877_IQ_webconnectivity_59cbc175608a5e96
+2025/04/06,Iraq,https://www.arabshentai.com/,No,nil,Adult Content,https://explorer.ooni.org/m/20250406092010.744689_IQ_webconnectivity_df0d98ce39f65d2e
+2025/04/06,Iraq,https://www.uptodown.com/,No,nil,Unknown,https://explorer.ooni.org/m/20250406092013.048438_IQ_webconnectivity_05e784ccec168037
+2025/04/06,Iraq,https://www.beenar.net/,Yes,nil,Unknown,https://explorer.ooni.org/m/20250406092013.760023_IQ_webconnectivity_944a268dadfcf4c9
+2025/04/06,Iraq,https://www.xnxx-arabic.com/,No,nil,Adult Content,https://explorer.ooni.org/m/20250406092015.121199_IQ_webconnectivity_b67eaf2bb859e681
+2025/04/06,Iraq,https://www.witanime.cyou/,No,nil,Piracy / Streaming / File Sharing,https://explorer.ooni.org/m/20250406092017.055526_IQ_webconnectivity_75e2f1c4da2189c0
+2025/04/06,Iraq,https://www.dailymotion.com/,No,nil,Streaming / Social Media,https://explorer.ooni.org/m/20250406092018.298723_IQ_webconnectivity_e55c10c821e9a471
+2025/04/06,Iraq,https://www.lodynet.io/,No,nil,Piracy / Streaming / File Sharing,https://explorer.ooni.org/m/20250406092020.517718_IQ_webconnectivity_c1b69d985c29c2b4
+2025/04/06,Iraq,https://www.weather.com/,No,nil,Unknown,https://explorer.ooni.org/m/20250406092023.490075_IQ_webconnectivity_9e0d7980ec1da865
+2025/04/06,Iraq,https://www.hentaislayer.net/,No,nil,Adult Content,https://explorer.ooni.org/m/20250406092025.803080_IQ_webconnectivity_0ebda8925e91afab
+2025/04/06,Iraq,https://www.live.com/,Yes,http-failure,Streaming / Social Media,https://explorer.ooni.org/m/20250406092125.987351_IQ_webconnectivity_7e04622f357ab301
+2025/04/06,Iraq,https://www.xhexperience.xyz/,No,nil,Adult Content,https://explorer.ooni.org/m/20250406092128.634237_IQ_webconnectivity_c686a6b52e7dd25b
+2025/04/06,Iraq,https://www.theporndude.com/,No,nil,Adult Content,https://explorer.ooni.org/m/20250406092130.310447_IQ_webconnectivity_3c2249ddfd48872c
+2025/04/06,Iraq,https://www.xvideos-ar.com/,No,nil,Adult Content,https://explorer.ooni.org/m/20250406092131.676302_IQ_webconnectivity_304db6a3e41916ae
+2025/04/06,Iraq,https://www.azoramoon.com/,No,nil,Unknown,https://explorer.ooni.org/m/20250406092132.740454_IQ_webconnectivity_58559529818ce5df
+2025/04/06,Iraq,https://www.kisskh.co/,No,nil,Unknown,https://explorer.ooni.org/m/20250406092134.944252_IQ_webconnectivity_39ab4165ceb5fc8c
+2025/04/06,Iraq,https://www.kurdfilm.krd/,No,nil,Piracy / Streaming / File Sharing,https://explorer.ooni.org/m/20250406092136.718820_IQ_webconnectivity_4d2edc29ce287b0f
+2025/04/06,Iraq,https://www.arabx.cam/,No,nil,Adult Content,https://explorer.ooni.org/m/20250406092137.753801_IQ_webconnectivity_50e3964e535fb5ce
+2025/04/06,Iraq,https://www.sexalarab.com/,No,nil,Adult Content,https://explorer.ooni.org/m/20250406092139.800015_IQ_webconnectivity_8e9fc9e7fc75d0cf
+2025/04/06,Iraq,https://www.netflix.com/,No,nil,Streaming / Social Media,https://explorer.ooni.org/m/20250406092142.698451_IQ_webconnectivity_57f1f30d09445d16
+2025/04/06,Iraq,https://www.discord.com/,No,nil,Streaming / Social Media,https://explorer.ooni.org/m/20250406092144.290596_IQ_webconnectivity_a74a5e195c5cfb8b
+2025/04/06,Iraq,https://www.twitch.tv/,No,nil,Streaming / Social Media,https://explorer.ooni.org/m/20250406092145.468864_IQ_webconnectivity_215fa2f7e4500e67
+2025/04/06,Iraq,https://www.chess.com/,No,nil,Creative / Educational / Misc,https://explorer.ooni.org/m/20250406092146.940547_IQ_webconnectivity_d59b7939da7a9911
+2025/04/06,Iraq,https://www.tumblr.com/,No,nil,Unknown,https://explorer.ooni.org/m/20250406092149.405654_IQ_webconnectivity_4e4144de38fd46e5
+2025/04/06,Iraq,https://www.deviantart.com/,No,nil,News / Media,https://explorer.ooni.org/m/20250406092151.496699_IQ_webconnectivity_bbcee3347a652323
+2025/04/06,Iraq,https://www.wattpad.com/,No,nil,Creative / Educational / Misc,https://explorer.ooni.org/m/20250406092153.709348_IQ_webconnectivity_d60627964bf0b2f6
+2025/04/06,Iraq,https://www.omegle.com/,No,nil,Streaming / Social Media,https://explorer.ooni.org/m/20250406092154.456041_IQ_webconnectivity_bbccae545664d4c6
+2025/04/06,Iraq,https://www.lichess.org/,No,nil,Creative / Educational / Misc,https://explorer.ooni.org/m/20250406092156.114155_IQ_webconnectivity_58394c19477037fa
+2025/04/06,Iraq,https://www.spankbang.com/,No,nil,Adult Content,https://explorer.ooni.org/m/20250406092156.812330_IQ_webconnectivity_f29fe5c233031bd2
+2025/04/06,Iraq,https://www.bilibili.com/,No,nil,Streaming / Social Media,https://explorer.ooni.org/m/20250406092202.092047_IQ_webconnectivity_8e7f160249138fe0
+2025/04/06,Iraq,https://www.redtube.com/,No,nil,Adult Content,https://explorer.ooni.org/m/20250406092203.840957_IQ_webconnectivity_74f45708acd3902f
+2025/04/06,Iraq,https://www.9gag.com/,No,nil,Creative / Educational / Misc,https://explorer.ooni.org/m/20250406092205.930581_IQ_webconnectivity_4acdfed75c0319df
+2025/04/06,Iraq,https://www.onlyfans.com/,No,nil,Adult Content,https://explorer.ooni.org/m/20250406092206.566896_IQ_webconnectivity_5b3b045ef2e26154
+2025/04/06,Iraq,https://www.fanfiction.net/,No,nil,Creative / Educational / Misc,https://explorer.ooni.org/m/20250406092207.278448_IQ_webconnectivity_4a2ba0987513e63c
+2025/04/06,Iraq,https://www.artstation.com/,No,nil,Creative / Educational / Misc,https://explorer.ooni.org/m/20250406092207.991286_IQ_webconnectivity_652a8089249b75dc
+2025/04/06,Iraq,https://www.furaffinity.net/,No,nil,Creative / Educational / Misc,https://explorer.ooni.org/m/20250406092210.151305_IQ_webconnectivity_b8c592fedaa83435
+2025/04/06,Iraq,https://www.poki.com/,No,nil,Creative / Educational / Misc,https://explorer.ooni.org/m/20250406092211.752972_IQ_webconnectivity_7cad4b058e21f712
+2025/04/06,Iraq,https://www.vk.com/,No,nil,Streaming / Social Media,https://explorer.ooni.org/m/20250406092214.784185_IQ_webconnectivity_4b304dce562252bc
+2025/04/06,Iraq,https://www.creepypasta.com/,No,nil,Creative / Educational / Misc,https://explorer.ooni.org/m/20250406092216.220575_IQ_webconnectivity_04fc846b1aadb55a
+2025/04/06,Iraq,https://www.zoro.to/,Yes,nil,Piracy / Streaming / File Sharing,https://explorer.ooni.org/m/20250406092218.041526_IQ_webconnectivity_9fbc3d0416128bf9
+2025/04/06,Iraq,https://www.youporn.com/,No,nil,Adult Content,https://explorer.ooni.org/m/20250406092219.582574_IQ_webconnectivity_6aae5ca57ebb6b3a
+2025/04/06,Iraq,https://www.etsy.com/,No,nil,Creative / Educational / Misc,https://explorer.ooni.org/m/20250406092221.580072_IQ_webconnectivity_9c5b7088f645056d
+2025/04/06,Iraq,https://www.vimeo.com/,No,nil,Creative / Educational / Misc,https://explorer.ooni.org/m/20250406092223.667092_IQ_webconnectivity_c05c24f4f7f9e02d
+2025/04/06,Iraq,https://www.pixiv.net/,No,nil,Creative / Educational / Misc,https://explorer.ooni.org/m/20250406092225.034770_IQ_webconnectivity_9cdf27f40657d821
+2025/04/06,Iraq,https://www.rule34.xxx/,No,nil,Adult Content,https://explorer.ooni.org/m/20250406092226.365507_IQ_webconnectivity_d59c36e52b67d3e9
+2025/04/06,Iraq,https://www.redgifs.com/,No,nil,Adult Content,https://explorer.ooni.org/m/20250406092227.209042_IQ_webconnectivity_1eb551b36f4516f6
+2025/04/06,Iraq,https://www.stripchat.com/,No,nil,Adult Content,https://explorer.ooni.org/m/20250406092229.055028_IQ_webconnectivity_12a6115b94c73e24
+2025/04/06,Iraq,https://www.opera.com/,No,nil,Creative / Educational / Misc,https://explorer.ooni.org/m/20250406092230.642128_IQ_webconnectivity_c2bb75315ddb5841
+2025/04/06,Iraq,https://www.wikipedia.com/,No,nil,Creative / Educational / Misc,https://explorer.ooni.org/m/20250406092232.809577_IQ_webconnectivity_d162927887cc9c39
+2025/04/06,Iraq,https://www.foxnews.com/,No,nil,News / Media,https://explorer.ooni.org/m/20250406092236.240322_IQ_webconnectivity_479963f83add41ca
+2025/04/06,Iraq,https://www.porn.com/,No,nil,Adult Content,https://explorer.ooni.org/m/20250406092238.317464_IQ_webconnectivity_6be57530d533f7ec
+2025/04/06,Iraq,https://www.russia.tv/,Yes,tcp_ip,News / Media,https://explorer.ooni.org/m/20250406092323.832624_IQ_webconnectivity_0938c3407d556c0d
+2025/04/06,Iraq,https://www.rt.com/,No,nil,News / Media,https://explorer.ooni.org/m/20250406092326.254336_IQ_webconnectivity_d211d6d228677165
+2025/04/06,Iraq,https://www.beeg.com/,No,nil,Adult Content,https://explorer.ooni.org/m/20250406092327.290745_IQ_webconnectivity_b08ffa7dbfed4289
+2025/04/06,Iraq,https://www.4chan.org/,No,nil,Unknown,https://explorer.ooni.org/m/20250406092327.993049_IQ_webconnectivity_3592630dd5af59a3
+2025/04/06,Iraq,https://www.crunchyroll.com/,No,nil,Unknown,https://explorer.ooni.org/m/20250406092328.691124_IQ_webconnectivity_e9e98ff5119ad1b5
+2025/04/06,Iraq,https://www.mozilla.org/,No,nil,Creative / Educational / Misc,https://explorer.ooni.org/m/20250406092330.846159_IQ_webconnectivity_04bb369847c288e7
