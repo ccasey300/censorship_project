@@ -26,40 +26,22 @@ Iraq    & 108 & 29 \\
 \label{tab:blocked_summary}
 \end{table}
 
-The table below shows the frequency of block methods found in Iraq.
+Table 4.2 shows the distribution of blocking methods in Ireland and Iraq.
 
 \begin{table}[H]
 \centering
-\caption{Distribution of Blocking Methods Detected in Iraq}
-\begin{tabular}{lc}
+\caption{Distribution of Blocking Methods Detected in Iraq and Ireland}
+\begin{tabular}{lcc}
 \toprule
-\textbf{Blocking Method} & \textbf{Frequency} \\
+\textbf{Blocking Method} & \textbf{Iraq Frequency} & \textbf{Ireland Frequency} \\
 \midrule
-TCP/IP & 18 \\
-DNS & 1 \\
-HTTP & 3\\
-Error/Failure & 8 \\
+TCP/IP         & 18 & 15 \\
+DNS            & 1  & 6  \\
+HTTP           & 3  & 1  \\
+Error/Failure  & 8  & 5  \\
 \bottomrule
 \end{tabular}
-\label{tab:iraq_blocking_methods}
-\end{table}
-
-The table below shows the frequency of block methods found in Ireland.
-
-\begin{table}[H]
-\centering
-\caption{Distribution of Blocking Methods Detected in Ireland}
-\begin{tabular}{lc}
-\toprule
-\textbf{Blocking Method} & \textbf{Frequency} \\
-\midrule
-TCP/IP  & 15 \\
-DNS & 6 \\
-HTTP & 1 \\
-Error/Failure & 5 \\
-\bottomrule
-\end{tabular}
-\label{tab:ireland_blocking_methods}
+\label{tab:blocking_methods_comparison}
 \end{table}
 
 The table below shows the number of websites blocked in each category in both countries.
@@ -127,8 +109,6 @@ Percentage of Total Blocked         & 2.5\% & 7\% \\
 
 \subsection{Circumvention Test Results}
 
-Ireland and Iraq yielded similar 
-
 \subsubsection{Ireland}
 
 Ireland likely does not block Tor on any of its ASNs, as it is largely accessible outside of 2 anomalies.
@@ -156,6 +136,7 @@ AS8075    & 1  & 1   & 100\% \\
 AS13280   & 8  & 12  & 66\% \\
 AS15751   & 1  & 9   & 11\% \\
 \bottomrule
+Totals    & 60 & 494 & 12.1\% \\
 \end{tabular}
 \label{tab:category_block}
 \end{table}
@@ -190,6 +171,7 @@ AS199739  & 1   & 352  & 0.2\% \\
 AS205254  & 1   & 30   & 3.3\% \\
 AS208324  & 1   & 3    & 33\% \\
 \bottomrule
+Totals    & 134 & 1107 & 12.1\% \\
 \end{tabular}
 \label{tab:category_block}
 \end{table}
@@ -236,6 +218,7 @@ AS202651  & 0\%   & 0\%   & 0\%   & 23\% \\
 AS59588   & 0\%   & 0\%   & 1.9\% & 1.9\% \\
 AS209193  & 0\%   & 0\%   & 0.7\% & 0\% \\
 \bottomrule
+Total Percentage Blocked  & 6.2\%   & 1.4\%   & 4.1\% & 6.2\% \\
 \end{tabular}
 \label{tab:category_block}
 \end{table}
@@ -280,16 +263,17 @@ AS13335   & 8 & 10 & 80\% \\
 AS48492   & 2 & 4 & 50\% \\
 AS50710   & 1 & 1 & 100\% \\
 \bottomrule
+Total Percentage   & 125 & 1071 & 11.6\% \\
 \end{tabular}
 \label{tab:category_block}
 \end{table}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{Griff/TCD SCSS CAPSTONE/Results/IraqMiddleboxHTTPInvalidTest.png}
-    \caption{Iraq Middlebox HTTP Invalid Request Line Test: March 6, 2025 -- April 6, 2025}
-    \label{fig:iraq-middlebox-invalid-request}
-\end{figure}
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[width=\textwidth]{Griff/TCD SCSS CAPSTONE/Results/IraqMiddleboxHTTPInvalidTest.png}
+ %   \caption{Iraq Middlebox HTTP Invalid Request Line Test: March 6, 2025 -- April 6, 2025}
+%    \label{fig:iraq-middlebox-invalid-request}
+%\end{figure}
 
 The table below lists the ASNs that were suspected to have Middleboxes present using the HTTP Header Field Manipulation test. It then shows the number of anomalies, the total measurement count, and what percentage of the total count were anomalies. Note that any ASN that had less than 0.5\% anomalies was ignored.
 
@@ -304,25 +288,61 @@ AS13335   & 8 & 10 & 80\% \\
 AS48492   & 2 & 4 & 50\% \\
 AS50710   & 1 & 1 & 100\% \\
 \bottomrule
+Total Percentage   & 19 & 1074 & 1.7\% \\
 \end{tabular}
 \label{tab:category_block}
 \end{table}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{Griff/TCD SCSS CAPSTONE/Results/IraqMiddleboxHTTPManipulation.png}
-    \caption{Iraq Middlebox HTTP Header Field Manipulation Test: March 6, 2025 -- April 6, 2025}
-    \label{fig:iraq-middlebox-HTTP-manipulation}
-\end{figure}
+
+%\begin{figure}[H]
+ %   \centering
+%    \includegraphics[width=\textwidth]{Griff/TCD SCSS CAPSTONE/Results/IraqMiddleboxHTTPManipulation.png}
+%    \caption{Iraq Middlebox HTTP Header Field Manipulation Test: March 6, 2025 -- April 6, 2025}
+%    \label{fig:iraq-middlebox-HTTP-manipulation}
+%\end{figure}
 
 \textit{Note: All CSV files gathered from the public OONI database can be found on the public GitHub for this work; see Appendix A1.2.}
 
 
 \section{Comparative Analysis: Ireland v. Iraq}
 
+The combined results of OONI probe testing and public OONI data reveal differences in censorship between Ireland and Iraq. While both countries implement content restrictions and other blocks, there are significant differences in the scale and motivations behind these blocks.
 
+\subsubsection{Website Accessability}
 
-\subsection{Observed Patterns and Anomalies}
+(waiting on some final data from OONI)
 
+\subsubsection{Circumvention Tools}
 
+The accessibility of Tor and Psiphon were largely the same in Ireland and Iraq outside of a few exceptions. Tor was widely accessible in both countries, indicating that both Ireland and Iraq have no significant mechanisms in place to block this tool, and if they do there is no evidence that it is effective. There is evidence that Psiphon is blocked on specific ASNs in both countries, with public OONI data backing this up. Over the same 30-day period, both Ireland and Iraq blocked Psiphon 12.1\% of the time. As a result, there is little evidence that there are systemic efforts to block access to Psiphon, similar to Tor.
+
+\subsubsection{Instant Messaging Platforms}
+
+In Ireland, there is essentially no evidence that instant messaging services are blocked in any meaningful manner. This is inline with Ireland's stance on censorship, and was expected. In Iraq however, there is some evidence that instant messaging services are blocked in some areas, but according to public OONI data they are widely accessible. There are ASNs that had implemented blocks on all four services tested to some capacity, which can indication regional blocking in response to certain events. This is aligned with Iraq's more reactionary censoring practice.
+
+\subsubsection{Presence of Middleboxes}
+
+The use of Middleboxes was almost non-existant, as there were only two anomalies over the 30-day time period, which were likely false-positives. This data indicates that Ireland does not implement TLS or SNI-based filtering in any systematic or widespread manner. By contrast, Iraq showed significant evidence of Middleboxes being present. AS198589 showed significant signs of Middleboxes being present, and there are other ASNs with significant anomalies. This indicates that Iraq may implmelent TLS or SNI-based filtering in some areas of the country, which makes sense as we know that much of Iraq's current censorship efforts are decentralized. 
+
+\subsection{Summary of Comparative Observations}
+
+\begin{table}[H]
+\centering
+\caption{Comparative Summary of Internet Censorship: Ireland vs. Iraq}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Metric} & \textbf{Ireland} & \textbf{Iraq} \\
+\midrule
+Block Rate (OONI) & 2.5\% & 7\% \\
+Blocking Methods & -- & -- \\
+Tool Blocking & Rare, selective & Targeted, ASN-specific \\
+Messaging Blocking & Negligible & Present on some ASNs \\
+Middleboxes Detected & Minimal & Present on some ASNs \\
+Motivations & Legal, EU compliance & Political, cultural control \\
+\bottomrule
+\end{tabular}
+\label{tab:comparison_summary}
+\end{table}
+
+These findings support the initial research, showing that Ireland and Iraq have quite different approaches to censorship. Ireland maintains a limited, legal-centric censorship model, which is transparent and aligned with most other Western nations. Iraq's approach, while less centralized, is more reactive and inconsistent, with it often being tied to internal events. 
 
