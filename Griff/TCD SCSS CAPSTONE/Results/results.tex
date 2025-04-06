@@ -1,5 +1,7 @@
 \chapter{Results and Discussion}
 
+The data and discussion of results below come in a combination of data gathered using the OONI probe in Ireland and Iraq, as well as published OONI data from the OONI Measurement Aggregation Toolkit (MAT).
+
 \section{Summary of Test Results}
 
 The tested results yielded expected results - Ireland primarily blocked pirated and illegal content, while Iraq blocked a wider range of content.
@@ -89,20 +91,87 @@ AI / Technology                     & -- & -- \\
 
 \subsection{Circumvention Test Results}
 
-
-
-\subsection{Instant Messaging Test Results}
-
-The results of the Instant Messaging tests were very similar in Ireland and Iraq. Both tests showed signs of no interference of blocking of Facebook Messenger, Telegram, Whatsapp, or Signal. However, looking outside of the tested ASNs reveals a significant difference between the two countries. The tested data in Ireand is consistent with public OONI data, and shows no blocking of instant messaging platforms. The Iraq data is also consistent with tests run on the same ASN, but in Iraq there are other ASNs that show signs of blocking.
+Ireland and Iraq yielded similar 
 
 \subsubsection{Ireland}
 
-In the past 30-day period, there were only 3 anomalies found that shows any kind of instant messaging blocking:
+Ireland likely does not block Tor on any of its ASNs, as it is largely accessible outside of 2 anomalies.
 
-\textbf{March 24, 2025} - Packethub S.A. (AS136787) - Facebook Messenger Test
+\textbf{March 18, 2025} - Magnet Networks Limited (AS34245) - Tor Test (1 anomaly out of 78 measurements)
+%https://explorer.ooni.org/m/20250318181530.182975_IE_tor_8b558463294b2881
+
+\textbf{March 31, 2025} - Liberty Global B.V. (AS6830) - Tor Test (1 anomaly out of 191 measurements)
+%https://explorer.ooni.org/m/20250331102020.562562_IE_tor_913ee551111fe0a9
+
+Outside of these two anomalies, there is no evidence that Tor is being blocked in Ireland.
+
+Psiphon on the other hand yielded different results. While Psiphon was largely able to be accessed on most ASNs, there were a few where access is likely blocked. 
+
+\begin{table}[H]
+\centering
+\caption{ASN's with Evidence of Psiphon being Blocked in Ireland}
+\begin{tabular}{lccc}
+\toprule
+\textbf{ASN} & \textbf{Anomaly} & \textbf{Total Measurement Count} & \textbf{Percentage} \\
+\midrule
+AS1213    & 33 & 35  & 94\% \\
+AS6830    & 16 & 215 & 7.4\% \\
+AS8075    & 1  & 1   & 100\% \\
+AS13280   & 8  & 12  & 66\% \\
+AS15751   & 1  & 9   & 11\% \\
+\bottomrule
+\end{tabular}
+\label{tab:category_block}
+\end{table}
+
+\subsubsection{Iraq}
+
+Similar to Ireland, Iraq largely does not block access to Tor outside of a few outliers.
+
+\textbf{March 20, 2025} - Super Cell Network for Internet Services LTD (AS209193) - Tor Test (1 anomaly out of 92 measurements)
+%https://explorer.ooni.org/m/20250320220102.873661_IQ_tor_3796e6aaa913670d
+
+\textbf{March 30, 2025} - Hulum Almustakbal Company for Communication Engineering and Services Ltd (AS203214) - Tor Test (2 anomalies out of 160 measurements)
+%https://explorer.ooni.org/m/20250330191838.341920_IQ_tor_f0e7ccd345c39d7f
+
+\textbf{March 30, 2025} - Valin Company for General Trading and Communications LTD (AS205254) - Tor Test (1 anomaly out of 17 measurements)
+%https://explorer.ooni.org/m/20250330111106.914884_IQ_tor_f45745fcedc21407
+
+Outside of these anomalies, there is no significant evidence that Tor is being blocked in Iraq.
+
+There is also little evidence of Psiphon being blocked in Iraq at a significant scale. Aside of a few outliers, Psiphon only seemed to be blocked on one ASN. 
+
+\begin{table}[H]
+\centering
+\caption{ASN's with Evidence of Psiphon being Blocked in Iraq}
+\begin{tabular}{lccc}
+\toprule
+\textbf{ASN} & \textbf{Anomaly} & \textbf{Total Measurement Count} & \textbf{Percentage} \\
+\midrule
+AS203214  & 127 & 165  & 77\% \\
+AS51684   & 4   & 23   & 17\% \\
+AS199739  & 1   & 352  & 0.2\% \\
+AS205254  & 1   & 30   & 3.3\% \\
+AS208324  & 1   & 3    & 33\% \\
+\bottomrule
+\end{tabular}
+\label{tab:category_block}
+\end{table}
+
+Based on this data, Psiphon is widely accessible in Iraq outside of AS203214.
+
+\subsection{Instant Messaging Test Results}
+
+The results of the Instant Messaging tests were very similar in Ireland and Iraq. Both tests showed no signs of interference or blocking of Facebook Messenger, Telegram, Whatsapp, or Signal. However, looking outside of the tested ASNs reveals a significant difference between the two countries. The tested data in Ireand is consistent with public OONI data, and shows no blocking of instant messaging platforms. The Iraq data is also consistent with tests run on the same ASN, but in Iraq there are other ASNs that show signs of blocking.
+
+\subsubsection{Ireland}
+
+In the past 30-day period, there were only 2 anomalies found that shows any kind of instant messaging blocking:
+
+\textbf{March 24, 2025} - Packethub S.A. (AS136787) - Facebook Messenger Test (1 anomaly out of 3 measurements)
 %https://explorer.ooni.org/m/20250324111124.418686_IE_facebookmessenger_fbdc8895400acaba
 
-\textbf{March 24, 2025} - HEAnetCLG (AS1213) - Signal Test
+\textbf{March 24, 2025} - HEAnetCLG (AS1213) - Signal Test (1 anomaly out of 37 measurements)
 %https://explorer.ooni.org/m/20250324164458.153631_IE_signal_667f7ad13e55043a
 
 Outside of these anomalies, there was no evidence of instant messaging blocking.
@@ -113,7 +182,7 @@ Iraq had significant evidence of instant messaging platforms being blocked in ce
 
 \begin{table}[H]
 \centering
-\caption{ASN's with Evidence of Instant Message Platform Blocking}
+\caption{ASN's with Evidence of Instant Message Platform Blocking in Iraq}
 \begin{tabular}{lcccc}
 \toprule
 \textbf{ASN} & \textbf{Facebook} & \textbf{Telegram} & \textbf{WhatsApp} & \textbf{Signal} \\
@@ -147,13 +216,13 @@ Using publicly available OONI data for Ireland and Iraq, it was found that there
 
 There is very little evidence of Middleboxes being present in Ireland. Over the past 30-day period, there are only two anomalies present. Both of these anomalies are from the HTTP Invalid Request Line test. 
 
-\textbf{March 25, 2025} - Meteor Mobile Communications Ireland (AS15751)
+\textbf{March 25, 2025} - Meteor Mobile Communications Ireland (AS15751) (1 anomaly out of 9 measurements)
 %https://explorer.ooni.org/m/20250325122211.663367_IE_httpinvalidrequestline_c713442d98eebb5c
 
-\textbf{April 1, 2025} - Vodafone Ireland Limited (AS15502)
+\textbf{April 1, 2025} - Vodafone Ireland Limited (AS15502) (1 anomaly out of 79 measurements)
 %https://explorer.ooni.org/m/20250401215651.365763_IE_httpinvalidrequestline_51f20fe7e9d31698
 
-These results are likely outliers, as there are no other Middlebox tests for Meteor Mobile Communications Ireland in this time span and no other anomalies for Vodafone Ireland Limited.
+These results are likely outliers, as there are very little Middlebox tests for Meteor Mobile Communications Ireland in this time span and no other anomalies for Vodafone Ireland Limited.
 
 \subsubsection{Iraq}
 
@@ -163,7 +232,7 @@ The table below lists the ASNs that were suspected to have Middleboxes present u
 
 \begin{table}[H]
 \centering
-\caption{ASN's with Evidence of Middleboxes (HTTP Invalid Request Line Test)}
+\caption{ASN's with Evidence of Middleboxes (HTTP Invalid Request Line Test) in Iraq}
 \begin{tabular}{lccc}
 \toprule
 \textbf{ASN} & \textbf{Anomaly} & \textbf{Total Measurement Count} & \textbf{Percentage} \\
@@ -190,7 +259,7 @@ The table below lists the ASNs that were suspected to have Middleboxes present u
 
 \begin{table}[H]
 \centering
-\caption{ASN's with Evidence of Middleboxes (HTTP Header Field Manipulation Test)}
+\caption{ASN's with Evidence of Middleboxes (HTTP Header Field Manipulation Test) in Iraq}
 \begin{tabular}{lccc}
 \toprule
 \textbf{ASN} & \textbf{Anomaly} & \textbf{Total Measurement Count} & \textbf{Percentage} \\
