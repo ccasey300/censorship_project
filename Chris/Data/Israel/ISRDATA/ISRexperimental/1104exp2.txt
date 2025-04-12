@@ -1,0 +1,286 @@
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+│ #45632                                           │
+│ https://dns.google/dns-query (MISC)              │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45633                                           │
+│ https://8.8.8.8/dns-query (MISC)                 │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45634                                           │
+│ dot://8.8.8.8:853/ (MISC)                        │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45635                                           │
+│ dot://8.8.4.4:853/ (MISC)                        │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45636                                           │
+│ https://8.8.4.4/dns-query (MISC)                 │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45637                                           │
+│ https://cloudflare-dns.com/dns-query (MISC)      │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45638                                           │
+│ https://1.1.1.1/dns-query (MISC)                 │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45639                                           │
+│ https://1.0.0.1/dns-query (MISC)                 │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45640                                           │
+│ dot://1.1.1.1:853/ (MISC)                        │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45641                                           │
+│ dot://1.0.0.1:853/ (MISC)                        │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45642                                           │
+│ https://dns.quad9.net/dns-query (MISC)           │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45643                                           │
+│ https://9.9.9.9/dns-query (MISC)                 │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45644                                           │
+│ dot://9.9.9.9:853/ (MISC)                        │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45645                                           │
+│ dot://dns.quad9.net/ (MISC)                      │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45646                                           │
+│ https://family.cloudflare-dns.com/dns-query (MISC) │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45647                                           │
+│ dot://family.cloudflare-dns.com/dns-query (MISC) │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45648                                           │
+│ https://dns11.quad9.net/dns-query (MISC)         │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45649                                           │
+│ dot://dns11.quad9.net/dns-query (MISC)           │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45650                                           │
+│ https://dns9.quad9.net/dns-query (MISC)          │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45651                                           │
+│ dot://dns9.quad9.net/dns-query (MISC)            │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45652                                           │
+│ https://dns12.quad9.net/dns-query (MISC)         │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45653                                           │
+│ dot://dns12.quad9.net/dns-query (MISC)           │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45654                                           │
+│ https://1dot1dot1dot1.cloudflare-dns.com/dns-query (MISC) │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45655                                           │
+│ dot://1dot1dot1dot1.cloudflare-dns.com/dns-query (MISC) │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45656                                           │
+│ https://dns.adguard.com/dns-query (MISC)         │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45657                                           │
+│ dot://dns.adguard.com/dns-query (MISC)           │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45658                                           │
+│ https://dns-family.adguard.com/dns-query (MISC)  │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45659                                           │
+│ dot://dns-family.adguard.com/dns-query (MISC)    │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45660                                           │
+│ https://dns.cloudflare.com/dns-query (MISC)      │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45661                                           │
+│ https://adblock.doh.mullvad.net/dns-query (MISC) │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45662                                           │
+│ dot://adblock.doh.mullvad.net/dns-query (MISC)   │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45663                                           │
+│ https://dns.alidns.com/dns-query (MISC)          │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45664                                           │
+│ dot://dns.alidns.com/dns-query (MISC)            │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45665                                           │
+│ https://doh.opendns.com/dns-query (MISC)         │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45666                                           │
+│ https://dns.nextdns.io/dns-query (MISC)          │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45667                                           │
+│ dot://dns.nextdns.io/dns-query (MISC)            │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45668                                           │
+│ https://dns10.quad9.net/dns-query (MISC)         │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45669                                           │
+│ dot://dns10.quad9.net/dns-query (MISC)           │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45670                                           │
+│ https://security.cloudflare-dns.com/dns-query (MISC) │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45671                                           │
+│ dot://security.cloudflare-dns.com/dns-query (MISC) │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45672                                           │
+│ https://dns.switch.ch/dns-query (MISC)           │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45673                                           │
+│ dot://dns.switch.ch/dns-query (MISC)             │
+│ dnscheck                 ok: ✓                   │
+│ success: ❌               uploaded: ❌             │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45674                                           │
+│ echcheck                 ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {}                                               │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45675                                           │
+│ stun://stun.epygi.com:3478 (MISC)                │
+│ stunreachability         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {}                                               │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45676                                           │
+│ stun://stun.sonetel.com:3478 (MISC)              │
+│ stunreachability         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {}                                               │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45677                                           │
+│ stun://stun.uls.co.za:3478 (MISC)                │
+│ stunreachability         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {}                                               │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45678                                           │
+│ stun://stun.l.google.com:19302 (MISC)            │
+│ stunreachability         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {}                                               │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45679                                           │
+│ stun://stun.antisip.com:3478 (MISC)              │
+│ stunreachability         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {}                                               │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45680                                           │
+│ stun://stun.bluesip.net:3478 (MISC)              │
+│ stunreachability         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {}                                               │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45681                                           │
+│ stun://stun.dus.net:3478 (MISC)                  │
+│ stunreachability         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {}                                               │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45682                                           │
+│ stun://stun.voipgate.com:3478 (MISC)             │
+│ stunreachability         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {}                                               │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45683                                           │
+│ stun://stun.voys.nl:3478 (MISC)                  │
+│ stunreachability         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {}                                               │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45684                                           │
+│ openvpn://oonivpn.corp/?address=37.218.243.98:1194&transport=udp (MISC) │
+│ openvpn                  ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {}                                               │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45685                                           │
+│ openvpn://oonivpn.corp/?address=37.218.243.98:1194&transport=tcp (MISC) │
+│ openvpn                  ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {}                                               │
+└┬────────────────────────────────────────────────┬┘
+ │ 11 Apr 25 12:33 UTC                            │
+ │ AS44709, O.M.C. COMPUTERS & COMMUNICATIONS LTD (IL)  │
+ │ 81.27s         0/54 anmls     ⬆ 1.4M  ⬇ 7.2K   │
+ └────────────────────────────────────────────────┘

@@ -1,0 +1,1202 @@
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+│ #45686                                           │
+│ http://www.phenoelit.org/ (MISC)                 │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": false,                            │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45687                                           │
+│ https://www.pc2call.com/ (MISC)                  │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": false,                            │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45688                                           │
+│ https://dnsleaktest.com/ (MISC)                  │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45689                                           │
+│ http://www.eurogrand.com/ (MISC)                 │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": false,                            │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45690                                           │
+│ http://www.utorrent.com/ (MISC)                  │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45691                                           │
+│ http://www.socom.mil/ (MISC)                     │
+│ web_connectivity         ok: ❌                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": false,                            │
+│  "blocking": "tcp_ip"}                           │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45692                                           │
+│ https://www.rarbg.to/ (MISC)                     │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45693                                           │
+│ https://www.mp3.com/ (MISC)                      │
+│ web_connectivity         ok: ❌                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": false,                            │
+│  "blocking": "tcp_ip"}                           │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45694                                           │
+│ http://www.bittornado.com/ (MISC)                │
+│ web_connectivity         ok: ❌                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": false,                            │
+│  "blocking": "tcp_ip"}                           │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45695                                           │
+│ http://www.bitcomet.com/ (MISC)                  │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45696                                           │
+│ https://thepiratebay.org/ (MISC)                 │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45697                                           │
+│ https://libgen.me/ (MISC)                        │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": false,                            │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45698                                           │
+│ https://libgen.life/ (MISC)                      │
+│ web_connectivity         ok: ❌                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": false,                            │
+│  "blocking": "tcp_ip"}                           │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45699                                           │
+│ https://kickasstorrents.to/ (MISC)               │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45700                                           │
+│ https://kat.am/ (MISC)                           │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45701                                           │
+│ http://www.oic-oci.org/ (MISC)                   │
+│ web_connectivity         ok: ❌                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": false,                            │
+│  "blocking": "tcp_ip"}                           │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45702                                           │
+│ http://www.islamdoor.com/ (MISC)                 │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": false,                            │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45703                                           │
+│ https://doh.centraleu.pi-dns.com/dns-query?dns=q80BAAABAAAAAAAAA3d3dwdleGFtcGxlA2NvbQAAAQAB (MISC) │
+│ web_connectivity         ok: ❌                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": false,                            │
+│  "blocking": "tcp_ip"}                           │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45704                                           │
+│ https://1.1.1.1/dns-query?dns=q80BAAABAAAAAAAAA3d3dwdleGFtcGxlA2NvbQAAAQAB (MISC) │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45705                                           │
+│ https://www.iconnecthere.com/ (MISC)             │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45706                                           │
+│ https://www.bittorrent.com/ (MISC)               │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45707                                           │
+│ https://im0-tub-com.yandex.net/i?id=462f375c96139f1e41d919b44be2d780&n=13&exp=1 (MISC) │
+│ web_connectivity         ok: ❌                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": false,                            │
+│  "blocking": "tcp_ip"}                           │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45708                                           │
+│ https://app.simplelogin.io/ (MISC)               │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45709                                           │
+│ http://abpr2.railfan.net/ (MISC)                 │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": false,                            │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45710                                           │
+│ https://www.xroxy.com/ (MISC)                    │
+│ web_connectivity         ok: ❌                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": false,                            │
+│  "blocking": "tcp_ip"}                           │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45711                                           │
+│ https://www.secfirst.org/ (MISC)                 │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45712                                           │
+│ http://www.queernet.org/ (MISC)                  │
+│ web_connectivity         ok: ❌                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": false,                            │
+│  "blocking": "tcp_ip"}                           │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45713                                           │
+│ https://secfirst.org/ (MISC)                     │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45714                                           │
+│ https://1.1.1.1/ (MISC)                          │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45715                                           │
+│ https://www.gamku.com/ (MISC)                    │
+│ web_connectivity         ok: ❌                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": false,                            │
+│  "blocking": "dns"}                              │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45716                                           │
+│ https://www.onlinearabiccasino.com/ (MISC)       │
+│ web_connectivity         ok: ❌                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": false,                            │
+│  "blocking": "tcp_ip"}                           │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45717                                           │
+│ http://www.absinth.com/ (MISC)                   │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45718                                           │
+│ https://www.literotica.com/ (MISC)               │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45719                                           │
+│ https://www.iasj.net/ (MISC)                     │
+│ web_connectivity         ok: ❌                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": false,                            │
+│  "blocking": "tcp_ip"}                           │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45720                                           │
+│ https://nazarene.org/ (MISC)                     │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45721                                           │
+│ http://www.on-instant.com/ (MISC)                │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45722                                           │
+│ http://www.mailinator.com/ (MISC)                │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45723                                           │
+│ http://www.euthanasia.cc/ (MISC)                 │
+│ web_connectivity         ok: ❌                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": false,                            │
+│  "blocking": "http-diff"}                        │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45724                                           │
+│ http://www.blogeasy.com/ (MISC)                  │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45725                                           │
+│ http://alhikmae.com/ (MISC)                      │
+│ web_connectivity         ok: ❌                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": false,                            │
+│  "blocking": "tcp_ip"}                           │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45726                                           │
+│ https://www.jsf.mil/ (MISC)                      │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45727                                           │
+│ https://www.rte.ie/ (MISC)                       │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45728                                           │
+│ https://www.chatgpt.com/ (MISC)                  │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45729                                           │
+│ https://www.independent.ie/ (MISC)               │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45730                                           │
+│ https://www.dailymail.co.uk/ (MISC)              │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45731                                           │
+│ https://www.bbc.com/ (MISC)                      │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45732                                           │
+│ https://www.donedeal.ie/ (MISC)                  │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45733                                           │
+│ https://www.yahoo.com/ (MISC)                    │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45734                                           │
+│ https://www.daft.ie/ (MISC)                      │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45735                                           │
+│ https://www.rip.ie/ (MISC)                       │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45736                                           │
+│ https://www.irishtimes.com/ (MISC)               │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45737                                           │
+│ https://www.tiktok.com/ (MISC)                   │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45738                                           │
+│ https://www.irishexaminer.com/ (MISC)            │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45739                                           │
+│ https://www.theguardian.com/ (MISC)              │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45740                                           │
+│ https://www.aib.ie/ (MISC)                       │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45741                                           │
+│ https://www.sky.com/ (MISC)                      │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45742                                           │
+│ https://www.thejournal.ie/ (MISC)                │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45743                                           │
+│ https://www.news.sky.com/ (MISC)                 │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45744                                           │
+│ https://www.nytimes.com/ (MISC)                  │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45745                                           │
+│ https://www.thesun.ie/ (MISC)                    │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45746                                           │
+│ https://www.met.ie/ (MISC)                       │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45747                                           │
+│ https://www.skysports.com/ (MISC)                │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45748                                           │
+│ https://www.dublinlive.ie/ (MISC)                │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45749                                           │
+│ https://www.boards.ie/ (MISC)                    │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45750                                           │
+│ https://www.bbc.co.uk/ (MISC)                    │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45751                                           │
+│ https://www.irishmirror.ie/ (MISC)               │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45752                                           │
+│ https://www.xvideos.com/ (MISC)                  │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45753                                           │
+│ https://www.imdb.com/ (MISC)                     │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45754                                           │
+│ https://www.breakingnews.ie/ (MISC)              │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45755                                           │
+│ https://www.galwaybeo.ie/ (MISC)                 │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45756                                           │
+│ https://www.lekmanga.net/ (MISC)                 │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45757                                           │
+│ https://www.shabakaty.com/ (MISC)                │
+│ web_connectivity         ok: ❌                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": false,                            │
+│  "blocking": "tcp_ip"}                           │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45758                                           │
+│ https://www.kurdcinama.com/ (MISC)               │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45759                                           │
+│ https://www.xhamster.com/ (MISC)                 │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45760                                           │
+│ https://www.reddit.com/ (MISC)                   │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45761                                           │
+│ https://www.xnxx.com/ (MISC)                     │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45762                                           │
+│ https://www.kurdsubtitle.net/ (MISC)             │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45763                                           │
+│ https://www.like-manga.net/ (MISC)               │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45764                                           │
+│ https://www.topcinema.cam/ (MISC)                │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45765                                           │
+│ https://www.telegram.org/ (MISC)                 │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45766                                           │
+│ https://www.egydead.fyi/ (MISC)                  │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45767                                           │
+│ https://www.arabshentai.com/ (MISC)              │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45768                                           │
+│ https://www.uptodown.com/ (MISC)                 │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45769                                           │
+│ https://www.beenar.net/ (MISC)                   │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": false,                            │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45770                                           │
+│ https://www.xnxx-arabic.com/ (MISC)              │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45771                                           │
+│ https://www.witanime.cyou/ (MISC)                │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45772                                           │
+│ https://www.dailymotion.com/ (MISC)              │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45773                                           │
+│ https://www.lodynet.io/ (MISC)                   │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45774                                           │
+│ https://www.weather.com/ (MISC)                  │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45775                                           │
+│ https://www.hentaislayer.net/ (MISC)             │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45776                                           │
+│ https://www.live.com/ (MISC)                     │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45777                                           │
+│ https://www.xhexperience.xyz/ (MISC)             │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45778                                           │
+│ https://www.theporndude.com/ (MISC)              │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45779                                           │
+│ https://www.xvideos-ar.com/ (MISC)               │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45780                                           │
+│ https://www.azoramoon.com/ (MISC)                │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45781                                           │
+│ https://www.kisskh.co/ (MISC)                    │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45782                                           │
+│ https://www.kurdfilm.krd/ (MISC)                 │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45783                                           │
+│ https://www.arabx.cam/ (MISC)                    │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45784                                           │
+│ https://www.sexalarab.com/ (MISC)                │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45785                                           │
+│ https://www.netflix.com/ (MISC)                  │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45786                                           │
+│ https://www.discord.com/ (MISC)                  │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45787                                           │
+│ https://www.twitch.tv/ (MISC)                    │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45788                                           │
+│ https://www.chess.com/ (MISC)                    │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45789                                           │
+│ https://www.tumblr.com/ (MISC)                   │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45790                                           │
+│ https://www.deviantart.com/ (MISC)               │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45791                                           │
+│ https://www.wattpad.com/ (MISC)                  │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45792                                           │
+│ https://www.omegle.com/ (MISC)                   │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45793                                           │
+│ https://www.lichess.org/ (MISC)                  │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45794                                           │
+│ https://www.spankbang.com/ (MISC)                │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45795                                           │
+│ https://www.bilibili.com/ (MISC)                 │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45796                                           │
+│ https://www.redtube.com/ (MISC)                  │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45797                                           │
+│ https://www.9gag.com/ (MISC)                     │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45798                                           │
+│ https://www.onlyfans.com/ (MISC)                 │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45799                                           │
+│ https://www.fanfiction.net/ (MISC)               │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45800                                           │
+│ https://www.artstation.com/ (MISC)               │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45801                                           │
+│ https://www.furaffinity.net/ (MISC)              │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45802                                           │
+│ https://www.poki.com/ (MISC)                     │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45803                                           │
+│ https://www.vk.com/ (MISC)                       │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45804                                           │
+│ https://www.creepypasta.com/ (MISC)              │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45805                                           │
+│ https://www.zoro.to/ (MISC)                      │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": false,                            │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45806                                           │
+│ https://www.youporn.com/ (MISC)                  │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45807                                           │
+│ https://www.etsy.com/ (MISC)                     │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45808                                           │
+│ https://www.vimeo.com/ (MISC)                    │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45809                                           │
+│ https://www.pixiv.net/ (MISC)                    │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45810                                           │
+│ https://www.rule34.xxx/ (MISC)                   │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45811                                           │
+│ https://www.redgifs.com/ (MISC)                  │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45812                                           │
+│ https://www.stripchat.com/ (MISC)                │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45813                                           │
+│ https://www.opera.com/ (MISC)                    │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45814                                           │
+│ https://www.wikipedia.com/ (MISC)                │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45815                                           │
+│ https://www.foxnews.com/ (MISC)                  │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45816                                           │
+│ https://www.porn.com/ (MISC)                     │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45817                                           │
+│ https://www.russia.tv/ (MISC)                    │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": false,                            │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45818                                           │
+│ https://www.rt.com/ (MISC)                       │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45819                                           │
+│ https://www.beeg.com/ (MISC)                     │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45820                                           │
+│ https://www.4chan.org/ (MISC)                    │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45821                                           │
+│ https://www.crunchyroll.com/ (MISC)              │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45822                                           │
+│ https://www.mozilla.org/ (MISC)                  │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45823                                           │
+│ https://pbc.ps/ (MISC)                           │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45824                                           │
+│ https://adultfriendfinder.com/ (MISC)            │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45825                                           │
+│ https://use-application-dns.net/ (MISC)          │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45826                                           │
+│ https://mgid.com/ (MISC)                         │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45827                                           │
+│ https://exoclick.com/ (MISC)                     │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45828                                           │
+│ https://rawa.org/ (MISC)                         │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45829                                           │
+│ https://hamas.com/ (MISC)                        │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45830                                           │
+│ https://coronavirus.app/ (MISC)                  │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45831                                           │
+│ https://chika.aangat.lahat.computer/ (MISC)      │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45832                                           │
+│ https://censored.tv/ (MISC)                      │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45833                                           │
+│ https://outlook.live.com/ (MISC)                 │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45834                                           │
+│ http://kremlin.ru/ (MISC)                        │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45835                                           │
+│ https://kk.wikipedia.org/ (MISC)                 │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45836                                           │
+│ https://ru.wiktionary.org/ (MISC)                │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45837                                           │
+│ https://ru.wikisource.org/ (MISC)                │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45838                                           │
+│ https://pl.wikipedia.org/ (MISC)                 │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45839                                           │
+│ https://www.gov.ie/en/campaigns/c36c85-covid-19-coronavirus/ (MISC) │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45840                                           │
+│ https://ircz.de/ (MISC)                          │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45841                                           │
+│ https://thepiratebay.org/ (MISC)                 │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45842                                           │
+│ https://he.wikipedia.org/ (MISC)                 │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45843                                           │
+│ https://he.wikisource.org/ (MISC)                │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45844                                           │
+│ https://he.wiktionary.org/ (MISC)                │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45845                                           │
+│ https://www.aljazeera.com/news/liveblog/2024/12/3/live-south-koreas-president-yoon-declares-emergency-martial/ (MISC) │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45846                                           │
+│ https://www.aljazeera.com/news/liveblog/2024/12/3/live-israeli-forces-kill-11-in-south-lebanon-order-new-gaza/ (MISC) │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45847                                           │
+│ https://www.aljazeera.com/news/liveblog/2024/12/2/live-israeli-forces-kill-10-palestinians-in-north-gaza-four/ (MISC) │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45848                                           │
+│ https://www.aljazeera.com/sports/liveblog/2024/12/1/live-liverpool-vs-manchester-city-english-premier/ (MISC) │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45849                                           │
+│ https://www.aljazeera.com/news/liveblog/2024/12/1/live-aid-workers-among-45-killed-by-israel-in-gaza-as-hamas/ (MISC) │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45850                                           │
+│ https://www.aljazeera.com/podcasts/2024/12/20/the-take-what-is-the-trauma-of-bearing-witness-to-genocide/ (MISC) │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45851                                           │
+│ https://www.aljazeera.com/podcasts/2024/12/19/the-take-can-the-us-healthcare-system-ever-be-fair-for-black-pa/ (MISC) │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45852                                           │
+│ https://www.aljazeera.com/podcasts/2024/12/18/the-take-why-are-mozambiques-youth-protesting/ (MISC) │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45853                                           │
+│ https://www.aljazeera.com/podcasts/2024/12/17/the-take-why-is-israel-bombing-syria/  (MISC) │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45854                                           │
+│ https://www.aljazeera.com/ (MISC)                │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45855                                           │
+│ https://www.aljazeera.net/ (MISC)                │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #45856                                           │
+│ https://network.aljazeera.net/en/ (MISC)         │
+│ web_connectivity         ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"accessible": true,                             │
+│  "blocking": ""}                                 │
+└┬────────────────────────────────────────────────┬┘
+ │ 11 Apr 25 12:59 UTC                            │
+ │ AS44709, O.M.C. COMPUTERS & COMMUNICATIONS LTD (IL)  │
+ │ 923.94s        15/171 anmls   ⬆ 18.3M  ⬇ 38.9M │
+ └────────────────────────────────────────────────┘

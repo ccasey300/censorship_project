@@ -1,0 +1,23 @@
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+│ #7660                                            │
+│ psiphon                  ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"bootstrap_time": 5.471467126,                  │
+│  "failure": ""}                                  │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #7661                                            │
+│ tor                      ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"dir_port_total": 10,                           │
+│  "dir_port_accessible": 10,                      │
+│  "obfs4_total": 14,                              │
+│  "obfs4_accessible": 8,                          │
+│  "or_port_dirauth_total": 10,                    │
+│  "or_port_dirauth_accessible": 10,               │
+│  "or_port_total": 0,                             │
+│  "or_port_accessible": 0}                        │
+└┬────────────────────────────────────────────────┬┘
+ │ 10 Apr 25 07:28 UTC                            │
+ │ AS6830, Liberty Global B.V. (IE)               │
+ │ 39.84s         0/2 anmls      ⬆ 73.3K  ⬇ 6.6K  │
+ └────────────────────────────────────────────────┘
