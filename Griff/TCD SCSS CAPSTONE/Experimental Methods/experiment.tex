@@ -16,13 +16,13 @@ The Web Connectivity test begins by identifying the DNS resolver in use on the n
 
 \subsubsection{Circumvention Test}
 
-The circumvention test is used to check weather Psiphon, Tor, or RiseupVPN are blocked on a given network. These are tools used to circumvent censorship by utilizing VPN, SSH, and HTTP proxy technologies. 
+The circumvention test is used to check weather Psiphon or Tor are blocked on a given network. These are tools used to circumvent censorship by utilizing VPN, SSH, and HTTP proxy technologies. 
 
 The Psiphon VPN serves as a tunnel that enables you to circumvent censorship by connected you to an uncensored portion of the internet \cite{ooniPsiphonTest}. The Psiphon test first uses Psiphon’s own code to establish a Psiphon tunnel. After the tunnel is created, the test attempts to load a webpage to see if Psiphon actually works for accessing the internet. If the tunnel is successfully set up and the webpage loads, Psiphon is functioning on the tested network and can bypass censorship. If the tunnel is established but the webpage does not load, Psiphon is blocked in some way, preventing access to online resources. Finally, if the test cannot even create the Psiphon tunnel, it indicates that Psiphon is completely blocked on that network \cite{PsiphonTestGitHub}.
 
 The Tor Test \cite{TorTestABOUTOONI} automatically checks whether Tor is accessible in a given network by examining the reachability of core components such as Tor directory authorities, OR ports, and obfs4 bridges. It first attempts to retrieve the Tor consensus from directory authorities, then tries to connect to OR ports (including those of directory authorities) via a TLS handshake, and finally tests obfs4 bridges through an obfuscated handshake. If all of these steps succeed, Tor is likely usable in the tested network (unless it is blocked in ways not covered by the test). If any step fails, Tor may be blocked and therefore unavailable on that network \cite{TorTestGitHub}.
 
-The RiseUpVPN test evaluates if the bootstrap servers used during the self-configuration of the VPN clients can be reached. The test also checks if RiseupVPN’s gateways can be reached on different ports and transports \cite{RiseUpVPNTest}. This test was contributed by the LEAP collective \cite{leapLEAPEncryption}.
+%The RiseUpVPN test evaluates if the bootstrap servers used during the self-configuration of the VPN clients can be reached. The test also checks if RiseupVPN’s gateways can be reached on different ports and transports \cite{RiseUpVPNTest}. This test was contributed by the LEAP collective \cite{leapLEAPEncryption}.
 
 \subsubsection{Instant Messaging Test}
 
@@ -42,7 +42,35 @@ A Middlebox is a computer networking device that transforms, filters, and manipu
 
 The OONI Middlebox test consists of two main operations: HTTP Header Field Manipulation and HTTP Invalid Request Line. The HTTP header field manipulation test emulates an HTTP request towards a server, but sends HTTP headers that have variations in capitalization. These requests are sent to a backend control server which send back any data it receives, and if these requests return exactly as we sent them, it is assumed there is no middlebox present. If the alterations of the headers come back normalized, it can be assumed that there was packet manipulation of some kind, leading to the confirmation of presence of Middleboxes It is worthy to note that false negatives can happen in this test, as some ISPs use highly sophisticated software that can disguise the presence of Middleboxes \cite{ooniHTTPHeader}.  
 
-The HTTP Invalid request line test sends an invalid HTTP request to an echo service listening on the standard HTTP port, rather than a valid one. If the request is returned to the user exactly as it was sent, it can be concluded that there is no evidence of the presence of a Middlebox. However, it is possible that this invalid request can be intercepted by a Middlebox that triggers an error that is sent back to the probe. This is evidence that there is a Middlebox present in the network. It is worthy to note that false negatives are possible as some ISPs use highly sophisticated software that is designed not to trigger such errors \cite{ooniHTTPInvalid}. 
+The HTTP Invalid request line test sends an invalid HTTP request to an echo service listening on the standard HTTP port, rather than a valid one. If the request is returned to the user exactly as it was sent, it can be concluded that there is no evidence of the presence of a Middlebox. However, it is possible that this invalid request can be intercepted by a Middlebox that triggers an error that is sent back to the probe. This is evidence that there is a Middlebox present in the network. It is worthy to note that false negatives are possible as some ISPs use highly sophisticated software that is designed not to trigger such errors \cite{ooniHTTPInvalid}.
+
+\subsection{Test Versions}
+
+The table below shows the version of each tech used to carry out this work.
+
+\vspace{1.5em}
+
+\begin{table}[H]
+\centering
+\caption{OONI Probe Test Versions at the Time of this work}
+\begin{tabular}{lc}
+\toprule
+\textbf{Test Name} & \textbf{Version} \\
+\midrule
+OONI Probe Engine & v3.23.0 \\
+Web Connectivity Test    & 2024-02-14-001  \\
+Tor Test    & 2022-06-13-001  \\
+Psiphon Test    & 0.3.4  \\
+Facebook Messenger Test    & 2016-10-25-001  \\
+WhatsApp Test    & 2022-12-07-001  \\
+Signal Test    & 2023-12-01-001  \\
+Telegram Test    & 2022-12-07-001  \\
+HTTP Header Field Manipulation Test    & 0.2.1  \\
+HTTP Invalid Request Line Test    & 1.0.0  \\
+\bottomrule
+\end{tabular}
+\label{tab:blocked_summary}
+\end{table}
 
 \subsection{Data Collection and Transparency}
 

@@ -12,6 +12,8 @@ The first part of this section is an analysis of the data collected by the OONI 
 
 The results below are an average of the number of websites blocked each day over the testing period of 9 days.
 
+\vspace{2em}
+
 \begin{table}[H]
 \centering
 \caption{Summary of Blocked vs. Unblocked Websites by Country}
@@ -27,6 +29,8 @@ Iraq    & 108 & 29 \\
 \end{table}
 
 Table 4.2 shows the distribution of blocking methods in Ireland and Iraq.
+
+\vspace{2em}
 
 \begin{table}[H]
 \centering
@@ -45,6 +49,8 @@ Error/Failure  & 8  & 5  \\
 \end{table}
 
 The table below shows the number of websites blocked in each category in both countries.
+
+\vspace{2em}
 
 \begin{table}[H]
 \centering
@@ -75,6 +81,8 @@ AI / Technology                    & 1 & 0 & 0 \\
 \subsubsection{Public OONI Data}
 
 This section is an analysis of publicly available OONI data over the previous 30 day period in Ireland and Iraq. The data in table 4.5 is the average over the 30-day period.
+
+\vspace{2em}
 
 \begin{table}[H]
 \centering
@@ -123,23 +131,32 @@ Outside of these two anomalies, there is no evidence that Tor is being blocked i
 
 Psiphon on the other hand yielded different results. While Psiphon was largely able to be accessed on most ASNs, there were a few where access is likely blocked. 
 
+\vspace{2em}
+
 \begin{table}[H]
 \centering
-\caption{ASN's with Evidence of Psiphon being Blocked in Ireland}
-\begin{tabular}{lccc}
+\caption{Networks in Ireland with Evidence of Psiphon Blocking}
+\begin{tabular}{lccccc}
 \toprule
-\textbf{ASN} & \textbf{Anomaly} & \textbf{Total Measurement Count} & \textbf{Percentage} \\
+\textbf{Network Name} & \textbf{ASN} & \shortstack{\textbf{Psiphon} \\ \textbf{Blocking Events}} & \shortstack{\textbf{Total} \\ \textbf{Measurements}} & \shortstack{\textbf{Block} \\ \textbf{Rate (\%)}} \\
 \midrule
-AS1213    & 33 & 35  & 94\% \\
-AS6830    & 16 & 215 & 7.4\% \\
-AS8075    & 1  & 1   & 100\% \\
-AS13280   & 8  & 12  & 66\% \\
-AS15751   & 1  & 9   & 11\% \\
+Microsoft Corporation           & AS8075  & 1  & 1   & 100\%  \\
+HEAnet Ltd.                     & AS1213  & 33 & 35  & 94\%   \\
+O2 Ireland Ltd.                 & AS13280 & 8  & 12  & 66\%   \\
+Vodafone Ireland Ltd.           & AS15751 & 1  & 9   & 11\%   \\
+Liberty Global B.V.             & AS6830  & 16 & 215 & 7.4\%  \\
 \bottomrule
-Totals    & 60 & 494 & 12.1\% \\
+\textbf{Total} &  & \textbf{59} & \textbf{494} & \textbf{12.1\%} \\
 \end{tabular}
-\label{tab:category_block}
+
+\vspace{1em}
+
+\caption*{\textit{Note:} "Psiphon Blocking Events" represent detected anomalies during testing of the Psiphon circumvention tool. "Block Rate" indicates the percentage of measurements that showed blocking behavior.}
+\label{tab:psiphon_block_ireland}
 \end{table}
+
+
+
 
 \subsubsection{Iraq}
 
@@ -158,22 +175,28 @@ Outside of these anomalies, there is no significant evidence that Tor is being b
 
 There is also little evidence of Psiphon being blocked in Iraq at a significant scale. Aside of a few outliers, Psiphon only seemed to be blocked on one ASN. 
 
+\vspace{2em}
+
 \begin{table}[H]
 \centering
-\caption{ASN's with Evidence of Psiphon being Blocked in Iraq}
-\begin{tabular}{lccc}
+\caption{Networks in Iraq with Evidence of Psiphon Blocking}
+\begin{tabular}{lccccc}
 \toprule
-\textbf{ASN} & \textbf{Anomaly} & \textbf{Total Measurement Count} & \textbf{Percentage} \\
+\textbf{Network Name} & \textbf{ASN} & \shortstack{\textbf{Psiphon} \\ \textbf{Blocking Events}} & \shortstack{\textbf{Total} \\ \textbf{Measurements}} & \shortstack{\textbf{Block} \\ \textbf{Rate (\%)}} \\
 \midrule
-AS203214  & 127 & 165  & 77\% \\
-AS51684   & 4   & 23   & 17\% \\
-AS199739  & 1   & 352  & 0.2\% \\
-AS205254  & 1   & 30   & 3.3\% \\
-AS208324  & 1   & 3    & 33\% \\
+HulumTele             & AS203214  & 127 & 165  & 77\%   \\
+NB Telecom            & AS208324  & 1   & 3    & 33\%   \\
+AsiaCell Telecom      & AS51684   & 4   & 23   & 17\%   \\
+Valin Co LTD          & AS205254  & 1   & 30   & 3.3\%  \\
+Earthlink Telecom     & AS199739  & 1   & 352  & 0.2\%  \\
 \bottomrule
-Totals    & 134 & 1107 & 12.1\% \\
+\textbf{Total}        &           & \textbf{134} & \textbf{1107} & \textbf{12.1\%} \\
 \end{tabular}
-\label{tab:category_block}
+
+\vspace{1em}
+
+\caption*{\textit{Note:} "Psiphon Blocking Events" refer to instances where the Psiphon circumvention tool exhibited signs of interference. "Block Rate" is calculated as the percentage of blocked measurements over the total measured on each network.}
+\label{tab:psiphon_block_iraq}
 \end{table}
 
 Based on this data, Psiphon is widely accessible in Iraq outside of AS203214.
@@ -198,29 +221,35 @@ Outside of these anomalies, there was no evidence of instant messaging blocking.
 
 Iraq had significant evidence of instant messaging platforms being blocked in certain ASNs. The table below shows each ASN, and the percentage of tests where there was an anomaly found.
 
+\vspace{2em}
+
 \begin{table}[H]
 \centering
-\caption{ASN's with Evidence of Instant Message Platform Blocking in Iraq}
-\begin{tabular}{lcccc}
+\caption{Networks in Iraq with Evidence of Instant Messaging Platform Blocking}
+\begin{tabular}{lcccccc}
 \toprule
-\textbf{ASN} & \textbf{Facebook} & \textbf{Telegram} & \textbf{WhatsApp} & \textbf{Signal} \\
+\textbf{Network Name} & \textbf{ASN} & \shortstack{\textbf{Facebook} \\ \textbf{Block Rate}} & \shortstack{\textbf{Telegram} \\ \textbf{Block Rate}} & \shortstack{\textbf{WhatsApp} \\ \textbf{Block Rate}} & \shortstack{\textbf{Signal} \\ \textbf{Block Rate}} \\
 \midrule
-AS203214  & 27\%  & 7.8\% & 25\%  & 44\% \\
-AS205254  & 26\%  & 3.8\% & 7.6\% & 7.6\% \\
-AS199739  & 1\%   & 0.5\% & 0.2\% & 0.8\% \\
-AS13335   & 47\%  & 0\%   & 0\%   & 0\% \\
-AS50710   & 33\%  & 0\%   & 0\%   & 0\% \\
-AS206206  & 60\%  & 0\%   & 0\%   & 0\% \\
-AS212330  & 100\% & 0\%   & 0\%   & 0\% \\
-AS210022  & 0\%   & 0\%   & 0\%   & 82\% \\
-AS51020   & 0\%   & 0\%   & 0\%   & 32\% \\
-AS202651  & 0\%   & 0\%   & 0\%   & 23\% \\
-AS59588   & 0\%   & 0\%   & 1.9\% & 1.9\% \\
-AS209193  & 0\%   & 0\%   & 0.7\% & 0\% \\
+CIT Co LTD            & AS212330  & 100\% & 0\%   & 0\%   & 0\%   \\
+KNET                  & AS206206  & 60\%  & 0\%   & 0\%   & 0\%   \\
+Cloudflare, Inc.      & AS13335   & 47\%  & 0\%   & 0\%   & 0\%   \\
+Earthlink Telecom     & AS50710   & 33\%  & 0\%   & 0\%   & 0\%   \\
+HulumTele             & AS203214  & 27\%  & 7.8\% & 25\%  & 44\%  \\
+Valin Co LTD          & AS205254  & 26\%  & 3.8\% & 7.6\% & 7.6\% \\
+Al-Nazeera Co.        & AS51020   & 0\%   & 0\%   & 0\%   & 32\%  \\
+Noor Al-Bedaya Co.    & AS202651  & 0\%   & 0\%   & 0\%   & 23\%  \\
+TLLG Co.              & AS210022  & 0\%   & 0\%   & 0\%   & 82\%  \\
+Al Atheer Co. LTD     & AS59588   & 0\%   & 0\%   & 1.9\% & 1.9\% \\
+Earthlink Telecom     & AS199739  & 1\%   & 0.5\% & 0.2\% & 0.8\% \\
+Super Cell            & AS209193  & 0\%   & 0\%   & 0.7\% & 0\%   \\
 \bottomrule
-Total Percentage Blocked  & 6.2\%   & 1.4\%   & 4.1\% & 6.2\% \\
+\textbf{Total Block Rate} & & \textbf{6.2\%} & \textbf{1.4\%} & \textbf{4.1\%} & \textbf{6.2\%} \\
 \end{tabular}
-\label{tab:category_block}
+
+\vspace{1em}
+
+\caption*{\textit{Note:} Each percentage reflects the proportion of measurements on the respective network where blocking behavior was detected for a specific instant messaging platform. The platforms analyzed include Facebook Messenger, Telegram, WhatsApp, and Signal.}
+\label{tab:im_block_iraq}
 \end{table}
 
 Instant Messaging platforms are essentially widely available in Iraq, but there are some areas where blocking does occur.
@@ -249,23 +278,29 @@ There is considerably more evidence of Middleboxes being present in Iraq. Over t
 
 The table below lists the ASNs that were suspected to have Middleboxes present using the HTTP Invalid Request Line test. It then shows the number of anomalies, the total measurement count, and what percentage of the total count were anomalies. Note that any ASN that had less than 0.5\% anomalies was ignored.
 
+\vspace{2em}
+
 \begin{table}[H]
 \centering
-\caption{ASN's with Evidence of Middleboxes (HTTP Invalid Request Line Test) in Iraq}
-\begin{tabular}{lccc}
+\caption{Networks in Iraq with Evidence of Middleboxes (HTTP Invalid Request Line Test)}
+\begin{tabular}{lccccc}
 \toprule
-\textbf{ASN} & \textbf{Anomaly} & \textbf{Total Measurement Count} & \textbf{Percentage} \\
+\textbf{Network Name} & \textbf{ASN} & \shortstack{\textbf{Detected} \\ \textbf{Events}} & \shortstack{\textbf{Total} \\ \textbf{Measurements}} & \shortstack{\textbf{Block} \\ \textbf{Rate (\%)}} \\
 \midrule
-AS198589  & 68 & 70 & 97\% \\
-AS203214  & 32 & 158 & 20.25\% \\
-AS59588   & 13 & 53 & 24.5\% \\
-AS13335   & 8 & 10 & 80\% \\
-AS48492   & 2 & 4 & 50\% \\
-AS50710   & 1 & 1 & 100\% \\
+EarthLink Ltd.        & AS50710   & 1  & 1   & 100\%    \\
+Al-Jazeera Co.        & AS198589  & 68 & 70  & 97\%     \\
+Cloudflare, Inc.      & AS13335   & 8  & 10  & 80\%     \\
+IQ-Online             & AS48492   & 2  & 4   & 50\%     \\
+Al Atheer Co. LTD     & AS59588   & 13 & 53  & 24.5\%   \\
+HulumTele             & AS203214  & 32 & 158 & 20.25\%  \\
 \bottomrule
-Total Percentage   & 125 & 1071 & 11.6\% \\
+\textbf{Total} & & \textbf{125} & \textbf{1071} & \textbf{11.6\%} \\
 \end{tabular}
-\label{tab:category_block}
+
+\vspace{1em}
+
+\caption*{\textit{Note:} This table presents results from the HTTP Invalid Request Line Test. "Detected Events" refer to anomalies suggesting the presence of network middleboxes. "Block Rate" is the percentage of such events relative to the total measurements per ASN.}
+\label{tab:middlebox_http_invalid}
 \end{table}
 
 %\begin{figure}[H]
@@ -277,21 +312,33 @@ Total Percentage   & 125 & 1071 & 11.6\% \\
 
 The table below lists the ASNs that were suspected to have Middleboxes present using the HTTP Header Field Manipulation test. It then shows the number of anomalies, the total measurement count, and what percentage of the total count were anomalies. Note that any ASN that had less than 0.5\% anomalies was ignored.
 
+\vspace{2em}
+
 \begin{table}[H]
 \centering
-\caption{ASN's with Evidence of Middleboxes (HTTP Header Field Manipulation Test) in Iraq}
-\begin{tabular}{lccc}
+\caption{Networks in Iraq with Evidence of Middleboxes (HTTP Header Field Manipulation Test)}
+\begin{tabular}{lccccc}
 \toprule
-\textbf{ASN} & \textbf{Anomaly} & \textbf{Total Measurement Count} & \textbf{Percentage} \\
+\textbf{Network Name} & \textbf{ASN} & \shortstack{\textbf{Detected} \\ \textbf{Events}} & \shortstack{\textbf{Total} \\ \textbf{Measurements}} & \shortstack{\textbf{Block} \\ \textbf{Rate (\%)}} \\
 \midrule
-AS13335   & 8 & 10 & 80\% \\
-AS48492   & 2 & 4 & 50\% \\
-AS50710   & 1 & 1 & 100\% \\
+EarthLink Ltd.        & AS50710  & 1 & 1  & 100\%  \\
+Cloudflare, Inc.      & AS13335  & 8 & 10 & 80\%   \\
+IQ-Online             & AS48492  & 2 & 4  & 50\%   \\
 \bottomrule
-Total Percentage   & 19 & 1074 & 1.7\% \\
+\textbf{Total} & & \textbf{11} & \textbf{15} & \textbf{1.7\% of full dataset (1074)} \\
 \end{tabular}
-\label{tab:category_block}
+
+\vspace{1em}
+
+\begin{minipage}{0.95\linewidth}
+\caption*{\textit{Note:} This test detects potential middleboxes by observing anomalies in how HTTP header fields are processed. "Detected Events" are instances of irregular responses, possibly caused by network interference. "Block Rate" indicates the ratio of these events to total measurements per ASN.}
+\end{minipage}
+\label{tab:middlebox_http_header}
 \end{table}
+
+
+
+
 
 
 %\begin{figure}[H]
@@ -334,7 +381,7 @@ The use of Middleboxes was almost non-existant, as there were only two anomalies
 \textbf{Metric} & \textbf{Ireland} & \textbf{Iraq} \\
 \midrule
 Block Rate (OONI) & 2.5\% & 7\% \\
-Blocking Methods & -- & -- \\
+Blocking Methods & TCP/IP, DNS & TCP/IP, DNS, SNI \\
 Tool Blocking & Rare, selective & Targeted, ASN-specific \\
 Messaging Blocking & Negligible & Present on some ASNs \\
 Middleboxes Detected & Minimal & Present on some ASNs \\
@@ -345,4 +392,6 @@ Motivations & Legal, EU compliance & Political, cultural control \\
 \end{table}
 
 These findings support the initial research, showing that Ireland and Iraq have quite different approaches to censorship. Ireland maintains a limited, legal-centric censorship model, which is transparent and aligned with most other Western nations. Iraq's approach, while less centralized, is more reactive and inconsistent, with it often being tied to internal events. 
+
+\subsection{Future Work}
 
