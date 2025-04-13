@@ -81,11 +81,16 @@ As a whole, Ireland's censorship efforts are limited and specific. The governmen
 
 It seems that Ireland has also rolled back blocks on some websites, such as Russian News outlets. Previously, the domain russia.tv, was blocked in Ireland. But as of 2025, it is able to be partially accessed. Based on data from the OONI project, there is evidence of TCP/IP blocking of this domain in Ireland. Based on the findings from OONI, this domain is able to be accessed when EIRCOM's root DNS server (AS5466, IP: 86.47.80.38) is used, but is blocked when accessed through Cloudflare's DNS server (AS14593, IP: 172.69.193.80).
 
-\centerline{\includegraphics[width=480pt]{Griff/TCD SCSS CAPSTONE/Literature Review/RussiaTV search OONI.jpg}}
+\vspace{2em}
 
-\centerline{\textit{Figure 1.1, Russia.tv domain search on OONI}}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Griff/TCD SCSS CAPSTONE/Literature Review/RussiaTV search OONI.jpg}
+    \caption{Russia.tv domain search on OONI in Ireland}
+    \label{fig:iraq-middlebox-HTTP-manipulation}
+\end{figure}
 
-\subsection{EU Compliance (CHRIS)}
+\subsection{EU Compliance}
 \label{sec:Chris-EU-Compliance}
 
 Aside from Irish legislation, there are EU directives that run in conjuncture such as the Digital Services Act, GDPR and more. These will be discussed in detail in this section. Let us first establish the primacy of EU law as echoed in the Irish Constitution. "As well as being superior to national law, some EU law has direct effect on its citizens." \cite{citizensinformation2025} The European Commission proposes laws that are sent to the European Commission and then the Council of the European Union to be approved by a qualified majority and passed, or rejected. \cite{europa2025} This procedure has lead to the passing of legislation that affects internet usage in Ireland. 
@@ -140,11 +145,16 @@ To stop this from happening, the US Government released Tor to the public in the
 
 \subsubsection{Technical \& Circumvention Information}
 
-Internet traffic sent over the Tor network is encapsulated in multiple layers of encryption. Think of your data as a letter that is placed inside several envelopes. Each node in the network removes one envelope, revealing only the information necessary to pass the message along to the next node. To do this, the Tor browsers sends your data through at least three nodes, and the pathway of these nodes are randomly constructed and reconstructed during your session \cite{dingledine2004tor}.
+Internet traffic sent over the Tor network is encapsulated in multiple layers of encryption. Think of your data as a letter that is placed inside several envelopes. Each node in the network removes one envelope, revealing only the information necessary to pass the message along to the next node. To do this, the Tor browser sends your data through at least three nodes, and the pathway of these nodes are randomly constructed and reconstructed during your session \cite{dingledine2004tor}.
 
-\centerline{\includegraphics[width=480pt]{Griff/TCD SCSS CAPSTONE/Literature Review/How tor works.jpg}}
+\vspace{2em}
 
-\centerline{\textit{Figure 1.2, How the Tor Network Works}}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Griff/TCD SCSS CAPSTONE/Literature Review/How tor works.jpg}
+    \caption{How the Tor Network Works \cite{HowTorWorks}}
+    \label{fig:iraq-middlebox-HTTP-manipulation}
+\end{figure}
 
 Tor is a great tool to combat censorship. Tor's distributed architecture of nodes makes it resilient against localized censorship efforts. In countries where the Tor network is blocked, users are able to use "Bridges", which are Tor nodes that are not listed publicly. Using a bridge address allows for the user to connect to the network covertly \cite{torprojectBRIDGESProject}. Users can also avail of "Pluggable transports", which transforms Tor traffic to look like regular network traffic. This method can help circumvent censorship in regions that use \textit{Deep Packet Inspection} (DPI) and other forms of advanced internet censorship \cite{torprojectCIRCUMVENTIONProject}.
 
