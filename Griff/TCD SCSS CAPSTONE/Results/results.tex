@@ -8,75 +8,79 @@ The data and discussion of results below come in a combination of data gathered 
 
 \subsubsection{Collected Data}
 
-The first part of this section is an analysis of the data collected by the OONI probe locally in Ireland and through the VM in Iraq.
-
-The results below are an average of the number of websites blocked each day over the testing period of 9 days.
+This section presents an analysis of website accessibility data collected using the OONI Probe. Tests were conducted locally in Ireland and through a virtual machine (VM) hosted in Iraq. The results reflect the average number of websites blocked per day over a 9-day testing period. The findings are categorized by country, blocking method, and website category to highlight differences in censorship patterns.
 
 \vspace{2em}
 
-\begin{table}[H]
-\centering
-\caption{Summary of Blocked vs. Unblocked Websites by Country}
-\begin{tabular}{lcc}
-\toprule
-\textbf{Country} & \textbf{Unblocked} & \textbf{Blocked} \\
-\midrule
-Ireland & 105 & 32 \\
-Iraq    & 108 & 29 \\   
-\bottomrule
-\end{tabular}
-\label{tab:blocked_summary}
+\begin{table}[H] 
+\centering 
+\caption{Proportion of Blocked vs. Unblocked Websites by Country (Daily Average Over 9 Days)} 
+\begin{tabular}{lccc} 
+\toprule 
+\textbf{Country} & \textbf{Unblocked} & \textbf{Blocked} & \textbf{Blocked (\%)} \\
+\midrule 
+Ireland & 105 & 32 & 23.4\%  \\
+Iraq & 108 & 29 & 21.2\% \\
+\bottomrule 
+\end{tabular} 
+\label{tab:blocked_summary} 
 \end{table}
+
+Despite expectations of greater censorship in Iraq, the average number of blocked websites per day was relatively similar between the two countries, with Ireland showing a slightly higher blocking percentage. 
 
 Table 4.2 shows the distribution of blocking methods in Ireland and Iraq.
 
 \vspace{2em}
 
-\begin{table}[H]
-\centering
-\caption{Distribution of Blocking Methods Detected in Iraq and Ireland}
-\begin{tabular}{lcc}
-\toprule
-\textbf{Blocking Method} & \textbf{Iraq Frequency} & \textbf{Ireland Frequency} \\
-\midrule
-TCP/IP         & 18 & 15 \\
-DNS            & 1  & 6  \\
-HTTP           & 3  & 1  \\
-Error/Failure  & 8  & 5  \\
-\bottomrule
-\end{tabular}
-\label{tab:blocking_methods_comparison}
+\begin{table}[H] 
+\centering 
+\caption{Distribution of Detected Blocking Methods by Country} 
+\begin{tabular}{lcccc} 
+\toprule 
+\textbf{Blocking Method} & \shortstack{\textbf{Iraq} \\ \textbf{Frequency}} & \textbf{Iraq \%} & \shortstack{\textbf{Ireland} \\ \textbf{Frequency}} & \textbf{Ireland \%} \\
+\midrule 
+TCP/IP         & 18 & 60.0\%  & 15 & 55.6\% \\
+DNS            & 1  & 3.3\%   & 6  & 22.2\% \\
+HTTP           & 3  & 10.0\%  & 1  & 3.7\% \\
+Error/Failure  & 8  & 26.7\%  & 5  & 18.5\% \\
+\bottomrule 
+\end{tabular} 
+\label{tab:blocking_methods_comparison} 
 \end{table}
+
+TCP/IP blocking emerged as the most common method overall, indicating the use of low-level network interference. Ireland had more cases of DNS-based blocking than Iraq, whereas HTTP and Error/Failure blocks were more evenly distributed.
 
 The table below shows the number of websites blocked in each category in both countries.
 
 \vspace{2em}
 
-\begin{table}[H]
-\centering
-\caption{Blocked Websites by Category and Country}
-\begin{tabular}{lccc}
-\toprule
-\textbf{Category} & \textbf{Total Websites Tested} & \textbf{Ireland} & \textbf{Iraq} \\
-\midrule
-Uncategorized                      & 30 & 12 & 10 \\
-Piracy / Streaming / File Sharing  & 20 & 10 & 4 \\
-News / Media                       & 20 & 2 & 2 \\
-Adult Content                      & 20 & 0 & 0 \\
-Creative / Educational / Misc      & 15 & 0 & 0 \\
-General / National Services        & 9 & 1 & 2 \\
-Streaming / Social Media           & 9 & 1 & 1 \\
-Religious                          & 4 & 2 & 3 \\
-VoIP / Communication               & 2 & 1 & 1 \\
-Gambling                           & 2 & 2 & 2 \\
-Email/Privacy Tools                & 2 & 0 & 1 \\
-Adult / Alcohol                    & 2 & 0 & 2 \\
-LGBTQ+                             & 1 & 1 & 1 \\
-AI / Technology                    & 1 & 0 & 0 \\
-\bottomrule
-\end{tabular}
-\label{tab:category_block}
+\begin{table}[H] 
+\centering 
+\caption{Number of Blocked Websites by Category and Country} 
+\begin{tabular}{lccc} 
+\toprule 
+\textbf{Category} & \textbf{Total} & \shortstack{\textbf{Ireland} \\ \textbf{Blocked (\%)}} & \shortstack{\textbf{Iraq} \\ \textbf{Blocked (\%)}} \\
+\midrule 
+Uncategorized                      & 30 & 12 (40.0\%)  & 10 (33.3\%) \\
+Piracy / Streaming / File Sharing  & 20 & 10 (50.0\%)  & 4 (20.0\%)  \\
+News / Media                       & 20 & 2 (10.0\%)   & 2 (10.0\%)  \\
+Adult Content                      & 20 & 0 (0.0\%)    & 0 (0.0\%)   \\
+Creative / Educational / Misc      & 15 & 0 (0.0\%)    & 0 (0.0\%)   \\
+General / National Services        & 9  & 1 (11.1\%)   & 2 (22.2\%)  \\
+Streaming / Social Media           & 9  & 1 (11.1\%)   & 1 (11.1\%)  \\
+Religious                          & 4  & 2 (50.0\%)   & 3 (75.0\%)  \\
+VoIP / Communication               & 2  & 1 (50.0\%)   & 1 (50.0\%)  \\
+Gambling                           & 2  & 2 (100\%)    & 2 (100\%)   \\
+Email/Privacy Tools                & 2  & 0 (0.0\%)    & 1 (50.0\%)  \\
+Adult / Alcohol                    & 2  & 0 (0.0\%)    & 2 (100\%)   \\
+LGBTQ+                             & 1  & 1 (100\%)    & 1 (100\%)   \\
+AI / Technology                    & 1  & 0 (0.0\%)    & 0 (0.0\%)   \\
+\bottomrule 
+\end{tabular} 
+\label{tab:category_block} 
 \end{table}
+
+The most frequently blocked category in Ireland was “Piracy / Streaming / File Sharing” (50\%), followed closely by “Uncategorized” sites (40\%). In Iraq, “Religious” websites experienced the highest rate of censorship (75\%), with additional blocks targeting sites associated with adult content and gambling.
 
 \subsubsection{Public OONI Data}
 
@@ -336,11 +340,6 @@ IQ-Online             & AS48492  & 2 & 4  & 50\%   \\
 \label{tab:middlebox_http_header}
 \end{table}
 
-
-
-
-
-
 %\begin{figure}[H]
  %   \centering
 %    \includegraphics[width=\textwidth]{Griff/TCD SCSS CAPSTONE/Results/IraqMiddleboxHTTPManipulation.png}
@@ -357,7 +356,11 @@ The combined results of OONI probe testing and public OONI data reveal differenc
 
 \subsubsection{Website Accessability}
 
-(waiting on some final data from OONI)
+The manually run web connectivity test yielded unexpected results. The proportion of blocked websites in both countries was similar, with Ireland having a slight edge over Iraq. This was unexpected, but it is worthy to note that because these tests were run manually on only one or two networks in each country, these results may only give a partial view of the country's Internet censorship. When looking at the publicly available OONI data, the results become more expected. In the 30-day period, Iraq blocked significantly more websites than Ireland, and at a higher rate. Of the 3703 websites tested in Iraq, 262 of them had anomalies (7\% blocking rate), while of the 1695 websites tested in Ireland, only 43 of them had anomalies (2.5\% blocking rate). Looking at the figures, it is clear that Iraq blocks more content on a more consistent basis than Ireland. 
+
+The blocking rates of websites by category reveal more expected results. Outside of uncategorized websites, Ireland blocked significantly more Piracy / Streaming / File Sharing websites than Iraq, which is in line with Ireland's court-mandated approach to censorship. Conversely, Iraq blocked a wider range of content by category, with a significant blocking rate of religious websites (75\%).
+
+TCP/IP blocking was the top blocking method in both countries, indicating the use of simple censorship mechanisms. Ireland however had a significantly higher rate of DNS blocking, which is likely to do with its approach to targeted website blocking and EU compliance.
 
 \subsubsection{Circumvention Tools}
 
@@ -395,3 +398,6 @@ These findings support the initial research, showing that Ireland and Iraq have 
 
 \subsection{Future Work}
 
+During this work, it became clear that exporting detailed public OONI data for web connectivity tests would be difficult. This public data would have provided more detailed insights to the differences between Ireland and Iraq. To build upon this work, future research could gather this data using the OONI public API. Using this API would allow for automated collection of web connectivity data in Ireland and Iraq, which would give the writer a broader foundation for comparison. This data would include blocking types, website categories, and ASN information.
+
+Incorporating this public OONI data would facilitate a more holistic analysis of each country, as manual testing is only limited to one geographical location. As seen in this work, OONI tests yield different results in different regions of both countries, so relying solely on manually collected web connectivity data only gives a partial view of a country's current internet censorship. 

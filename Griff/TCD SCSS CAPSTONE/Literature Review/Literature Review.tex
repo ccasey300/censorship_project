@@ -82,14 +82,9 @@ As a whole, Ireland's censorship efforts are limited and specific. The governmen
 
 Ireland has also rolled back blocks on some websites, such as Russian News outlets. Previously, the domain Russia.tv was blocked in Ireland. However, as of 2025, it can be partially accessed. Based on data from the OONI project, there is evidence of TCP/IP blocking of this domain in Ireland. Based on the findings from OONI, this domain can be accessed when EIRCOM's root DNS server (AS5466, IP: 86.47.80.38) is used but is blocked when accessed through Cloudflare's DNS server (AS14593, IP: 172.69.193.80).
 
-\vspace{2em}
+\centerline{\includegraphics[width=480pt]{Griff/TCD SCSS CAPSTONE/Literature Review/RussiaTV search OONI.jpg}}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{Griff/TCD SCSS CAPSTONE/Literature Review/RussiaTV search OONI.jpg}
-    \caption{Russia.tv domain search on OONI in Ireland}
-    \label{fig:iraq-middlebox-HTTP-manipulation}
-\end{figure}
+\centerline{\textit{Figure 1.1, Russia.tv domain search on OONI}}
 
 \subsection{EU Compliance}
 \label{sec:Chris-EU-Compliance}
@@ -149,14 +144,11 @@ To prevent this, the US Government released Tor to the public in the early 2000s
 
 \subsubsection{Technical \& Circumvention Information}
 
-\vspace{2em}
+Internet traffic sent over the Tor network is encapsulated in multiple layers of encryption. Think of the data as a letter that is placed inside several envelopes. Each node in the network removes one envelope, revealing only the information necessary to pass the message along to the next node. The Tor browser sends the data through at least three nodes, and the pathway of these nodes is randomly constructed and reconstructed during the user's session \cite{dingledine2004tor}.
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{Griff/TCD SCSS CAPSTONE/Literature Review/How tor works.jpg}
-    \caption{How the Tor Network Works \cite{HowTorWorks}}
-    \label{fig:iraq-middlebox-HTTP-manipulation}
-\end{figure}
+\centerline{\includegraphics[width=480pt]{Griff/TCD SCSS CAPSTONE/Literature Review/How tor works.jpg}}
+
+\centerline{\textit{Figure 1.2, How the Tor Network Works}}
 
 Tor is a great tool to combat censorship. Tor's distributed architecture of nodes makes it resilient against localized censorship efforts. In countries where the Tor network is blocked, users can use "Bridges", which are Tor nodes not listed publicly. A bridge address allows the user to connect to the network covertly \cite{torprojectBRIDGESProject}. Users can also avail of "Pluggable transports", which transforms Tor traffic to look like regular network traffic. This method can help circumvent censorship in regions that use \textit{Deep Packet Inspection} (DPI) and other forms of advanced internet censorship \cite{torprojectCIRCUMVENTIONProject}.
 
