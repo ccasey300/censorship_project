@@ -1,6 +1,6 @@
 \chapter{Results and Discussion}
 
-The data and discussion of results below come in a combination of data gathered using the OONI probe in Ireland and Iraq, as well as published OONI data from the OONI Measurement Aggregation Toolkit (MAT).
+The data and discussion of results below combine data gathered using the OONI probe in Ireland and Iraq with published OONI data from the OONI Measurement Aggregation Toolkit (MAT).
 
 \section{Test Results}
 
@@ -8,7 +8,7 @@ The data and discussion of results below come in a combination of data gathered 
 
 \subsubsection{Collected Data}
 
-This section presents an analysis of website accessibility data collected using the OONI Probe. Tests were conducted locally in Ireland and through a virtual machine (VM) hosted in Iraq. The results reflect the average number of websites blocked per day over a 9-day testing period. The findings are categorized by country, blocking method, and website category to highlight differences in censorship patterns.
+This section analyses website accessibility data collected using the OONI Probe. Tests were conducted locally in Ireland and through a virtual machine (VM) hosted in Iraq. The results reflect the average number of websites blocked daily over a 9-day testing period. The findings are categorized by country, blocking method, and website category to highlight differences in censorship patterns.
 
 \vspace{2em}
 
@@ -48,7 +48,7 @@ Error/Failure  & 8  & 26.7\%  & 5  & 18.5\% \\
 \label{tab:blocking_methods_comparison} 
 \end{table}
 
-TCP/IP blocking emerged as the most common method overall, indicating the use of low-level network interference. Ireland had more cases of DNS-based blocking than Iraq, whereas HTTP and Error/Failure blocks were more evenly distributed.
+TCP/IP blocking emerged as the most common method, indicating low-level network interference. Ireland had more cases of DNS-based blocking than Iraq, whereas HTTP and Error/Failure blocks were more evenly distributed.
 
 The table below shows the number of websites blocked in each category in both countries.
 
@@ -84,7 +84,7 @@ The most frequently blocked category in Ireland was “Piracy / Streaming / File
 
 \subsubsection{Public OONI Data}
 
-This section is an analysis of publicly available OONI data over the previous 30 day period in Ireland and Iraq. The data in table 4.5 is the average over the 30-day period.
+This section is an analysis of publicly available OONI data over the previous 30 day period in Ireland and Iraq. The data in table \ref{tab:category_block} is the average over the 30-day period.
 
 \vspace{2em}
 
@@ -123,7 +123,7 @@ Percentage of Total Blocked         & 2.5\% & 7\% \\
 
 \subsubsection{Ireland}
 
-Ireland likely does not block Tor on any of its ASNs, as it is largely accessible outside of 2 anomalies.
+Ireland likely does not block Tor on any ASNs, as it is largely accessible outside two anomalies.
 
 \textbf{March 18, 2025} - Magnet Networks Limited (AS34245) - Tor Test (1 anomaly out of 78 measurements)
 %https://explorer.ooni.org/m/20250318181530.182975_IE_tor_8b558463294b2881
@@ -133,7 +133,7 @@ Ireland likely does not block Tor on any of its ASNs, as it is largely accessibl
 
 Outside of these two anomalies, there is no evidence that Tor is being blocked in Ireland.
 
-Psiphon on the other hand yielded different results. While Psiphon was largely able to be accessed on most ASNs, there were a few where access is likely blocked. 
+Psiphon, on the other hand, yielded different results. While Psiphon was largely able to be accessed on most ASNs, there were a few where access was likely blocked. 
 
 \vspace{2em}
 
@@ -159,12 +159,9 @@ Liberty Global B.V.             & AS6830  & 16 & 215 & 7.4\%  \\
 \label{tab:psiphon_block_ireland}
 \end{table}
 
-
-
-
 \subsubsection{Iraq}
 
-Similar to Ireland, Iraq largely does not block access to Tor outside of a few outliers.
+Like Ireland, Iraq does not block access to Tor, except for a few outliers.
 
 \textbf{March 20, 2025} - Super Cell Network for Internet Services LTD (AS209193) - Tor Test (1 anomaly out of 92 measurements)
 %https://explorer.ooni.org/m/20250320220102.873661_IQ_tor_3796e6aaa913670d
@@ -175,9 +172,9 @@ Similar to Ireland, Iraq largely does not block access to Tor outside of a few o
 \textbf{March 30, 2025} - Valin Company for General Trading and Communications LTD (AS205254) - Tor Test (1 anomaly out of 17 measurements)
 %https://explorer.ooni.org/m/20250330111106.914884_IQ_tor_f45745fcedc21407
 
-Outside of these anomalies, there is no significant evidence that Tor is being blocked in Iraq.
+Outside of these anomalies, no significant evidence exists that Tor is being blocked in Iraq.
 
-There is also little evidence of Psiphon being blocked in Iraq at a significant scale. Aside of a few outliers, Psiphon only seemed to be blocked on one ASN. 
+There is also little evidence of Psiphon being blocked in Iraq significantly. Aside from a few outliers, Psiphon only seemed to be blocked on one ASN. 
 
 \vspace{2em}
 
@@ -207,7 +204,7 @@ Based on this data, Psiphon is widely accessible in Iraq outside of AS203214.
 
 \subsection{Instant Messaging Test Results}
 
-The results of the Instant Messaging tests were very similar in Ireland and Iraq. Both tests showed no signs of interference or blocking of Facebook Messenger, Telegram, Whatsapp, or Signal. However, looking outside of the tested ASNs reveals a significant difference between the two countries. The tested data in Ireand is consistent with public OONI data, and shows no blocking of instant messaging platforms. The Iraq data is also consistent with tests run on the same ASN, but in Iraq there are other ASNs that show signs of blocking.
+The results of the Instant Messaging tests were very similar in Ireland and Iraq. Both tests showed no signs of interference or blocking of Facebook Messenger, Telegram, Whatsapp, or Signal. However, looking outside the tested ASNs reveals a significant difference between the two countries. The tested data in Ireland is consistent with public OONI data and shows no blocking of instant messaging platforms. The Iraq data is also consistent with tests run on the same ASN, but in Iraq, other ASNs show signs of blocking.
 
 \subsubsection{Ireland}
 
@@ -223,7 +220,7 @@ Outside of these anomalies, there was no evidence of instant messaging blocking.
 
 \subsubsection{Iraq}
 
-Iraq had significant evidence of instant messaging platforms being blocked in certain ASNs. The table below shows each ASN, and the percentage of tests where there was an anomaly found.
+Iraq had significant evidence of instant messaging platforms being blocked in certain ASNs. The table below shows each ASN and the percentage of tests where an anomaly was found.
 
 \vspace{2em}
 
@@ -260,13 +257,13 @@ Instant Messaging platforms are essentially widely available in Iraq, but there 
 
 \subsection{Middlebox Test Results}
 
-The results of the Middlebox Test were the same for both countries. Both the HTTP Header Field Manipulation and HTTP Invalid Request Line tests resulted in no Middleboxes being detected in either country. However, while there was no evidence of Middleboxes being found using the providers tested, it is possible that other providers in both countries have Middleboxes present in the network.
+The results of the Middlebox Test were the same for both countries. Both the HTTP Header Field Manipulation and HTTP Invalid Request Line tests detected no Middleboxes in either country. However, while there was no evidence of Middleboxes being found using the providers tested, it is possible that other providers in both countries have Middleboxes present in the network.
 
-Using publicly available OONI data for Ireland and Iraq, it was found that there were cases of Middleboxes being detected in both countries over the past 30 days (March 6, 2025 - April 6, 2025). 
+Using publicly available OONI data for Ireland and Iraq, it was found that Middleboxes were detected in both countries over the past 30 days (March 6, 2025 - April 6, 2025). 
 
 \subsubsection{Ireland}
 
-There is very little evidence of Middleboxes being present in Ireland. Over the past 30-day period, there are only two anomalies present. Both of these anomalies are from the HTTP Invalid Request Line test. 
+There is very little evidence of Middleboxes in Ireland. Over the past 30-day period, only two anomalies have been present. Both of these anomalies are from the HTTP Invalid Request Line test. 
 
 \textbf{March 25, 2025} - Meteor Mobile Communications Ireland (AS15751) (1 anomaly out of 9 measurements)
 %https://explorer.ooni.org/m/20250325122211.663367_IE_httpinvalidrequestline_c713442d98eebb5c
@@ -274,13 +271,13 @@ There is very little evidence of Middleboxes being present in Ireland. Over the 
 \textbf{April 1, 2025} - Vodafone Ireland Limited (AS15502) (1 anomaly out of 79 measurements)
 %https://explorer.ooni.org/m/20250401215651.365763_IE_httpinvalidrequestline_51f20fe7e9d31698
 
-These results are likely outliers, as there are very little Middlebox tests for Meteor Mobile Communications Ireland in this time span and no other anomalies for Vodafone Ireland Limited.
+These results are likely outliers, as there were very few Middlebox tests for Meteor Mobile Communications Ireland during this time span and no other anomalies for Vodafone Ireland Limited.
 
 \subsubsection{Iraq}
 
-There is considerably more evidence of Middleboxes being present in Iraq. Over the past 30 day period, there were 125 anomalies in the HTTP Invalid request line Test and 19 anomalies in the HTTP Header Field Manipulation Test.
+There is considerably more evidence of Middleboxes in Iraq. Over the past 30 days, there were 125 anomalies in the HTTP Invalid Request line Test and 19 anomalies in the HTTP Header Field Manipulation Test.
 
-The table below lists the ASNs that were suspected to have Middleboxes present using the HTTP Invalid Request Line test. It then shows the number of anomalies, the total measurement count, and what percentage of the total count were anomalies. Note that any ASN that had less than 0.5\% anomalies was ignored.
+The table below lists the ASNs suspected to have Middleboxes present using the HTTP Invalid Request Line test. It then shows the number of anomalies, the total measurement count, and the percentage of the total count that was anomalies.
 
 \vspace{2em}
 
@@ -314,7 +311,7 @@ HulumTele             & AS203214  & 32 & 158 & 20.25\%  \\
 %    \label{fig:iraq-middlebox-invalid-request}
 %\end{figure}
 
-The table below lists the ASNs that were suspected to have Middleboxes present using the HTTP Header Field Manipulation test. It then shows the number of anomalies, the total measurement count, and what percentage of the total count were anomalies. Note that any ASN that had less than 0.5\% anomalies was ignored.
+The table below lists the ASNs suspected to have Middleboxes present using the HTTP Header Field Manipulation test. It then shows the number of anomalies, the total measurement count, and what percentage of the total count were anomalies. Note that any ASN that had less than 0.5\% anomalies was ignored.
 
 \vspace{2em}
 
@@ -356,23 +353,23 @@ The combined results of OONI probe testing and public OONI data reveal differenc
 
 \subsubsection{Website Accessability}
 
-The manually run web connectivity test yielded unexpected results. The proportion of blocked websites in both countries was similar, with Ireland having a slight edge over Iraq. This was unexpected, but it is worthy to note that because these tests were run manually on only one or two networks in each country, these results may only give a partial view of the country's Internet censorship. When looking at the publicly available OONI data, the results become more expected. In the 30-day period, Iraq blocked significantly more websites than Ireland, and at a higher rate. Of the 3703 websites tested in Iraq, 262 of them had anomalies (7\% blocking rate), while of the 1695 websites tested in Ireland, only 43 of them had anomalies (2.5\% blocking rate). Looking at the figures, it is clear that Iraq blocks more content on a more consistent basis than Ireland. 
+The manually run web connectivity test yielded unexpected results. The proportion of blocked websites in both countries was similar, with Ireland having a slight edge over Iraq. This was unexpected, but because these tests were run manually on only one or two networks in each country, these results may only give a partial view of the country's Internet censorship. The results become more expected when looking at the publicly available OONI data. In the 30 days, Iraq blocked significantly more websites than Ireland and at a higher rate. Of the 3703 websites tested in Iraq, 262 had anomalies (7\% blocking rate), while of the 1695 websites tested in Ireland, only 43 had anomalies (2.5\% blocking rate). Looking at the figures, it is clear that Iraq blocks more content and on a more consistent basis than Ireland.
 
-The blocking rates of websites by category reveal more expected results. Outside of uncategorized websites, Ireland blocked significantly more Piracy / Streaming / File Sharing websites than Iraq, which is in line with Ireland's court-mandated approach to censorship. Conversely, Iraq blocked a wider range of content by category, with a significant blocking rate of religious websites (75\%).
+The blocking rates of websites by category reveal more expected results. Ireland blocked significantly more Piracy / Streaming / File Sharing websites outside of uncategorized websites than Iraq, which aligns with Ireland's court-mandated approach to censorship. Conversely, Iraq blocked a wider range of content by category, with a significant blocking rate of religious websites (75\%).
 
-TCP/IP blocking was the top blocking method in both countries, indicating the use of simple censorship mechanisms. Ireland however had a significantly higher rate of DNS blocking, which is likely to do with its approach to targeted website blocking and EU compliance.
+TCP/IP blocking was the top blocking method in both countries, indicating simple censorship mechanisms. Ireland, however, had a significantly higher rate of DNS blocking, which is likely due to its approach to targeted website blocking and EU compliance.
 
 \subsubsection{Circumvention Tools}
 
-The accessibility of Tor and Psiphon were largely the same in Ireland and Iraq outside of a few exceptions. Tor was widely accessible in both countries, indicating that both Ireland and Iraq have no significant mechanisms in place to block this tool, and if they do there is no evidence that it is effective. There is evidence that Psiphon is blocked on specific ASNs in both countries, with public OONI data backing this up. Over the same 30-day period, both Ireland and Iraq blocked Psiphon 12.1\% of the time. As a result, there is little evidence that there are systemic efforts to block access to Psiphon, similar to Tor.
+The accessibility of Tor and Psiphon was essentially the same in Ireland and Iraq, except for a few exceptions. Tor was widely accessible in both countries, indicating that Ireland and Iraq have no significant mechanisms to block this tool. If they do, there is no evidence that it is effective. There is evidence that Psiphon is blocked on specific ASNs in both countries, with public OONI data backing this up. In Ireland, Psiphon is blocked on HEAnet CLG (AS1213), as indicated by manually tested and public data. Over the same 30-day period, Ireland and Iraq blocked Psiphon 12.1\% of the time. As a result, there is little evidence of systemic efforts to block access to Psiphon, similar to Tor.
 
 \subsubsection{Instant Messaging Platforms}
 
-In Ireland, there is essentially no evidence that instant messaging services are blocked in any meaningful manner. This is inline with Ireland's stance on censorship, and was expected. In Iraq however, there is some evidence that instant messaging services are blocked in some areas, but according to public OONI data they are widely accessible. There are ASNs that had implemented blocks on all four services tested to some capacity, which can indication regional blocking in response to certain events. This is aligned with Iraq's more reactionary censoring practice.
+In Ireland, there is no evidence that instant messaging services are blocked meaningfully. This is in line with Ireland's stance on censorship and was expected. In Iraq, however, there is evidence that instant messaging services are blocked in some areas, but according to public OONI data, they are widely accessible. Some ASNs had implemented blocks on all four services tested to some capacity, indicating regional blocking in response to specific events. This is aligned with Iraq's more reactionary censoring practice.
 
 \subsubsection{Presence of Middleboxes}
 
-The use of Middleboxes was almost non-existant, as there were only two anomalies over the 30-day time period, which were likely false-positives. This data indicates that Ireland does not implement TLS or SNI-based filtering in any systematic or widespread manner. By contrast, Iraq showed significant evidence of Middleboxes being present. AS198589 showed significant signs of Middleboxes being present, and there are other ASNs with significant anomalies. This indicates that Iraq may implmelent TLS or SNI-based filtering in some areas of the country, which makes sense as we know that much of Iraq's current censorship efforts are decentralized. 
+The use of Middleboxes was almost non-existent, as there were only two anomalies over the 30-day period, likely false positives. This data indicates that Ireland does not implement TLS or SNI-based filtering systematically or widely. By contrast, Iraq showed significant evidence of Middleboxes being present. AS198589 showed significant signs of Middleboxes being present, and other ASNs have significant anomalies. This indicates that Iraq may implement TLS or SNI-based filtering in some areas of the country, which makes sense as we know that much of Iraq's current censorship efforts are decentralized. 
 
 \subsection{Summary of Comparative Observations}
 
@@ -394,10 +391,10 @@ Motivations & Legal, EU compliance & Political, cultural control \\
 \label{tab:comparison_summary}
 \end{table}
 
-These findings support the initial research, showing that Ireland and Iraq have quite different approaches to censorship. Ireland maintains a limited, legal-centric censorship model, which is transparent and aligned with most other Western nations. Iraq's approach, while less centralized, is more reactive and inconsistent, with it often being tied to internal events. 
+These findings support the initial research, showing that Ireland and Iraq have different censorship approaches. Ireland maintains a limited, legal-centric censorship model that is transparent and aligned with most other Western nations. Iraq's approach, while less centralized, is more reactive and inconsistent, often tied to internal events. 
 
 \subsection{Future Work}
 
-During this work, it became clear that exporting detailed public OONI data for web connectivity tests would be difficult. This public data would have provided more detailed insights to the differences between Ireland and Iraq. To build upon this work, future research could gather this data using the OONI public API. Using this API would allow for automated collection of web connectivity data in Ireland and Iraq, which would give the writer a broader foundation for comparison. This data would include blocking types, website categories, and ASN information.
+During this work, it became clear that exporting detailed public OONI data for web connectivity tests would be difficult. This public data would have provided more detailed insights into the differences between Ireland and Iraq. Future research could gather this data using the OONI public API to build upon this work. Using this API would allow for the automated collection of web connectivity data in Ireland and Iraq, giving the writer a broader foundation for comparison. This data would include blocking types, website categories, and ASN information.
 
-Incorporating this public OONI data would facilitate a more holistic analysis of each country, as manual testing is only limited to one geographical location. As seen in this work, OONI tests yield different results in different regions of both countries, so relying solely on manually collected web connectivity data only gives a partial view of a country's current internet censorship. 
+Incorporating this public OONI data would facilitate a more holistic analysis of each country, as manual testing is only limited to one geographical location. This work shows that OONI tests yield different results in different regions of both countries, so relying solely on manually collected web connectivity data only gives a partial view of a country's current internet censorship. 
