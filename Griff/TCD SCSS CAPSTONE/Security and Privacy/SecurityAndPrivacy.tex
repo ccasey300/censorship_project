@@ -1,7 +1,7 @@
 \chapter{Security and Privacy}
 
 The following section contains information on the privacy and security
-concerns of completing the dissertation. This was completed with an assignment in the CSU44302 Security and Privacy module. In writing a dissertation, it is crucial to consider the potential impacts of the research. This document discusses the security and privacy concerns associated with researching internet censorship.
+concerns of completing the dissertation. This was completed as an assignment in the CSU44302 Security and Privacy module. In writing a dissertation, it is crucial to consider the potential impacts of the research. This document discusses the security and privacy concerns associated with researching internet censorship.
 
 This section addresses security and privacy concerns involved with operating the OONI probe about this work while considering both the technical and broader legal or regulatory aspects. The comparison of censorship between Ireland and Iraq is significant. While using the OONI probe within both countries comes with its own risks, using the probe in Iraq carries much more concern regarding security and privacy. The environment in Iraq is significantly more dangerous with ongoing government surveillance, frequent shutting down of social media sites, and the risk of authorities considering unauthorized data-gathering activities as suspicious. All these factors indicate the need to carefully plan where, how, and why measurements are taken and how resulting data will be stored.
 
@@ -9,9 +9,7 @@ This section addresses security and privacy concerns involved with operating the
 
 Although OONI strives to minimize the collection of personal data, its measurements are published openly, which may inadvertently disclose approximate locations and times when tests occurred \cite{ooniOONIPrivacyAndSecurity}. If the individual running OONI is tied to a VM in Iraq with an IP address, local authorities or ISPs might link test activity back to the source. This risk is particularly heightened if the probe frequently connects to or tests politically sensitive, banned, or controversial websites. In a high-censorship environment, repeated network tests can attract attention and might be interpreted as an intentional challenge to government policies.
 
-(Chris paragraph below)
-
-The claim emphasizes their positive track record: “To our knowledge, no OONI Probe user has ever faced consequences as a result of using our software.”\cite{OONIRisks}. The success of OONI is critically dependent on users conducting tests without repercussions. However, OONI outlines several scenarios where running their probe may be unwise. This includes users residing in countries with a history of prosecuting similar activities, surveillance concerns, or legal restrictions on accessing content. Users in one or more categories should be wary of the potential
+The claim emphasizes their positive track record: “To our knowledge, no OONI Probe user has ever faced consequences as a result of using our software.”\cite{ooniOONIPrivacyAndSecurity}. The success of OONI is critically dependent on users conducting tests without repercussions. However, OONI outlines several scenarios where running their probe may be unwise. This includes users residing in countries with a history of prosecuting similar activities, surveillance concerns, or legal restrictions on accessing content. Users in one or more categories should be wary of the potential
 risks. In this context, operating in Ireland with no reason to believe I am under surveillance, I am considered a low-risk user.
 
 \section{Iraq Virtual Machine}

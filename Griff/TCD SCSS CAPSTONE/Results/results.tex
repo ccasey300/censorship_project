@@ -28,8 +28,6 @@ Iraq & 108 & 29 & 21.2\% \\
 
 Despite expectations of greater censorship in Iraq, the average number of blocked websites per day was relatively similar between the two countries, with Ireland showing a slightly higher blocking percentage. 
 
-Table 4.2 shows the distribution of blocking methods in Ireland and Iraq.
-
 \vspace{2em}
 
 \begin{table}[H] 
@@ -49,8 +47,6 @@ Error/Failure  & 8  & 26.7\%  & 5  & 18.5\% \\
 \end{table}
 
 TCP/IP blocking emerged as the most common method, indicating low-level network interference. Ireland had more cases of DNS-based blocking than Iraq, whereas HTTP and Error/Failure blocks were more evenly distributed.
-
-The table below shows the number of websites blocked in each category in both countries.
 
 \vspace{2em}
 
@@ -200,8 +196,6 @@ Earthlink Telecom     & AS199739  & 1   & 352  & 0.2\%  \\
 \label{tab:psiphon_block_iraq}
 \end{table}
 
-Based on this data, Psiphon is widely accessible in Iraq outside of AS203214.
-
 \subsection{Instant Messaging Test Results}
 
 The results of the Instant Messaging tests were very similar in Ireland and Iraq. Both tests showed no signs of interference or blocking of Facebook Messenger, Telegram, Whatsapp, or Signal. However, looking outside the tested ASNs reveals a significant difference between the two countries. The tested data in Ireland is consistent with public OONI data and shows no blocking of instant messaging platforms. The Iraq data is also consistent with tests run on the same ASN, but in Iraq, other ASNs show signs of blocking.
@@ -252,8 +246,6 @@ Super Cell            & AS209193  & 0\%   & 0\%   & 0.7\% & 0\%   \\
 \caption*{\textit{Note:} Each percentage reflects the proportion of measurements on the respective network where blocking behavior was detected for a specific instant messaging platform. The platforms analyzed include Facebook Messenger, Telegram, WhatsApp, and Signal.}
 \label{tab:im_block_iraq}
 \end{table}
-
-Instant Messaging platforms are essentially widely available in Iraq, but there are some areas where blocking does occur.
 
 \subsection{Middlebox Test Results}
 
@@ -361,7 +353,7 @@ TCP/IP blocking was the top blocking method in both countries, indicating simple
 
 \subsubsection{Circumvention Tools}
 
-The accessibility of Tor and Psiphon was essentially the same in Ireland and Iraq, except for a few exceptions. Tor was widely accessible in both countries, indicating that Ireland and Iraq have no significant mechanisms to block this tool. If they do, there is no evidence that it is effective. There is evidence that Psiphon is blocked on specific ASNs in both countries, with public OONI data backing this up. In Ireland, Psiphon is blocked on HEAnet CLG (AS1213), as indicated by manually tested and public data. Over the same 30-day period, Ireland and Iraq blocked Psiphon 12.1\% of the time. As a result, there is little evidence of systemic efforts to block access to Psiphon, similar to Tor.
+The accessibility of Tor and Psiphon was essentially the same in Ireland and Iraq, with a few exceptions. Tor was widely accessible in both countries, indicating that Ireland and Iraq have no significant mechanisms to block this tool. If they do, there is no evidence that it is effective. There is evidence that Psiphon is blocked on specific ASNs in both countries, with public OONI data backing this up. In Ireland, Psiphon is blocked on HEAnet CLG (AS1213), as indicated by manually tested and public data. Over the same 30-day period, Ireland and Iraq blocked Psiphon 12.1\% of the time. As a result, there is little evidence of systemic efforts to block access to Psiphon, similar to Tor.
 
 \subsubsection{Instant Messaging Platforms}
 
@@ -369,7 +361,7 @@ In Ireland, there is no evidence that instant messaging services are blocked mea
 
 \subsubsection{Presence of Middleboxes}
 
-The use of Middleboxes was almost non-existent, as there were only two anomalies over the 30-day period, likely false positives. This data indicates that Ireland does not implement TLS or SNI-based filtering systematically or widely. By contrast, Iraq showed significant evidence of Middleboxes being present. AS198589 showed significant signs of Middleboxes being present, and other ASNs have significant anomalies. This indicates that Iraq may implement TLS or SNI-based filtering in some areas of the country, which makes sense as we know that much of Iraq's current censorship efforts are decentralized. 
+The use of Middleboxes in Ireland was almost non-existent, as there were only two anomalies over the 30-day period. These were likely false positives. This data indicates that Ireland does not implement TLS or SNI-based filtering systematically or widely. By contrast, Iraq showed significant evidence of Middleboxes being present. AS198589 showed significant signs of Middleboxes being present, and other ASNs have significant anomalies. This indicates that Iraq may implement TLS or SNI-based filtering in some areas of the country, which makes sense as we know that much of Iraq's current censorship efforts are decentralized. 
 
 \subsection{Summary of Comparative Observations}
 
