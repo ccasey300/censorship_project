@@ -8,7 +8,7 @@ The data and discussion of results below combine data gathered using the OONI pr
 
 \subsubsection{Collected Data}
 
-This section analyses website accessibility data collected using the OONI Probe. Tests were conducted locally in Ireland and through a virtual machine (VM) hosted in Iraq. The results reflect the average number of websites blocked daily over a 9-day testing period. The findings are categorized by country, blocking method, and website category to highlight differences in censorship patterns.
+This section analyses website accessibility data collected using the OONI Probe. The tests were carried out locally in Ireland and through a virtual machine (VM) hosted in Iraq. The results reflect the average number of websites blocked daily over a 9-day testing period. The findings are categorized by country, blocking method, and website category to highlight differences in censorship patterns.
 
 \vspace{2em}
 
@@ -26,7 +26,7 @@ Iraq & 108 & 29 & 21.2\% \\
 \label{tab:blocked_summary} 
 \end{table}
 
-Despite expectations of greater censorship in Iraq, the average number of blocked websites per day was relatively similar between the two countries, with Ireland showing a slightly higher blocking percentage. 
+It is worth noting that the results in table \ref{tab:blocked_summary} may not be reflective or indicator of the number of blocked websites in each country. The list of websites that yielded these results is comprised of commonly visited websites in each country along with some of the most known commonly blocked websites worldwide. A more in-depth discussion of these results can be found in section \ref{sec:Website-Accessability-Analysis}.
 
 \vspace{2em}
 
@@ -344,6 +344,7 @@ IQ-Online             & AS48492  & 2 & 4  & 50\%   \\
 The combined results of OONI probe testing and public OONI data reveal differences in censorship between Ireland and Iraq. While both countries implement content restrictions and other blocks, there are significant differences in the scale and motivations behind these blocks.
 
 \subsubsection{Website Accessability}
+\label{sec:Website-Accessability-Analysis}
 
 The manually run web connectivity test yielded unexpected results. The proportion of blocked websites in both countries was similar, with Ireland having a slight edge over Iraq. This was unexpected, but because these tests were run manually on only one or two networks in each country, these results may only give a partial view of the country's Internet censorship. The results become more expected when looking at the publicly available OONI data. In the 30 days, Iraq blocked significantly more websites than Ireland and at a higher rate. Of the 3703 websites tested in Iraq, 262 had anomalies (7\% blocking rate), while of the 1695 websites tested in Ireland, only 43 had anomalies (2.5\% blocking rate). Looking at the figures, it is clear that Iraq blocks more content and on a more consistent basis than Ireland.
 
