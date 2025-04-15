@@ -2,13 +2,15 @@
 * Insert the reference directly after assertion. 
 * Improve references, include more info about publisher, date published etc.
 * Keyword filtering: Less effective as a result of TLS.
-* Include websites in appendix, not as a reference to git.
-* Talk about interesting results.
-* Find out a way to specify "We are talking about Israeli citizens, not gaza"
-* Aljazeera, discuss what's happening, not why. 
-* Include references for figures.
-* Want it to be reproducible.
-* Include OONI test version info.
-* Raspi what package names, what OS version.
+
+
+* Include websites in appendix, not as a reference to git. [y]
+* Talk about interesting results. [y]
+* Find out a way to specify "We are talking about Israeli citizens, not gaza" [y]
+* Aljazeera, discuss what's happening, not why.  [y]
+* Include references for figures. [y]
+* Want it to be reproducible. [y]
+* Include OONI test version info. [y]
+* Raspi what package names, what OS version. [y]
 * Future work, start by downloading tB of OONI data.
 * Draft due early next week.

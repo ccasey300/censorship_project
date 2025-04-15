@@ -6,7 +6,7 @@ In order to quantify internet censorship conducted across the globe it is import
 Finding comprehensive and credible resources on censorship mechanisms proved challenging due to the depth of the research area. Requests for Comments (RFCs) proved useful in this regard. These documents highlight internet standards placed by the Internet Engineering Task Force and thus provide the accurate technical specifications needed. RFC 9505 proved invaluable in highlighting the majority of censorship methods used today. It was last updated by the Internet Research Task Force in late 2023 and provides the technical basis for this section of the thesis. The document "describes technical mechanisms employed in network censorship that regimes around the world use for blocking or impairing Internet traffic."\cite{rfc9505} In combination with relevant academic papers, other RFCs like 2818 (HTTPS) \cite{rfc2818} and 8446 (TLS 1.3) \cite{rfc8446} were examined.
 
 \subsection{Overt vs. Covert Censorship }
-ICLab, a censorship measurement tool very similar to OONI, released a paper in 2020 describing the need for their contribution. In this paper, the author highlights an important distinction between covert and overt censorship: 'In overt censorship, the censor sends the user a 'block page' instead of the material that was censored. In covert censorship, the censor causes a network error that could have occurred for other reasons, and thus avoids informing the user that the material was censored.” \cite{9152784} This is a concerning capability as it alludes to the potential for censorship to go unchecked. 
+ICLab, a censorship measurement tool very similar to OONI, released a paper in 2020 describing the need for their contribution \cite{9152784}. In this paper, the author highlights an important distinction between covert and overt censorship: "In overt censorship, the censor sends the user a 'block page' instead of the material that was censored. In covert censorship, the censor causes a network error that could have occurred for other reasons, and thus avoids informing the user that the material was censored.” \cite{9152784} This is a concerning capability as it alludes to the potential for censorship to go unchecked. 
 
 
 \section{Censorship Techniques and Mechanisms} 
@@ -26,10 +26,10 @@ Refers to the centralised infrastructure through which a country's internet traf
 \textbf{Institutions}
 Businesses, universities and other organisations often have a responsibility to filter the content seen by their users on their network. This is often done to comply with legal obligations, apply ethical standards or to protect network security. This is achieved by a combination of firewalls, keyword-filtering and network level blocking. These techniques are highlighted in Zittrain's 'The Future of the Internet - And How to Stop It,' \cite{zittrain2008future} and will be discussed further below.
 
-\begin{figure}
+\begin{figure} [H]
     \centering
     \includegraphics[width=0.5\linewidth]{State of the Art/KuroseISPs.png}
-    \caption{Caption}
+    \caption{The internet architecture, Jim Kurose Computer Netorking: A Top Down Approach Chapter 1}
     \label{fig:enter-label}
 \end{figure}
 
@@ -56,10 +56,10 @@ Originally implemented to stop email spam, Internet Protocol (IP) blocking is on
 
 When a government or ISP wants to censor a specific website it can be implemented in either incoming or outgoing traffic. ISP controlled firewalls can be configured so that any outgoing or incoming requests to a selected IP address are dropped. ISPs can also adjust routing tables in their network to remove an IP address, making it unreachable for the user. In a 2009 report, Callanan and co. describe how "the server that contains the website could be blocked at the level of its IP address, preventing anyone using the filter from accessing that address." \cite{inthemis2025internet} IP blocking can either be implemented at a centralized level or at an ISP level. In Ireland, IP blocking is done at an ISP level to block certain illegal websites. The primary motivation for the Irish government in doing this is to crack down on piracy. A prime example discussed previously is the blocking of the Pirate Bay. \cite{piratebay_block2013}
 
-\begin{figure}
+\begin{figure} [H]
     \centering
-    \includegraphics[width=0.5\linewidth]{State of the Art/DNS.png}
-    \caption{DNS Requests and IP}
+    \includegraphics[width=1\linewidth]{DNSimg.png}
+    \caption{DNS Request resolution. https://medium.com/@kmwende419/dns-request-3baa4dd588f1}
     \label{fig:enter-label}
 \end{figure}
 

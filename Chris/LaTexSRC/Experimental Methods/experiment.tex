@@ -10,6 +10,8 @@ OONI data has been used extensively by third parties both for research and advoc
 \subsection{OONI Probe}
 Released in 2017, the OONI Probe is a mobile app and software designed to test internet censorship. Users can install and run this software, contributing to the growing dataset in the OONI database. OONI's mission is to \textit{“ensure a free and open internet by increasing transparency of internet censorship worldwide.”} While no user appears to have faced repercussions from using the OONI probe, this may lead to a false sense of security or incorrect assumptions about anonymity. As emphasized in OONI’s onboarding quiz, probe tests can be visible on the network.
 
+The OONI Probe CLI v3.24.0 was used during testing as it is the most recent stable release. Its documentation can be found on GitHub \cite{oonicli2024}.
+
 \subsection{Virtual Machine}
 In order to gather ground truth, a virtual machine in Israel is used to run OONI command line interface locally. This machine is accessed via SSH. These technologies will be discussed further below. The chosen provider, \textit{interhost.co.il}, has a strong track record regarding data integrity and security; however, further scrutiny is necessary. \cite{interhost} 
 
@@ -18,7 +20,7 @@ These tools were audited for any security and privacy concerns and the results a
 \section{Ground Truth: Ireland \& Israel}
 To gather ground truth in Ireland, the OONI probe Command Line Interface was installed and ran over a two week period. Since the CLI is not natively supported on Windows, a Unix-based operating system was flashed onto a Raspberry Pi 5, which served as a dedicated headless testing device. The device was accessed remotely via SSH, enabling the automation and management of tests. 
 
-\begin{figure}
+\begin{figure} [H]
     \centering
     \includegraphics[width=0.5\linewidth]{RasPi5.jpg}
     \caption{Headless Raspberry Pi 5}
@@ -27,7 +29,7 @@ To gather ground truth in Ireland, the OONI probe Command Line Interface was ins
 
 A similar process was used to remotely control the Israeli VM. This allowed for side-by-side running of tests and comparison of results. 
 
-\begin{figure}
+\begin{figure} [H]
     \centering
     \includegraphics[width=0.5\linewidth]{RunningTestsSideBySideSSH.png}
     \caption{Running OONI tests over SSH}
