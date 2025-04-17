@@ -40,7 +40,7 @@ Israel    & 1695 & 16 \\
 
 
 \subsection{my-websites.txt}
-This file contains the additional 170 website connectivity tests I wished to conduct. The list was compiled with Griff Steinman, and additional tests relating to Israel were added. The contents can be found within the Appendix section. Below is a summary of the results from the daily running of this additional web connectivity test suite.
+This file contains the additional 170 website connectivity tests I wished to conduct. The list was compiled with Griffin Steinman, and additional tests relating to Israel were added. The contents can be found within the Appendix section. Below is a summary of the results from the daily running of this additional web connectivity test suite.
 
 \begin{table}[H]
 \centering
@@ -420,8 +420,6 @@ Results of running middlebox tests locally in both countries showed no evidence 
 \section{Comparative Analysis: Ireland vs. Israel}
 The objective of this section is to summarise key findings from the research conducted. This is done in the context of ground truth gathered and the publicly available OONI database. Particular attention is given to positive results, showing evidence of network interference. False positives can occur and as a result, consistent trends will hold more weight.
 
-\subsection{Ireland: Comparison to Griffin Steinman's Results}
-TERSE PARAGRAPH discussing HIGHER NUMBER OF BLOCKS IN TRINITY'S NETOWKR COMPARED TO RESIDENTIAL \& OTHER DIFFERENCES.
 
 
 \subsection{Websites}
@@ -467,9 +465,6 @@ The results of the middlebox detection tests highlight a nuanced distinction bet
 
 A clear disparity emerges in the analysis of circumvention tool accessibility. In Ireland, Psiphon was selectively blocked, with anomalies primarily concentrated on HEAnet (AS1213), an ASN serving educational institutions. Residential networks, including that used in ground truth gathering, showed no evidence of Psiphon blocking, and Tor tests exhibited little to no interference across all networks. This indicates that censorship of circumvention tools in Ireland is limited. Meanwhile, Israeli networks, particularly ITC NG Ltd. (AS202940), demonstrated aggressive blocking behavior. Almost 90\% of Tor test instances resulted in anomalies, and Psiphon showed repeated anomalies with one confirmed block. These results suggest a more active censorship strategy employed on specific ASNs, while others remained largely permissive. Overall, certain Israeli ASNs appear to implement targeted blocking of circumvention technologies, contrasting with the sparse evidence seen in the case of Ireland.
 
-
-MORE HERE???
-
 \subsection{Further Research}
 \textsc{Ireland}
 As mentioned previously, ground truth gathering was conducted using a Raspberry Pi connected to a home network. In this way, the internet censorship experience of the average citizen was likely emulated during testing. Comparing results with Griffin Steinman, the other student partaking in the thesis, we see some discrepancy between internet censorship situation in residential networks and institutions (Trinity College Dublin). Based on the observed differences, this could be a compelling area of research; comparing the internet censorship situation experienced on residential and institutional networks. 
@@ -495,14 +490,14 @@ Below are some commands used to investigate \textit{https://aljazeera.com/}
 
 \begin{figure} [H]
     \centering
-    \includegraphics[width=1\linewidth]{AljazeeraURLs1.png}
+    \includegraphics[width=0.5\linewidth]{AljazeeraURLs1.png}
     \caption{Using curl and grep to scrape URLs for articles}
     \label{fig:enter-label}
 \end{figure}
 
 \begin{figure} [H]
     \centering
-\includegraphics[width=1\linewidth]{AljazeeraComs2.png}
+\includegraphics[width=0.5\linewidth]{AljazeeraComs2.png}
     \caption{Inserting a dash after each URL, can now be ran with OONI}
     \label{fig:enter-label}
 \end{figure}
@@ -526,7 +521,7 @@ In order to install the OONI probe CLI, the guide 'Install OONI Probe CLI on Deb
 
 \begin{figure} [H]
     \centering
-    \includegraphics[width=0.75\linewidth]{PGPERROR.png}
+    \includegraphics[width=0.5\linewidth]{PGPERROR.png}
     \caption{PGP Error installing CLI}
     \label{fig:enter-label}
 \end{figure}

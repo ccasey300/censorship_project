@@ -14,3 +14,106 @@
 * Raspi what package names, what OS version. [y]
 * Future work, start by downloading tB of OONI data.
 * Draft due early next week.
+
+
+Stephens recent feedback
+
+Abstract is missing.
+
+Intro:
+
+- "Since its inception, the Internet has served a vast user base that
+wishes to communicate with one another and spread information." That
+is not true. At it's inception the Internet only had a few users and
+many of them do not want to "spread" information, they want to consume
+it or communicate with peers. Remember that all sentences should be
+true - that 1st opening sentence is not.
+
+- And so is the 2nd sentence: The Internet is designed neither to
+filter nor prevent filtering.
+
+- "Across the globe, governments and other entities are censoring
+the internet by network manipulation..." citations needed - even if
+what you're saying is true (as in this case), evidence is needed,
+and that's provided via references or forward pointers to later
+sections. (I won't keep pointing these out, but they're everwhere.)
+
+- "The importance of establishing a quantitative approach to
+measuring internet censorship cannot be overstated" yes it can, and
+you just did overstate that. That's basically trying to sell me the
+idea that this is a good thing to do, which is a non-goal. What you
+want is to convince me this is good, sound, evidence-based work. You
+achieve that by doing it not by saying it needs to be done.
+
+- 1.1.1: "DRI" - expand acronyms on 1st use
+
+- "For the above reasons, the increasingly pervasive censorship done by
+governments and corporations around the world is concerning" - to whom?
+And who says it's concerning?
+
+- 1.2.1: style thing, the following text has too many uses of "this"
+and becomes unclear: "It is also clear that more and more countries are
+viewing this as a necessary solution to the unique problems they have.
+Whether this is appropriate or not, it is happening, and users should
+be aware of this."
+
+- 1.2.1: too opinionated: "Governments have a vested interest in
+maintaining control over telecommunications industries and public
+internet use. Whether protecting state secrets, preventing cyber
+crime piracy or acts of terrorism, insulating from perceived negative
+influence, aiding in the creation of propaganda or otherwise; a large
+majority of governments choose to exercise inordinate control over the
+information available to its public." If you dropped "vested" and
+"inordinate" it'd be a lot better, but you don't need to tell me your
+opinions in any case.
+
+- 1.2.1: "Enemies of the Internet" FWIW I'd never heard of that. Are
+you sure it's still a thing worth mention? The situation has changed
+a lot since 2013.
+
+- 1.3: only mention the stretch goal in the report if it's achieved
+
+- 2.2: "Sources deemed potentially unreliable were placed under a higher
+level of scrutiny." I don't know what that means - I know what you're
+trying to say, but not what you did.
+
+- 2.4.1 the FB case doesn't seem relevant
+
+- 2.5 first section (before 2.5.1) doesn't seem relevant
+
+- 2.5.2 "required platforms such as TikTok and X to remove non-compliant
+content" - citation needed
+
+- 2.5.3: "To better appreciate the impact of this war,.." - you used
+conflict earlier and that's better - war implies the sides are nation
+states which is a) disputed and b) a thing that's changed over the
+duration of the conflict. It's especially important to be careful
+with language in cases like this - not to self-censor but to remain
+factual and objective.
+
+- 2.5.3: the presentation of the Israeli background begs the question
+as to why Irish pre-Internet censorship (which was pervasive) is not
+described. Might be too late to fix that now.
+
+- 2.5.4: "fixation" isn't appropriate
+
+- 3.1.1: you've not introduced OONI yet
+
+- p19: "snuff out content" isn't right - the content remains, but
+is inaccessible
+
+- 3.2.2: "previously trusted projects like TOR" - previously according
+to whom?
+
+- 3.3.1: are you sure IP blocking was originally an anti-spam thing?
+I'd have to check, but am not sure.
+
+- section 4: side-channels aren't relevant for censors
+
+- 6.6.1: incomplete text
+
+- 6.6.6: "MORE HERE???"
+
+- Refs after [87] are malformed
+
+- Appendices are malformed
