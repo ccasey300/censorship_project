@@ -1,0 +1,23 @@
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+│ #32664                                           │
+│ psiphon                  ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"bootstrap_time": 5.928154566,                  │
+│  "failure": ""}                                  │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #32665                                           │
+│ tor                      ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"dir_port_total": 10,                           │
+│  "dir_port_accessible": 8,                       │
+│  "obfs4_total": 14,                              │
+│  "obfs4_accessible": 9,                          │
+│  "or_port_dirauth_total": 10,                    │
+│  "or_port_dirauth_accessible": 8,                │
+│  "or_port_total": 0,                             │
+│  "or_port_accessible": 0}                        │
+└┬────────────────────────────────────────────────┬┘
+ │ 05 Apr 25 18:06 UTC                            │
+ │ AS44709, O.M.C. COMPUTERS & COMMUNICATIONS LTD (IL)  │
+ │ 69.37s         0/2 anmls      ⬆ 63.3K  ⬇ 5.3K  │
+ └────────────────────────────────────────────────┘

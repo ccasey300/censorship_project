@@ -1,0 +1,31 @@
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+│ #11514                                           │
+│ facebook_messenger       ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"facebook_dns_blocking": false,                 │
+│  "facebook_tcp_blocking": false}                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #11515                                           │
+│ telegram                 ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"telegram_http_blocking": false,                │
+│  "telegram_tcp_blocking": false,                 │
+│  "telegram_web_blocking": false}                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #11516                                           │
+│ whatsapp                 ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"registration_server_blocking": false,          │
+│  "whatsapp_web_blocking": false,                 │
+│  "whatsapp_endpoints_blocking": false}           │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #11517                                           │
+│ signal                   ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"signal_backend_status": "ok",                  │
+│  "signal_backend_failure": null}                 │
+└┬────────────────────────────────────────────────┬┘
+ │ 12 Apr 25 09:58 UTC                            │
+ │ AS6830, Liberty Global B.V. (IE)               │
+ │ 2.93s          0/4 anmls      ⬆ 137.1K  ⬇ 44.7K │
+ └────────────────────────────────────────────────┘

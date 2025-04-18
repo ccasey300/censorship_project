@@ -1,0 +1,31 @@
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+│ #27087                                           │
+│ facebook_messenger       ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"facebook_dns_blocking": false,                 │
+│  "facebook_tcp_blocking": false}                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #27088                                           │
+│ telegram                 ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"telegram_http_blocking": false,                │
+│  "telegram_tcp_blocking": false,                 │
+│  "telegram_web_blocking": false}                 │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #27089                                           │
+│ whatsapp                 ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"registration_server_blocking": false,          │
+│  "whatsapp_web_blocking": false,                 │
+│  "whatsapp_endpoints_blocking": false}           │
+┢━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┪
+│ #27090                                           │
+│ signal                   ok: ✓                   │
+│ success: ✓               uploaded: ✓             │
+│ {"signal_backend_status": "ok",                  │
+│  "signal_backend_failure": null}                 │
+└┬────────────────────────────────────────────────┬┘
+ │ 04 Apr 25 10:50 UTC                            │
+ │ AS44709, O.M.C. COMPUTERS & COMMUNICATIONS LTD (IL)  │
+ │ 3.88s          0/4 anmls      ⬆ 140.6K  ⬇ 47.7K │
+ └────────────────────────────────────────────────┘
